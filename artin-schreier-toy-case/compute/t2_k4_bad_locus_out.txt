@@ -1,0 +1,52 @@
+# T2: Exhaustive k = 4 Artin-Schreier bad-locus scan (exact cyclotomic averages)
+
+## Part A: Spotlight p = 7, f(x) = x^3, plain quadric c = (1, 1, 1)
+  Bad-line multiplicity of c=(1,1,1) mod 7: 1  (unique pair (z1,z2)=(5,3): 1 + 5 + 15 = 21 = 0 mod 7)
+  Exact N_4(1,1,1) in Z[zeta_7] (raw counts): [127, 48, 63, 18, 18, 63, 48]
+  Exact Galois avg |N_4|^2 = 9506  (= 3.9592 * p^4, display float)
+  Number of good (1, c2, c3) in (F_7^*)^2 outside all 9 bad lines: 0 of 36
+  No F_7-rational good c exists in (F_7^*)^2 (9 lines cover all 36 points; extension F_{49} required!)
+
+## Part B: Exhaustive scan of all (p-1)^2 vectors c = (1, c2, c3) in (F_p^*)^2
+Columns: poly, p, #all, #on_univ (c1-c2+c3=0), #on_Fp_bad, max_off/p^3, mean_off/p^3, mean_univ/p^4, mean_bad_other/p^4 (display floats; exact fractions checked)
+
+  x^3        p= 5  all= 16  univ= 3  bad_Fp=  3  max_off/p^3=  0.200  mean_off/p^3= 0.200  mean_univ/p^4= 0.6400  mean_other_bad/p^4=   n/a
+  x^3        p= 7  all= 36  univ= 5  bad_Fp= 36  max_off/p^3=  0.000  mean_off/p^3= 0.000  mean_univ/p^4= 4.4000  mean_other_bad/p^4=4.1192
+  x^3        p=11  all=100  univ= 9  bad_Fp=  9  max_off/p^3=  0.091  mean_off/p^3= 0.091  mean_univ/p^4= 0.8264  mean_other_bad/p^4=   n/a
+  x^3        p=13  all=144  univ=11  bad_Fp= 90  max_off/p^3= 29.462  mean_off/p^3=22.615  mean_univ/p^4= 2.9392  mean_other_bad/p^4=2.6519
+  x^3        p=17  all=256  univ=15  bad_Fp= 15  max_off/p^3=  0.059  mean_off/p^3= 0.059  mean_univ/p^4= 0.8858  mean_other_bad/p^4=   n/a
+  x^3        p=19  all=324  univ=17  bad_Fp=144  max_off/p^3= 32.158  mean_off/p^3=11.821  mean_univ/p^4= 1.7399  mean_other_bad/p^4=1.6255
+  x^3        p=23  all=484  univ=21  bad_Fp= 21  max_off/p^3=  0.043  mean_off/p^3= 0.043  mean_univ/p^4= 0.9149  mean_other_bad/p^4=   n/a
+  x^3        p=29  all=784  univ=27  bad_Fp= 27  max_off/p^3=  0.034  mean_off/p^3= 0.034  mean_univ/p^4= 0.9322  mean_other_bad/p^4=   n/a
+  x^3        p=31  all=900  univ=29  bad_Fp=252  max_off/p^3= 37.129  mean_off/p^3=12.664  mean_univ/p^4= 1.5886  mean_other_bad/p^4=1.4794
+
+  x^3+x      p= 5  all= 16  univ= 3  bad_Fp=  3  max_off/p^3= 12.300  mean_off/p^3=10.015  mean_univ/p^4= 2.6200  mean_other_bad/p^4=   n/a
+  x^3+x      p= 7  all= 36  univ= 5  bad_Fp= 36  max_off/p^3=  0.000  mean_off/p^3= 0.000  mean_univ/p^4= 0.9633  mean_other_bad/p^4=0.1907
+  x^3+x      p=11  all=100  univ= 9  bad_Fp=  9  max_off/p^3=  9.055  mean_off/p^3= 4.970  mean_univ/p^4= 1.4277  mean_other_bad/p^4=   n/a
+  x^3+x      p=13  all=144  univ=11  bad_Fp= 90  max_off/p^3=  9.013  mean_off/p^3= 3.279  mean_univ/p^4= 1.0940  mean_other_bad/p^4=0.2181
+  x^3+x      p=17  all=256  univ=15  bad_Fp= 15  max_off/p^3=  9.669  mean_off/p^3= 4.393  mean_univ/p^4= 1.1877  mean_other_bad/p^4=   n/a
+  x^3+x      p=19  all=324  univ=17  bad_Fp=144  max_off/p^3=  7.386  mean_off/p^3= 4.193  mean_univ/p^4= 1.1729  mean_other_bad/p^4=0.1806
+  x^3+x      p=23  all=484  univ=21  bad_Fp= 21  max_off/p^3=  9.779  mean_off/p^3= 5.543  mean_univ/p^4= 1.2512  mean_other_bad/p^4=   n/a
+  x^3+x      p=29  all=784  univ=27  bad_Fp= 27  max_off/p^3=  8.155  mean_off/p^3= 3.607  mean_univ/p^4= 1.0938  mean_other_bad/p^4=   n/a
+  x^3+x      p=31  all=900  univ=29  bad_Fp=252  max_off/p^3=  8.232  mean_off/p^3= 3.373  mean_univ/p^4= 1.0818  mean_other_bad/p^4=0.0887
+
+  x^3+x^2+x  p= 5  all= 16  univ= 3  bad_Fp=  3  max_off/p^3=  1.700  mean_off/p^3= 1.269  mean_univ/p^4= 0.2067  mean_other_bad/p^4=   n/a
+  x^3+x^2+x  p= 7  all= 36  univ= 5  bad_Fp= 36  max_off/p^3=  0.000  mean_off/p^3= 0.000  mean_univ/p^4= 0.4313  mean_other_bad/p^4=0.4847
+  x^3+x^2+x  p=11  all=100  univ= 9  bad_Fp=  9  max_off/p^3=  6.545  mean_off/p^3= 4.968  mean_univ/p^4= 0.4417  mean_other_bad/p^4=   n/a
+  x^3+x^2+x  p=13  all=144  univ=11  bad_Fp= 90  max_off/p^3=  3.308  mean_off/p^3= 2.176  mean_univ/p^4= 0.1761  mean_other_bad/p^4=0.1665
+  x^3+x^2+x  p=17  all=256  univ=15  bad_Fp= 15  max_off/p^3=  4.449  mean_off/p^3= 2.629  mean_univ/p^4= 0.1400  mean_other_bad/p^4=   n/a
+  x^3+x^2+x  p=19  all=324  univ=17  bad_Fp=144  max_off/p^3=  3.374  mean_off/p^3= 1.950  mean_univ/p^4= 0.1171  mean_other_bad/p^4=0.1055
+  x^3+x^2+x  p=23  all=484  univ=21  bad_Fp= 21  max_off/p^3=  6.399  mean_off/p^3= 3.209  mean_univ/p^4= 0.1353  mean_other_bad/p^4=   n/a
+  x^3+x^2+x  p=29  all=784  univ=27  bad_Fp= 27  max_off/p^3=  4.079  mean_off/p^3= 1.921  mean_univ/p^4= 0.0663  mean_other_bad/p^4=   n/a
+  x^3+x^2+x  p=31  all=900  univ=29  bad_Fp=252  max_off/p^3=  3.632  mean_off/p^3= 1.629  mean_univ/p^4= 0.0502  mean_other_bad/p^4=0.0526
+
+  x^5+x      p= 7  all= 36  univ= 5  bad_Fp=  5  max_off/p^3=  6.619  mean_off/p^3= 1.845  mean_univ/p^4= 0.9143  mean_other_bad/p^4=   n/a
+  x^5+x      p=11  all=100  univ= 9  bad_Fp=100  max_off/p^3=  0.000  mean_off/p^3= 0.000  mean_univ/p^4= 0.9038  mean_other_bad/p^4=0.0747
+  x^5+x      p=13  all=144  univ=11  bad_Fp= 11  max_off/p^3= 12.949  mean_off/p^3= 2.495  mean_univ/p^4= 1.0246  mean_other_bad/p^4=   n/a
+  x^5+x      p=17  all=256  univ=15  bad_Fp= 15  max_off/p^3= 24.695  mean_off/p^3=12.966  mean_univ/p^4= 1.8936  mean_other_bad/p^4=   n/a
+  x^5+x      p=19  all=324  univ=17  bad_Fp= 17  max_off/p^3= 10.825  mean_off/p^3= 4.436  mean_univ/p^4= 1.1528  mean_other_bad/p^4=   n/a
+  x^5+x      p=23  all=484  univ=21  bad_Fp= 21  max_off/p^3= 19.960  mean_off/p^3=12.516  mean_univ/p^4= 1.5939  mean_other_bad/p^4=   n/a
+
+## Part C: Fixed c comparison across p = 37..101 (f = x^3+x and x^3+x^2+x)
+  x^3+x      (15 primes 37..101): good c: mean(|N4|^2/p^3)=3.081, max=4.266 | bad c=(1,2,1): mean(|N4|^2/p^4)=1.0190, range=[0.9631, 1.0778]
+  x^3+x^2+x  (15 primes 37..101): good c: mean(|N4|^2/p^3)=1.310, max=2.098 | bad c=(1,2,1): mean(|N4|^2/p^4)=0.0327, range=[0.0178, 0.0587]

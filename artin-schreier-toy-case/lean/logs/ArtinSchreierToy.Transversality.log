@@ -1,0 +1,8 @@
+'ArtinSchreierToy.sum_mul_pathGrad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.alternating_sum_mul_pathGrad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.tangency_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.base_locus_transversal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.base_locus_no_tangency' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.k4_bad_lines' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.k4_bad_plane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.euler_char_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

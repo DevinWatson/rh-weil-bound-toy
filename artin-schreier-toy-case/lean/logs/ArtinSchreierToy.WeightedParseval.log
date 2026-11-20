@@ -1,0 +1,8 @@
+'ArtinSchreierToy.orthogonality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.parseval_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weighted_iterated_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weighted_iterated_bound_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weightedSsum_eq_path_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weighted_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weighted_identity_bound_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weighted_identity_bound_weak' depends on axioms: [propext, Classical.choice, Quot.sound]

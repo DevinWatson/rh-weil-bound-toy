@@ -1,0 +1,4 @@
+1. DP vs brute + exact identity pN=M^k+R + Parseval avg: 72 cases, failures=0
+2. Closed forms N2, N3, and Segre N4 vs DP (p=5,7,11): 144 cases, failures=0
+3. FiniteField F_9 Segre N4 vs brute force (d=5): 8 cases, failures=0
+TOTAL FAILURES: 0

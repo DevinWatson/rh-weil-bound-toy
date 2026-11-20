@@ -1,0 +1,10 @@
+# T4: Exact checks of our two new findings from reviewing toy-case
+
+1. K4T exception (X2) (f(x)=x^d-a) quotient identities (d=3,5; p<=97): 135 cases, failures=0
+
+2. K4C coincidence (iv) exact symmetry check (F_9 and F_81):
+  x^3+x+1   : F_9 N_4 =  193 (all 3 equal) | F_81 N_4 =   769 (all 3 equal)
+  x^3-x+1   : F_9 N_4 =    1 (all 3 equal) | F_81 N_4 =  1057 (all 3 equal)
+  x^3+x^2+2 : F_9 N_4 =   97 (all 3 equal) | F_81 N_4 =    97 (all 3 equal)
+
+TOTAL FAILURES: 0

@@ -1,0 +1,51 @@
+# T3: Extension fields, k = 6 exact DP, and Betti-number / Milnor checks
+
+## 1. Extension-field growth over F_{5^n} (n = 1..4, q = 5..625), k = 4, d = 3
+  Transversality check over F_bar_5: c=(1,1,1) hits=0 (GOOD), c=(1,2,1) hits=1 (BAD: c1-c2+c3=0)
+
+  f(x) = x^3:
+    q=  5 (n=1): GOOD c=(1,1,1) avg|N4|^2/q^3 =   0.2000 (avg/q^4=0.04000) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.6400
+    q= 25 (n=2): GOOD c=(1,1,1) avg|N4|^2/q^3 =   6.7600 (avg/q^4=0.27040) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.7744
+    q=125 (n=3): GOOD c=(1,1,1) avg|N4|^2/q^3 =   0.0080 (avg/q^4=0.00006) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.9841
+    q=625 (n=4): GOOD c=(1,1,1) avg|N4|^2/q^3 =  32.7184 (avg/q^4=0.05235) | BAD c=(1,2,1) avg|N4|^2/q^4 =   1.7977
+
+  f(x) = x^3+x:
+    q=  5 (n=1): GOOD c=(1,1,1) avg|N4|^2/q^3 =  12.3000 (avg/q^4=2.46000) | BAD c=(1,2,1) avg|N4|^2/q^4 =   2.4600
+    q= 25 (n=2): GOOD c=(1,1,1) avg|N4|^2/q^3 =   8.7000 (avg/q^4=0.34800) | BAD c=(1,2,1) avg|N4|^2/q^4 =   1.0904
+    q=125 (n=3): GOOD c=(1,1,1) avg|N4|^2/q^3 =  11.2920 (avg/q^4=0.09034) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.4885
+    q=625 (n=4): GOOD c=(1,1,1) avg|N4|^2/q^3 =   8.4504 (avg/q^4=0.01352) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.9606
+
+  f(x) = x^3+x^2+x:
+    q=  5 (n=1): GOOD c=(1,1,1) avg|N4|^2/q^3 =   1.7000 (avg/q^4=0.34000) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.3400
+    q= 25 (n=2): GOOD c=(1,1,1) avg|N4|^2/q^3 =   2.5000 (avg/q^4=0.10000) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.0200
+    q=125 (n=3): GOOD c=(1,1,1) avg|N4|^2/q^3 =   7.0280 (avg/q^4=0.05622) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.0485
+    q=625 (n=4): GOOD c=(1,1,1) avg|N4|^2/q^3 =  24.6856 (avg/q^4=0.03950) | BAD c=(1,2,1) avg|N4|^2/q^4 =   0.0061
+
+## 2. Characteristic 7: c=(1,1,1) (BAD mod 7, pair (5,3)) vs good c in F_{49} (d=3)
+  Found transversal c in (F_49^*)^3: c = (1, 7, 1) (poly reps: [[1, 0], [0, 1], [1, 0]])
+  F_49, f=x^3   : BAD c=(1,1,1) avg|N4|^2/q^4 = 1.2703 | GOOD c=(1, 7, 1) avg|N4|^2/q^3 = 3.8980 (avg/q^4=0.07955)
+  F_49, f=x^3+x : BAD c=(1,1,1) avg|N4|^2/q^4 = 0.4830 | GOOD c=(1, 7, 1) avg|N4|^2/q^3 = 3.6725 (avg/q^4=0.07495)
+
+## 3. Exact k = 6 path-quadric DP checks over F_5 and F_7 (d = 3)
+  Explicit tangency-bad c in B_{6,3}(F_5): c_bad6 = (3, 1, 4, 1, 3), tangent at X = (1, 2, 1, 1, 2, 1)
+  F_5, f=x^3      , plain (1,1,1,1,1) : avg|N_6|^2/5^5 =    0.800, avg|R_6|^2/5^7 =    0.800 (bound 16.000)
+  F_5, f=x^3      , c_good (1,2,3,4,1): avg|N_6|^2/5^5 =    0.800, avg|R_6|^2/5^7 =    0.800 (bound 16.000)
+  F_5, f=x^3      , c_bad6            : avg|N_6|^2/5^5 =    0.800, avg|R_6|^2/5^7 =    0.800 (bound 16.000)
+  F_5, f=x^3+x    , plain (1,1,1,1,1) : avg|N_6|^2/5^5 =   49.800, avg|R_6|^2/5^7 =    3.200 (bound 16.000)
+  F_5, f=x^3+x    , c_good (1,2,3,4,1): avg|N_6|^2/5^5 =   38.700, avg|R_6|^2/5^7 =    1.500 (bound 16.000)
+  F_5, f=x^3+x    , c_bad6            : avg|N_6|^2/5^5 =   41.200, avg|R_6|^2/5^7 =    1.000 (bound 16.000)
+  F_5, f=x^3+x^2+x, plain (1,1,1,1,1) : avg|N_6|^2/5^5 =   21.640, avg|R_6|^2/5^7 =    4.340 (bound 16.000)
+  F_5, f=x^3+x^2+x, c_good (1,2,3,4,1): avg|N_6|^2/5^5 =   21.260, avg|R_6|^2/5^7 =    3.960 (bound 16.000)
+  F_5, f=x^3+x^2+x, c_bad6            : avg|N_6|^2/5^5 =   26.860, avg|R_6|^2/5^7 =    2.660 (bound 16.000)
+
+## 4. Exact Milnor-fibre identity & Betti number dim H^3_c(Y, K) = 29 (k = 4, d = 3)
+  p= 5, c=(1,1,1) (transversal): #Y=145 (exact p^3+p^2-p), #Y_0=25, #Z(F_p)=6 (p+1=6, |#Z-(p+1)|=0 <= 8*sqrt(p))
+  p=11, c=(1,1,1) (transversal): #Y=1441 (exact p^3+p^2-p), #Y_0=121, #Z(F_p)=12 (p+1=12, |#Z-(p+1)|=0 <= 8*sqrt(p))
+  p=13, c=(1,1,1) (transversal): #Y=2353 (exact p^3+p^2-p), #Y_0=289, #Z(F_p)=24 (p+1=14, |#Z-(p+1)|=10 <= 8*sqrt(p))
+
+  Exact Chern-class verification of chi_c(Y, K) = -(2*sum_{j=1}^{k-1} (d-1)^j + 1):
+    d=3: k=2:5, k=4:29, k=6:125, k=8:509, k=10:2045
+    d=4: k=2:7, k=4:79, k=6:727, k=8:6559, k=10:59047
+    d=5: k=2:9, k=4:169, k=6:2729, k=8:43689, k=10:699049
+
+TOTAL FAILURES: 0

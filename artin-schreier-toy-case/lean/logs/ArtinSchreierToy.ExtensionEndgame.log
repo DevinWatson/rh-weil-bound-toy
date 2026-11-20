@@ -1,0 +1,7 @@
+'ArtinSchreierToy.le_of_pow_succ_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.no_hidden_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.no_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.le_sqrt_of_subseq_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.endgame_subseq_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.endgame_even_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ArtinSchreierToy.weil_bound_of_even_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
