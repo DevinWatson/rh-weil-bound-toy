@@ -1,0 +1,417 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #FAF8F4; }
+      .card { fill: #FFFFFF; stroke: #D6D0C4; stroke-width: 1.5; }
+      .subcard { fill: #F5F2EB; stroke: #DDD7CB; stroke-width: 1.2; }
+      .h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 700; fill: #14213D; font-size: 20.5px; }
+      .label { font-family: "Segoe UI", Helvetica, Arial, sans-serif; fill: #526075; font-size: 12.5px; letter-spacing: 0.08em; font-weight: 700; }
+      .body { font-family: "Segoe UI", Helvetica, Arial, sans-serif; fill: #2E3A4D; font-size: 13.8px; }
+      .muted { font-family: "Segoe UI", Helvetica, Arial, sans-serif; fill: #5A677A; font-size: 12.5px; }
+      .math { font-family: "Cambria Math", "STIX Two Math", Georgia, "Times New Roman", serif; fill: #14213D; }
+      .mono { font-family: Consolas, "Courier New", monospace; fill: #1E4E79; font-size: 12.5px; }
+      .pill-lean-bg { fill: #E6F4EC; stroke: #2A7B55; stroke-width: 1.2; }
+      .pill-lean-tx { font-family: Consolas, monospace; font-size: 12px; fill: #1A5C3D; font-weight: 700; }
+      .pill-cited-bg { fill: #E8F0FA; stroke: #1E4E79; stroke-width: 1.2; }
+      .pill-cited-tx { font-family: Consolas, monospace; font-size: 12px; fill: #1E4E79; font-weight: 700; }
+    </style>
+    <marker id="arr-navy" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#14213D"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#B33A2B"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8.5 5 L 0 8.5 z" fill="#1A6B46"/>
+    </marker>
+  </defs>
+
+  <!-- Canvas Background & Archival Frame -->
+  <rect width="1920" height="1080" class="bg"/>
+  <rect x="20" y="18" width="1880" height="1044" rx="10" fill="none" stroke="#C9C2B4" stroke-width="1.5"/>
+
+  <!-- ====================================================================== -->
+  <!-- HEADER BANNER                                                          -->
+  <!-- ====================================================================== -->
+  <rect x="42" y="38" width="1836" height="124" rx="8" fill="#14213D"/>
+  <text x="74" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="0.14em" fill="#9BB5D6">
+    WEIGHT-FREE ALGEBRAIC GEOMETRY · HARMONIC ANALYSIS · COMPANION TO FOOTNOTE 3 OF REMARK
+  </text>
+  <text x="74" y="112" font-family="Georgia, Times New Roman, serif" font-size="35.5" font-weight="700" fill="#FAF8F4">
+    A Weight-Free Sign-Only Proof of the Weil Bound
+  </text>
+  <text x="74" y="143" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" fill="#CBD7E8">
+    Artin–Schreier Path-Quadric Cohomology, Cleanness at Infinity, Transversality, and Lean 4.34.1 Verification
+  </text>
+
+  <!-- Target Theorem Box -->
+  <rect x="1296" y="53" width="558" height="94" rx="7" fill="#1F3256" stroke="#5D7EA8" stroke-width="1.3"/>
+  <text x="1575" y="76" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.1em" fill="#A9C4E4">
+    TARGET THEOREM (WEIL, 1948) — PROVED WITHOUT WEIGHTS OR WEIL II
+  </text>
+  <text x="1575" y="110" text-anchor="middle" font-family="Cambria Math, Georgia, serif" font-size="24" font-weight="700" fill="#FFFFFF">
+    |  ∑<tspan dy="6" font-size="12" font-style="italic">x∈𝔽</tspan><tspan dy="3" font-size="9.5" font-style="italic">q</tspan><tspan dy="-9">  ψ(</tspan><tspan font-style="italic">f</tspan>(<tspan font-style="italic">x</tspan>))  |  ≤  (<tspan font-style="italic">d</tspan> − 1)√<tspan font-style="italic">q</tspan>
+  </text>
+  <text x="1575" y="136" text-anchor="middle" font-family="Cambria Math, Georgia, serif" font-size="13.5" fill="#CBD7E8">
+    deg <tspan font-style="italic">f</tspan> = <tspan font-style="italic">d</tspan> ≥ 3,  <tspan font-style="italic">p</tspan> ∤ 2<tspan font-style="italic">d</tspan>,   <tspan font-style="italic">M</tspan><tspan dy="3" font-size="10" font-style="italic">n</tspan><tspan dy="-3"> = −∑ α</tspan><tspan dy="3" font-size="10" font-style="italic">i</tspan><tspan dy="-8" font-size="10" font-style="italic">n</tspan><tspan dy="5">  (1 ≤ i &lt; d)  ⇒  |α</tspan><tspan dy="3" font-size="10" font-style="italic">i</tspan><tspan dy="-3">| ≤ √</tspan><tspan font-style="italic">q</tspan>
+  </text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL 1 (TOP-LEFT): CORE IDENTITY & WEIGHTED ITERATED PARSEVAL         -->
+  <!-- ====================================================================== -->
+  <rect x="42" y="182" width="628" height="404" rx="8" class="card"/>
+  <rect x="42" y="182" width="628" height="6" rx="3" fill="#1E4E79"/>
+  <text x="66" y="216" class="label">PANEL 1 · ELEMENTARY HARMONIC ANALYSIS</text>
+  <text x="66" y="244" class="h2">Weighted Path-Quadric Identity &amp; Iterated Parseval</text>
+  <rect x="524" y="199" width="126" height="24" rx="12" class="pill-lean-bg"/>
+  <text x="587" y="215" text-anchor="middle" class="pill-lean-tx">LEAN 4 VERIFIED</text>
+
+  <!-- Core Formula Box -->
+  <rect x="66" y="262" width="580" height="78" rx="6" class="subcard"/>
+  <text x="356" y="295" text-anchor="middle" class="math" font-size="24" font-weight="700">
+    <tspan font-style="italic">Q</tspan> · <tspan font-style="italic">N</tspan><tspan dy="5" font-size="14" font-style="italic">c</tspan><tspan dy="-5">  =  </tspan><tspan font-style="italic">M</tspan><tspan dy="-8" font-size="14" font-style="italic">k</tspan><tspan dy="8">  +  </tspan><tspan font-style="italic">R</tspan><tspan dy="5" font-size="14" font-style="italic">c</tspan>
+    <tspan dy="-5" font-size="14" font-weight="400" fill="#5A677A">    (Q = q</tspan><tspan dy="-6" font-size="10.5" fill="#5A677A" font-style="italic">mn</tspan><tspan dy="6" font-size="14" fill="#5A677A">,  k = 2r ≥ 4 even)</tspan>
+  </text>
+  <text x="356" y="326" text-anchor="middle" class="math" font-size="15" fill="#2E3A4D">
+    <tspan font-style="italic">Q</tspan><tspan dy="3" font-size="10.5" font-style="italic">c</tspan><tspan dy="-3">(</tspan><tspan font-style="italic">x</tspan>) = ∑<tspan dy="3" font-size="10">i=1..k−1</tspan><tspan dy="-3"> </tspan><tspan font-style="italic">c</tspan><tspan dy="3" font-size="10.5" font-style="italic">i</tspan><tspan dy="-3"> </tspan><tspan font-style="italic">x</tspan><tspan dy="3" font-size="10.5" font-style="italic">i</tspan><tspan dy="-3"> </tspan><tspan font-style="italic">x</tspan><tspan dy="3" font-size="10.5" font-style="italic">i+1</tspan><tspan dy="-3">,   </tspan>
+    <tspan font-style="italic">G</tspan>(<tspan font-style="italic">x</tspan>) = ∑<tspan dy="3" font-size="10">i=1..k</tspan><tspan dy="-3"> </tspan><tspan font-style="italic">f</tspan>(<tspan font-style="italic">x</tspan><tspan dy="3" font-size="10.5" font-style="italic">i</tspan><tspan dy="-3">),   </tspan>
+    <tspan font-style="italic">Y</tspan> = {<tspan font-style="italic">Q</tspan><tspan dy="3" font-size="10.5" font-style="italic">c</tspan><tspan dy="-3"> = 0}</tspan>
+  </text>
+
+  <!-- Weighted Path Graph Diagram -->
+  <rect x="66" y="352" width="580" height="114" rx="6" fill="#FFFFFF" stroke="#DDD7CB" stroke-width="1.2"/>
+  <line x1="118" y1="406" x2="220" y2="406" stroke="#1E4E79" stroke-width="3"/>
+  <line x1="220" y1="406" x2="322" y2="406" stroke="#1E4E79" stroke-width="3"/>
+  <line x1="322" y1="406" x2="492" y2="406" stroke="#1E4E79" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <line x1="492" y1="406" x2="594" y2="406" stroke="#1E4E79" stroke-width="3"/>
+
+  <text x="169" y="388" text-anchor="middle" class="math" font-size="15.5" font-style="italic" fill="#1E4E79">c<tspan dy="3" font-size="10.5">1</tspan></text>
+  <text x="271" y="388" text-anchor="middle" class="math" font-size="15.5" font-style="italic" fill="#1E4E79">c<tspan dy="3" font-size="10.5">2</tspan></text>
+  <text x="407" y="384" text-anchor="middle" class="muted" font-size="12">k − 1 Fourier steps</text>
+  <text x="543" y="388" text-anchor="middle" class="math" font-size="15.5" font-style="italic" fill="#1E4E79">c<tspan dy="3" font-size="10.5">k−1</tspan></text>
+
+  <!-- Vertices -->
+  <circle cx="118" cy="406" r="18" fill="#FAF8F4" stroke="#14213D" stroke-width="2.2"/>
+  <text x="118" y="411" text-anchor="middle" class="math" font-size="15.5" font-style="italic">x<tspan dy="3" font-size="10.5">1</tspan></text>
+  <text x="118" y="445" text-anchor="middle" class="math" font-size="13" fill="#5A677A">ψ(f(x<tspan dy="3" font-size="9">1</tspan><tspan dy="-3">))</tspan></text>
+
+  <circle cx="220" cy="406" r="18" fill="#FAF8F4" stroke="#14213D" stroke-width="2.2"/>
+  <text x="220" y="411" text-anchor="middle" class="math" font-size="15.5" font-style="italic">x<tspan dy="3" font-size="10.5">2</tspan></text>
+  <text x="220" y="445" text-anchor="middle" class="math" font-size="13" fill="#5A677A">ψ(f(x<tspan dy="3" font-size="9">2</tspan><tspan dy="-3">))</tspan></text>
+
+  <circle cx="322" cy="406" r="18" fill="#FAF8F4" stroke="#14213D" stroke-width="2.2"/>
+  <text x="322" y="411" text-anchor="middle" class="math" font-size="15.5" font-style="italic">x<tspan dy="3" font-size="10.5">3</tspan></text>
+  <text x="322" y="445" text-anchor="middle" class="math" font-size="13" fill="#5A677A">ψ(f(x<tspan dy="3" font-size="9">3</tspan><tspan dy="-3">))</tspan></text>
+
+  <circle cx="492" cy="406" r="18" fill="#FAF8F4" stroke="#14213D" stroke-width="2.2"/>
+  <text x="492" y="411" text-anchor="middle" class="math" font-size="13.5" font-style="italic">x<tspan dy="3" font-size="9.5">k−1</tspan></text>
+  <text x="492" y="445" text-anchor="middle" class="math" font-size="13" fill="#5A677A">ψ(f(x<tspan dy="3" font-size="9">k−1</tspan><tspan dy="-3">))</tspan></text>
+
+  <circle cx="594" cy="406" r="18" fill="#FAF8F4" stroke="#14213D" stroke-width="2.2"/>
+  <text x="594" y="411" text-anchor="middle" class="math" font-size="15.5" font-style="italic">x<tspan dy="3" font-size="10.5">k</tspan></text>
+  <text x="594" y="445" text-anchor="middle" class="math" font-size="13" fill="#5A677A">ψ(f(x<tspan dy="3" font-size="9">k</tspan><tspan dy="-3">))</tspan></text>
+
+  <!-- Parseval Bound & Explanation -->
+  <text x="66" y="494" class="body" font-size="13.5">
+    <tspan font-weight="700" fill="#14213D">Orthogonality:</tspan> ∑<tspan dy="3" font-size="9.5">h∈F</tspan><tspan dy="-3"> S(h) = Q·N</tspan><tspan dy="3" font-size="9.5">c</tspan><tspan dy="-3">,  zero-mode S(0) = M</tspan><tspan dy="-5" font-size="9.5">k</tspan><tspan dy="5">,  R</tspan><tspan dy="3" font-size="9.5">c</tspan><tspan dy="-3"> = ∑</tspan><tspan dy="3" font-size="9.5">h≠0</tspan><tspan dy="-3"> S(h).</tspan>
+  </text>
+  <text x="66" y="522" class="body" font-size="13.5">
+    <tspan font-weight="700" fill="#14213D">Iterated Parseval (c</tspan><tspan dy="3" font-size="9.5" font-weight="700" fill="#14213D">i</tspan><tspan dy="-3" font-weight="700" fill="#14213D"> ≠ 0):</tspan> |S(h)| ≤ Q<tspan dy="-5" font-size="9.5">(k+1)/2</tspan><tspan dy="5"> ⇒ </tspan>
+    <tspan font-weight="700" fill="#1E4E79">|R</tspan><tspan dy="3" font-size="9.5" font-weight="700" fill="#1E4E79">c</tspan><tspan dy="-3" font-weight="700" fill="#1E4E79">| ≤ (Q−1)Q · Q</tspan><tspan dy="-5" font-size="9.5" font-weight="700" fill="#1E4E79">(k−1)/2</tspan><tspan dy="5" font-weight="700" fill="#1E4E79"> ≤ Q</tspan><tspan dy="-5" font-size="9.5" font-weight="700" fill="#1E4E79">(k+3)/2</tspan>
+  </text>
+  <line x1="66" y1="544" x2="646" y2="544" stroke="#E5E0D5" stroke-width="1.2"/>
+  <text x="66" y="568" class="mono">WeightedParseval.lean: weighted_identity, weighted_identity_bound_weak (8 thms)</text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL 2 (TOP-RIGHT): GEOMETRIC CENTERPIECE — CLEANNESS AT INFINITY     -->
+  <!-- ====================================================================== -->
+  <rect x="690" y="182" width="1188" height="404" rx="8" class="card"/>
+  <rect x="690" y="182" width="1188" height="6" rx="3" fill="#1A6B46"/>
+  <text x="714" y="216" class="label">PANEL 2 · GEOMETRIC CORE — WHY WILD RAMIFICATION CLOSES (S_k)</text>
+  <text x="714" y="244" class="h2">Cleanness at Infinity on Ȳ ⊂ ℙ<tspan dy="-6" font-size="14" font-style="italic">k</tspan><tspan dy="6"> and the Artin Vanishing Pincer</tspan></text>
+  <rect x="1480" y="199" width="184" height="24" rx="12" class="pill-cited-bg"/>
+  <text x="1572" y="215" text-anchor="middle" class="pill-cited-tx">KATZ–LAUMON 2.4.1</text>
+  <rect x="1674" y="199" width="180" height="24" rx="12" class="pill-cited-bg"/>
+  <text x="1764" y="215" text-anchor="middle" class="pill-cited-tx">BBD 4.1.1 – 4.1.2</text>
+
+  <!-- Left Sub-diagram: 3D Architectural Cone Y-bar in P^k -->
+  <rect x="714" y="262" width="490" height="304" rx="6" class="subcard"/>
+
+  <!-- Top title labels clearly above parallelogram -->
+  <text x="728" y="285" class="math" font-size="14.5" font-weight="700" fill="#1E4E79">
+    ∂ = {Q<tspan dy="3" font-size="10.5" font-style="italic">c</tspan><tspan dy="-3"> = 0} ⊂ ℙ</tspan><tspan dy="-5" font-size="10.5" font-style="italic">k−1</tspan><tspan dy="5"> (smooth)</tspan>
+  </text>
+  <text x="1190" y="285" text-anchor="end" class="math" font-size="13.5" font-style="italic" fill="#526075">
+    H<tspan dy="3" font-size="9.5">∞</tspan><tspan dy="-3"> = {Z = 0} ⊂ ℙ</tspan><tspan dy="-5" font-size="9.5">k</tspan>
+  </text>
+
+  <!-- Hyperplane at infinity H_inf -->
+  <polygon points="742,358 830,302 1172,302 1084,358" fill="#1E4E79" fill-opacity="0.07" stroke="#1E4E79" stroke-width="1.3" stroke-dasharray="6 4"/>
+
+  <!-- Smooth quadric boundary partial -->
+  <ellipse cx="954" cy="332" rx="116" ry="20" fill="#1E4E79" fill-opacity="0.14" stroke="#1E4E79" stroke-width="2.5"/>
+
+  <!-- Cone walls -->
+  <polygon points="838,332 1070,332 954,522" fill="#14213D" fill-opacity="0.04"/>
+  <line x1="838" y1="332" x2="954" y2="522" stroke="#14213D" stroke-width="2.3"/>
+  <line x1="1070" y1="332" x2="954" y2="522" stroke="#14213D" stroke-width="2.3"/>
+
+  <!-- Fermat hypersurface F_d cutting transversely (kept below top label!) -->
+  <path d="M 902 295 C 934 324, 984 352, 1028 386" fill="none" stroke="#B33A2B" stroke-width="2.8"/>
+  <circle cx="922" cy="314" r="4.8" fill="#B33A2B"/>
+  <circle cx="988" cy="349" r="6.5" fill="#B33A2B" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Clean non-overlapping callouts around the cone -->
+  <rect x="1044" y="368" width="144" height="24" rx="4" fill="#F5F2EB" fill-opacity="0.92"/>
+  <text x="1050" y="385" class="math" font-size="14.5" font-weight="700" fill="#B33A2B">
+    <tspan font-style="italic">F</tspan><tspan dy="3" font-size="10.5" font-style="italic">d</tspan><tspan dy="-3"> = {∑ </tspan><tspan font-style="italic">X</tspan><tspan dy="3" font-size="10.5" font-style="italic">i</tspan><tspan dy="-8" font-size="10.5" font-style="italic">d</tspan><tspan dy="5"> = 0}</tspan>
+  </text>
+  <text x="854" y="382" text-anchor="end" class="math" font-size="13.5" font-weight="700" fill="#B33A2B">Z = ∂ ∩ F<tspan dy="3" font-size="10" font-style="italic">d</tspan></text>
+  <text x="854" y="398" text-anchor="end" class="muted" font-size="11.5">(transversal off ℬ<tspan dy="3" font-size="9">k,d</tspan><tspan dy="-3">)</tspan></text>
+
+  <!-- Clean white halo pill inside cone so cone lines never cut text -->
+  <rect x="866" y="408" width="176" height="62" rx="6" fill="#FFFFFF" fill-opacity="0.93" stroke="#DDD7CB" stroke-width="1"/>
+  <text x="954" y="428" text-anchor="middle" class="math" font-size="15.5" font-weight="700">
+    <tspan font-style="italic">Y</tspan> = {<tspan font-style="italic">Q</tspan><tspan dy="3" font-size="11" font-style="italic">c</tspan><tspan dy="-3"> = 0} ⊂ 𝔸</tspan><tspan dy="-5" font-size="11" font-style="italic">k</tspan>
+  </text>
+  <text x="954" y="448" text-anchor="middle" class="math" font-size="13" fill="#2E3A4D">
+    <tspan font-style="italic">K</tspan> = 𝓛<tspan dy="3" font-size="9.5">ψ</tspan><tspan dy="-3">(∑ </tspan><tspan font-style="italic">f</tspan>(<tspan font-style="italic">x</tspan><tspan dy="3" font-size="9.5" font-style="italic">i</tspan><tspan dy="-3">))|</tspan><tspan dy="3" font-size="9.5" font-style="italic">Y</tspan>
+  </text>
+  <text x="954" y="464" text-anchor="middle" class="muted" font-size="11">K[k−1] perverse on Y</text>
+
+  <!-- Local Zoom Inset Circle at Bottom-Left of Cone Box -->
+  <circle cx="782" cy="486" r="46" fill="#FFFFFF" stroke="#B33A2B" stroke-width="1.6"/>
+  <text x="782" y="458" text-anchor="middle" class="math" font-size="11.5" font-weight="700" fill="#14213D">x ∈ ∂ ∩ F<tspan dy="2" font-size="8.5">d</tspan></text>
+  <!-- z and w axes inside circle -->
+  <line x1="762" y1="494" x2="762" y2="468" stroke="#1E4E79" stroke-width="1.5"/>
+  <line x1="762" y1="494" x2="796" y2="494" stroke="#B33A2B" stroke-width="1.5"/>
+  <text x="752" y="476" class="math" font-size="11" font-style="italic" fill="#1E4E79">z</text>
+  <text x="802" y="497" class="math" font-size="11" font-style="italic" fill="#B33A2B">w</text>
+  <text x="782" y="518" text-anchor="middle" class="math" font-size="13.5" font-weight="700" fill="#B33A2B">G = w / z<tspan dy="-4" font-size="9.5">d</tspan></text>
+
+  <!-- Isolated vertex 0 -->
+  <circle cx="954" cy="522" r="6" fill="#B33A2B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="954" y="550" text-anchor="middle" class="body" font-size="12.5" fill="#9A2A1E" font-weight="600">
+    Isolated cone vertex 0 ∈ Y (away from ∂)
+  </text>
+
+  <!-- Dashed red pointer arrow to Step A -->
+  <line x1="996" y1="349" x2="1218" y2="349" stroke="#B33A2B" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#arr-red)"/>
+
+  <!-- Right Sub-diagram: Box A (Local Cleanness) -->
+  <rect x="1226" y="262" width="630" height="128" rx="6" fill="#FFFFFF" stroke="#1E4E79" stroke-width="1.4"/>
+  <text x="1244" y="285" class="body" font-size="13.5" font-weight="700" fill="#14213D">
+    Step A · Local Cleanness of Rj<tspan dy="3" font-size="9.5">*</tspan><tspan dy="-3">K at every x ∈ ∂ (Weight-Free)</tspan>
+  </text>
+  <text x="1244" y="308" class="body" font-size="13">
+    <tspan font-weight="700" fill="#1E4E79">1. x ∈ ∂ \ F</tspan><tspan dy="3" font-size="9.5" font-weight="700" fill="#1E4E79">d</tspan><tspan dy="-3">:</tspan>  G = 1/t<tspan dy="-4" font-size="9.5">d</tspan><tspan dy="4"> (p ∤ d) is totally wildly ramified ⇒ (Rj</tspan><tspan dy="3" font-size="9.5">*</tspan><tspan dy="-3">K)</tspan><tspan dy="3" font-size="9.5">x</tspan><tspan dy="-3"> = 0.</tspan>
+  </text>
+  <text x="1244" y="331" class="body" font-size="13">
+    <tspan font-weight="700" fill="#B33A2B">2. x ∈ ∂ ∩ F</tspan><tspan dy="3" font-size="9.5" font-weight="700" fill="#B33A2B">d</tspan><tspan dy="-3">:</tspan>  ∂ ⋔ F<tspan dy="3" font-size="9.5">d</tspan><tspan dy="-3"> ⇒ coords (z, w, u), </tspan><tspan font-weight="700" fill="#B33A2B">G = w/z</tspan><tspan dy="-4" font-size="9.5" font-weight="700" fill="#B33A2B">d</tspan><tspan dy="4">. Cover φ(z,w)=(z</tspan><tspan dy="-4" font-size="9.5">d</tspan><tspan dy="4">,w) gives:</tspan>
+  </text>
+  <text x="1262" y="354" class="math" font-size="14" fill="#1E4E79">
+    φ<tspan dy="3" font-size="10">*</tspan><tspan dy="-3"> Rj</tspan><tspan dy="3" font-size="10">z*</tspan><tspan dy="-3"> 𝓛</tspan><tspan dy="3" font-size="10">ψ</tspan><tspan dy="-3">(w/z</tspan><tspan dy="-5" font-size="10">d</tspan><tspan dy="5">)  ≅  ⨁</tspan><tspan dy="3" font-size="10">χ∈μ̂</tspan><tspan dy="2" font-size="8">d</tspan><tspan dy="-5"> Rj</tspan><tspan dy="3" font-size="10">Z*</tspan><tspan dy="-3">(𝓛</tspan><tspan dy="3" font-size="10">ψ</tspan><tspan dy="-3">(wx) ⊗ 𝓛</tspan><tspan dy="3" font-size="10">χ⁻¹</tspan><tspan dy="-3">(x))    [x = 1/Z]</tspan>
+  </text>
+  <text x="1244" y="378" class="body" font-size="13" font-weight="700" fill="#1A6B46">
+    3. Katz–Laumon (Thm 2.4.1a):  j<tspan dy="3" font-size="9.5">!</tspan><tspan dy="-3">K ≅ Rj</tspan><tspan dy="3" font-size="9.5">*</tspan><tspan dy="-3">K on Ȳ  ⇒  H</tspan><tspan dy="-4" font-size="9.5">j</tspan><tspan dy="7" dx="-4" font-size="9.5">c</tspan><tspan dy="-3">(Y, K) ≅ H</tspan><tspan dy="-4" font-size="9.5">j</tspan><tspan dy="4">(Y, K)  ∀ j.</tspan>
+  </text>
+
+  <!-- Box B: Artin Vanishing Pincer -->
+  <rect x="1226" y="400" width="630" height="86" rx="6" fill="#EBF6F0" stroke="#1A6B46" stroke-width="1.6"/>
+  <text x="1541" y="422" text-anchor="middle" class="body" font-size="13.5" font-weight="700" fill="#14213D">
+    Step B · The Artin Vanishing Pincer (BBD Thm 4.1.1 &amp; Cor. 4.1.2, Weight-Free)
+  </text>
+  <rect x="1244" y="435" width="176" height="38" rx="5" fill="#FFFFFF" stroke="#1A6B46" stroke-width="1.2"/>
+  <text x="1332" y="459" text-anchor="middle" class="math" font-size="14" font-weight="700" fill="#1E4E79">
+    H<tspan dy="-5" font-size="9.5">j</tspan><tspan dy="8" dx="-4" font-size="9.5">c</tspan><tspan dy="-3">(Y, K) = 0  (j &lt; k−1)</tspan>
+  </text>
+  <line x1="1422" y1="454" x2="1450" y2="454" stroke="#1A6B46" stroke-width="2.2" marker-end="url(#arr-green)"/>
+  <rect x="1456" y="433" width="170" height="42" rx="6" fill="#1A6B46"/>
+  <text x="1541" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#FFFFFF">
+    H<tspan dy="-4" font-size="10">k−1</tspan><tspan dy="7" dx="-18" font-size="10">c</tspan><tspan dy="-3" dx="12"> ONLY</tspan>
+  </text>
+  <text x="1541" y="469" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#D4F0E1">(S_k) ∀ even k ≥ 4</text>
+  <line x1="1660" y1="454" x2="1632" y2="454" stroke="#1A6B46" stroke-width="2.2" marker-end="url(#arr-green)"/>
+  <rect x="1662" y="435" width="176" height="38" rx="5" fill="#FFFFFF" stroke="#1A6B46" stroke-width="1.2"/>
+  <text x="1750" y="459" text-anchor="middle" class="math" font-size="14" font-weight="700" fill="#1E4E79">
+    H<tspan dy="-5" font-size="9.5">j</tspan><tspan dy="5">(Y, K) = 0  (j &gt; k−1)</tspan>
+  </text>
+
+  <!-- Box C: Closed-form Betti Number (tightly fit inside 630px!) -->
+  <rect x="1226" y="496" width="630" height="70" rx="6" class="subcard"/>
+  <text x="1541" y="523" text-anchor="middle" class="math" font-size="15.5" font-weight="700" fill="#14213D">
+    Exact Betti Number:   dim H<tspan dy="-5" font-size="10">k−1</tspan><tspan dy="8" dx="-17" font-size="10">c</tspan><tspan dy="-3" dx="10">(Y, K)  =  2 ∑</tspan><tspan dy="3" font-size="10">j=1..k−1</tspan><tspan dy="-3"> (d − 1)</tspan><tspan dy="-5" font-size="10">j</tspan><tspan dy="5"> + 1  =  (2(d−1)</tspan><tspan dy="-5" font-size="10">k</tspan><tspan dy="5"> − d)/(d − 2)</tspan>
+  </text>
+  <text x="1541" y="551" text-anchor="middle" class="muted" font-size="12.2">
+    Milnor fibre + Chern classes (indep. of lower terms of f) · d = 3: <tspan font-weight="700" fill="#14213D">5, 29, 125, 509, 2045</tspan> · d = 5: <tspan font-weight="700" fill="#14213D">9, 169, 2729</tspan>
+  </text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL 3 (BOTTOM-LEFT): TRANSVERSALITY & BAD LOCUS B_{k,d}              -->
+  <!-- ====================================================================== -->
+  <rect x="42" y="606" width="876" height="388" rx="8" class="card"/>
+  <rect x="42" y="606" width="876" height="6" rx="3" fill="#B33A2B"/>
+  <text x="66" y="640" class="label">PANEL 3 · ALGEBRAIC TRANSVERSALITY &amp; EXTENSION FIELDS</text>
+  <text x="66" y="668" class="h2">Properness of the Bad Locus ℬ<tspan dy="4" font-size="14" font-style="italic">k,d</tspan><tspan dy="-4"> ⊊ ℙ</tspan><tspan dy="-6" font-size="14" font-style="italic">k−2</tspan></text>
+  <rect x="742" y="623" width="152" height="24" rx="12" class="pill-lean-bg"/>
+  <text x="818" y="639" text-anchor="middle" class="pill-lean-tx">Transversality.lean</text>
+
+  <!-- Projective plane P^2_c diagram (332px wide) -->
+  <rect x="66" y="688" width="332" height="284" rx="6" class="subcard"/>
+  <text x="232" y="711" text-anchor="middle" class="body" font-size="13" font-weight="700" fill="#14213D">
+    ℙ<tspan dy="-4" font-size="9.5">2</tspan><tspan dy="7" dx="-4" font-size="9.5">c</tspan><tspan dy="-3"> at k = 4, d = 3 : Exactly d</tspan><tspan dy="-4" font-size="9.5">2</tspan><tspan dy="4"> = 9 Bad Lines</tspan>
+  </text>
+  <rect x="82" y="723" width="300" height="196" rx="5" fill="#FFFFFF" stroke="#D6D0C4"/>
+
+  <!-- 8 conjugate lines -->
+  <g stroke="#8E9AAF" stroke-width="1.25" stroke-opacity="0.6">
+    <line x1="90" y1="764" x2="374" y2="882"/>
+    <line x1="90" y1="816" x2="374" y2="752"/>
+    <line x1="90" y1="874" x2="374" y2="780"/>
+    <line x1="138" y1="728" x2="208" y2="914"/>
+    <line x1="280" y1="728" x2="196" y2="914"/>
+    <line x1="338" y1="728" x2="266" y2="914"/>
+    <line x1="90" y1="848" x2="374" y2="854"/>
+    <line x1="168" y1="728" x2="356" y2="914"/>
+  </g>
+  <!-- Universal bad line c_1 - c_2 + c_3 = 0 -->
+  <line x1="92" y1="904" x2="372" y2="740" stroke="#B33A2B" stroke-width="3"/>
+  <rect x="242" y="772" width="110" height="20" rx="3" fill="#FFFFFF" fill-opacity="0.88" transform="rotate(-30 297 782)"/>
+  <text x="297" y="786" text-anchor="middle" class="math" font-size="13" font-weight="700" fill="#B33A2B" transform="rotate(-30 297 782)">
+    c<tspan dy="3" font-size="9.5">1</tspan><tspan dy="-3"> − c</tspan><tspan dy="3" font-size="9.5">2</tspan><tspan dy="-3"> + c</tspan><tspan dy="3" font-size="9.5">3</tspan><tspan dy="-3"> = 0</tspan>
+  </text>
+
+  <!-- Bad point (1,1,1) mod 7 with white halo -->
+  <circle cx="204" cy="810" r="5.5" fill="#C97A12" stroke="#FFFFFF" stroke-width="1.6"/>
+  <rect x="148" y="820" width="112" height="17" rx="3" fill="#FFFFFF" fill-opacity="0.92"/>
+  <text x="204" y="833" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#9A5B06">(1,1,1) mod 7</text>
+
+  <!-- Good point in F_{49} -->
+  <circle cx="122" cy="756" r="6" fill="#1A6B46" stroke="#FFFFFF" stroke-width="1.8"/>
+  <rect x="132" y="742" width="126" height="19" rx="3" fill="#FFFFFF" fill-opacity="0.92"/>
+  <text x="136" y="756" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#1A6B46">c=(1,u,1) ∈ (𝔽<tspan dy="2" font-size="8.5">49</tspan><tspan dy="-2">*)³</tspan></text>
+
+  <text x="232" y="943" text-anchor="middle" class="math" font-size="13.5" font-weight="700" fill="#14213D">
+    c<tspan dy="3" font-size="9.5">1</tspan><tspan dy="-3"> + ζ</tspan><tspan dy="3" font-size="9.5">1</tspan><tspan dy="-3">c</tspan><tspan dy="3" font-size="9.5">2</tspan><tspan dy="-3"> + ζ</tspan><tspan dy="3" font-size="9.5">1</tspan><tspan dy="-3">ζ</tspan><tspan dy="3" font-size="9.5">2</tspan><tspan dy="-3">c</tspan><tspan dy="3" font-size="9.5">3</tspan><tspan dy="-3"> = 0  (ζ</tspan><tspan dy="3" font-size="9.5">1</tspan><tspan dy="-7" dx="-4" font-size="9.5">d</tspan><tspan dy="4"> = ζ</tspan><tspan dy="3" font-size="9.5">2</tspan><tspan dy="-7" dx="-4" font-size="9.5">d</tspan><tspan dy="4"> = −1)</tspan>
+  </text>
+  <text x="232" y="962" text-anchor="middle" class="muted" font-size="11.2">Plane (u, v, ζ₁u, ζ₂v) ⊂ Y ∩ {F_d = 0} (Lean: k4_bad_plane)</text>
+
+  <!-- Right column of Panel 3 (x=416..896 -> 480px wide, clean margins!) -->
+  <text x="418" y="705" class="body" font-size="13.5" font-weight="700" fill="#14213D">
+    1. Base Locus B ∩ F<tspan dy="3" font-size="9.5">d</tspan><tspan dy="-3"> Always Clean (All Even k):</tspan>
+  </text>
+  <text x="418" y="726" class="body" font-size="13">
+    On B = {X<tspan dy="3" font-size="9.5">i</tspan><tspan dy="-3">X</tspan><tspan dy="3" font-size="9.5">i+1</tspan><tspan dy="-3"> = 0}: supp(∇Q</tspan><tspan dy="3" font-size="9.5">c</tspan><tspan dy="-3">(X)) ∩ supp(X) = ∅ and ∇Q</tspan><tspan dy="3" font-size="9.5">c</tspan><tspan dy="-3">(X) ≠ 0.</tspan>
+  </text>
+  <text x="418" y="746" class="mono" font-size="12">Lean 4: base_locus_transversal, base_locus_no_tangency</text>
+
+  <text x="418" y="778" class="body" font-size="13.5" font-weight="700" fill="#14213D">
+    2. Block Stratification (No Black-Box Char-p Bertini):
+  </text>
+  <text x="418" y="799" class="body" font-size="12.8">
+    Stratify ∇Q<tspan dy="3" font-size="9">c</tspan><tspan dy="-3">(X) = (X</tspan><tspan dy="3" font-size="9">i</tspan><tspan dy="-7" font-size="9">d−1</tspan><tspan dy="4">) by zero set Z</tspan><tspan dy="3" font-size="9">0</tspan><tspan dy="-3">, |Z</tspan><tspan dy="3" font-size="9">0</tspan><tspan dy="-3">| = s (s+1 blocks, L</tspan><tspan dy="3" font-size="9">a</tspan><tspan dy="-3"> ≥ 2):</tspan>
+  </text>
+  <text x="426" y="820" class="body" font-size="12.6">
+    • s + 2 full-rank eqs (block alt. sums + F<tspan dy="3" font-size="9">d</tspan><tspan dy="-3"> = 0) ⇒ dim V</tspan><tspan dy="3" font-size="9">Z₀</tspan><tspan dy="-3"> = k − 2s − 2</tspan>
+  </text>
+  <text x="426" y="840" class="body" font-size="12.6">
+    • Internal c<tspan dy="3" font-size="9">i</tspan><tspan dy="-3"> unique; s free scalars at Z</tspan><tspan dy="3" font-size="9">0</tspan><tspan dy="-3">; 1D 𝔾</tspan><tspan dy="3" font-size="9">m</tspan><tspan dy="-3">-orbits (tX, t</tspan><tspan dy="-4" font-size="9">d−2</tspan><tspan dy="4">c)</tspan>
+  </text>
+
+  <rect x="418" y="854" width="478" height="38" rx="5" fill="#E8F0FA" stroke="#1E4E79" stroke-width="1.2"/>
+  <text x="657" y="878" text-anchor="middle" class="math" font-size="15.5" font-weight="700" fill="#1E4E79">
+    dim ℬ<tspan dy="3" font-size="10.5">k,d</tspan><tspan dy="-3">  ≤  (k − s − 2) − 1  =  k − s − 3  ≤  k − 3  &lt;  dim ℙ</tspan><tspan dy="-5" font-size="10.5">k−2</tspan><tspan dy="8" dx="-16" font-size="10.5">c</tspan>
+  </text>
+
+  <rect x="418" y="902" width="478" height="70" rx="5" fill="#FDF3E7" stroke="#C97A12" stroke-width="1.2"/>
+  <text x="432" y="923" class="body" font-size="12.8" font-weight="700" fill="#8A4B08">Exact Finite-Field Verification of Extension Necessity (T2 / T3):</text>
+  <text x="432" y="943" class="body" font-size="12.4" fill="#4E351A">At p = 7, d = 3: all 36/36 points of (𝔽<tspan dy="3" font-size="9">7</tspan><tspan dy="-3">*)² lie on ℬ</tspan><tspan dy="3" font-size="9">4,3</tspan><tspan dy="-3"> (0 good c in 𝔽</tspan><tspan dy="3" font-size="9">7</tspan><tspan dy="-3">).</tspan></text>
+  <text x="432" y="962" class="body" font-size="12.4" fill="#4E351A">In 𝔽<tspan dy="3" font-size="9">49</tspan><tspan dy="-3">, c = (1, u, 1) drops Avg|N</tspan><tspan dy="3" font-size="9">4</tspan><tspan dy="-3">|²/q⁴ from 1.270 (bad) to 0.080 (good).</tspan></text>
+
+  <!-- ====================================================================== -->
+  <!-- PANEL 4 (BOTTOM-RIGHT): NO-CANCELLATION ENDGAME & TAME VS WILD         -->
+  <!-- ====================================================================== -->
+  <rect x="938" y="606" width="940" height="388" rx="8" class="card"/>
+  <rect x="938" y="606" width="940" height="6" rx="3" fill="#14213D"/>
+  <text x="962" y="640" class="label">PANEL 4 · SIGN-ONLY ENDGAME &amp; STRUCTURAL COMPARISON</text>
+  <text x="962" y="668" class="h2">No-Cancellation Limit (Even <tspan font-style="italic">k</tspan> → ∞) &amp; Why Tame Fails Where Wild Succeeds</text>
+  <rect x="1678" y="623" width="176" height="24" rx="12" class="pill-lean-bg"/>
+  <text x="1766" y="639" text-anchor="middle" class="pill-lean-tx">ExtensionEndgame.lean</text>
+
+  <!-- Endgame flow strip -->
+  <rect x="962" y="686" width="892" height="106" rx="6" class="subcard"/>
+  <text x="1408" y="712" text-anchor="middle" class="math" font-size="17" font-weight="700" fill="#14213D">
+    R<tspan dy="3" font-size="10.5" font-style="italic">mn</tspan><tspan dy="-3">(c)  =  (−1)</tspan><tspan dy="-6" font-size="10.5" font-style="italic">k−1</tspan><tspan dy="6"> ( ∑</tspan><tspan dy="3" font-size="10.5" font-style="italic">I</tspan><tspan dy="-3"> ((∏ α</tspan><tspan dy="3" font-size="10.5" font-style="italic">I(j)</tspan><tspan dy="-3">)</tspan><tspan dy="-6" font-size="10.5" font-style="italic">m</tspan><tspan dy="6">)</tspan><tspan dy="-6" font-size="10.5" font-style="italic">n</tspan><tspan dy="6">  +  ∑</tspan><tspan dy="3" font-size="10.5" font-style="italic">β∈E</tspan><tspan dy="-3"> β</tspan><tspan dy="-6" font-size="10.5" font-style="italic">n</tspan><tspan dy="6"> )</tspan>
+    <tspan font-size="13" font-weight="400" fill="#526075">   [Grothendieck–Lefschetz + (S</tspan><tspan dy="3" font-size="9.5" fill="#526075">k</tspan><tspan dy="-3" font-size="13" fill="#526075">): single sign]</tspan>
+  </text>
+
+  <!-- 4 compact boxes connected by arrows -->
+  <rect x="978" y="730" width="196" height="48" rx="5" fill="#FFFFFF" stroke="#1E4E79" stroke-width="1.2"/>
+  <text x="1076" y="750" text-anchor="middle" class="body" font-size="12.5" font-weight="700" fill="#1E4E79">Vandermonde Inversion</text>
+  <text x="1076" y="768" text-anchor="middle" class="mono" font-size="11.5">no_cancellation</text>
+  <line x1="1176" y1="754" x2="1202" y2="754" stroke="#14213D" stroke-width="1.8" marker-end="url(#arr-navy)"/>
+
+  <rect x="1208" y="730" width="218" height="48" rx="5" fill="#FFFFFF" stroke="#1E4E79" stroke-width="1.2"/>
+  <text x="1317" y="750" text-anchor="middle" class="math" font-size="14.5" font-weight="700">
+    |α<tspan dy="3" font-size="9.5" font-style="italic">i</tspan><tspan dy="-3">|</tspan><tspan dy="-5" font-size="10" font-style="italic">mk</tspan><tspan dy="5"> ≤ (q</tspan><tspan dy="-5" font-size="10" font-style="italic">m</tspan><tspan dy="5">)</tspan><tspan dy="-5" font-size="10">(k+3)/2</tspan>
+  </text>
+  <text x="1317" y="768" text-anchor="middle" class="muted" font-size="11.5">take m-th root (cancels m(k))</text>
+  <line x1="1428" y1="754" x2="1454" y2="754" stroke="#14213D" stroke-width="1.8" marker-end="url(#arr-navy)"/>
+
+  <rect x="1460" y="730" width="196" height="48" rx="5" fill="#FFFFFF" stroke="#1E4E79" stroke-width="1.2"/>
+  <text x="1558" y="750" text-anchor="middle" class="math" font-size="15" font-weight="700">
+    |α<tspan dy="3" font-size="10" font-style="italic">i</tspan><tspan dy="-3">| ≤ q</tspan><tspan dy="-5" font-size="10.5">1/2 + 3/(2k)</tspan>
+  </text>
+  <text x="1558" y="768" text-anchor="middle" class="muted" font-size="11.5">∀ even k = 2r ≥ 4</text>
+  <line x1="1658" y1="754" x2="1684" y2="754" stroke="#1A6B46" stroke-width="2" marker-end="url(#arr-green)"/>
+
+  <rect x="1690" y="728" width="148" height="52" rx="6" fill="#1A6B46"/>
+  <text x="1764" y="751" text-anchor="middle" font-family="Cambria Math, Georgia, serif" font-size="18" font-weight="700" fill="#FFFFFF">
+    |α<tspan dy="3" font-size="11.5" font-style="italic">i</tspan><tspan dy="-3">| ≤ √q</tspan>
+  </text>
+  <text x="1764" y="771" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#D4F0E1">k → ∞  (QED)</text>
+
+  <!-- Tame vs Wild Comparison Table (148 / 372 / 372 = 892px) -->
+  <rect x="962" y="806" width="892" height="168" rx="6" fill="#FFFFFF" stroke="#D6D0C4" stroke-width="1.2"/>
+  <rect x="962" y="806" width="148" height="32" rx="4" fill="#F2EFE8"/>
+  <rect x="1110" y="806" width="372" height="32" fill="#FCECE8"/>
+  <rect x="1482" y="806" width="372" height="32" rx="4" fill="#E6F4EC"/>
+  <text x="974" y="827" class="body" font-size="12.5" font-weight="700" fill="#526075">FEATURE</text>
+  <text x="1124" y="827" class="body" font-size="13" font-weight="700" fill="#9A2A1E">KUMMER χ(f(x)) — TAME AT ∞</text>
+  <text x="1496" y="827" class="body" font-size="13" font-weight="700" fill="#1A5C3D">ARTIN–SCHREIER ψ(f(x)) — WILD AT ∞</text>
+
+  <line x1="962" y1="838" x2="1854" y2="838" stroke="#D6D0C4"/>
+  <line x1="962" y1="872" x2="1854" y2="872" stroke="#EAE6DC"/>
+  <line x1="962" y1="906" x2="1854" y2="906" stroke="#EAE6DC"/>
+  <line x1="962" y1="940" x2="1854" y2="940" stroke="#EAE6DC"/>
+  <line x1="1110" y1="806" x2="1110" y2="974" stroke="#D6D0C4"/>
+  <line x1="1482" y1="806" x2="1482" y2="974" stroke="#D6D0C4"/>
+
+  <!-- Row 1 -->
+  <text x="974" y="860" class="body" font-size="12.5" font-weight="700">Infinity Locus</text>
+  <text x="1124" y="860" class="body" font-size="12.4" fill="#4A5568">In (ℙ¹)ᵏ: D<tspan dy="3" font-size="9">ab</tspan><tspan dy="-3"> has monodromy (−1)(−1) = +1</tspan></text>
+  <text x="1496" y="860" class="body" font-size="12.4" fill="#14213D">Projective cone Ȳ ⊂ ℙᵏ; Swan cond. d (p ∤ 2d)</text>
+
+  <!-- Row 2 -->
+  <text x="974" y="894" class="body" font-size="12.5" font-weight="700">Clean at ∞?</text>
+  <text x="1124" y="894" class="body" font-size="12.3" font-weight="700" fill="#B33A2B">NO — extends on D<tspan dy="3" font-size="9">ab</tspan><tspan dy="-3">; forget-supports fails</tspan></text>
+  <text x="1496" y="894" class="body" font-size="12.3" font-weight="700" fill="#1A6B46">YES off ℬ<tspan dy="3" font-size="9">k,d</tspan><tspan dy="-3"> — j</tspan><tspan dy="3" font-size="9">!</tspan><tspan dy="-3">K ≅ Rj</tspan><tspan dy="3" font-size="9">*</tspan><tspan dy="-3">K (Katz–Laumon 2.4.1)</tspan></text>
+
+  <!-- Row 3 -->
+  <text x="974" y="928" class="body" font-size="12.5" font-weight="700">Weight-Free (S<tspan dy="3" font-size="9">k</tspan><tspan dy="-3">)</tspan></text>
+  <text x="1124" y="928" class="body" font-size="12.4" fill="#4A5568">k ≤ 4 (K4T + closure of X2); <tspan font-weight="700" fill="#B33A2B">k ≥ 5 OPEN</tspan></text>
+  <text x="1496" y="928" class="body" font-size="12.4" font-weight="700" fill="#1A6B46">ALL even k ≥ 4 (PROVED)</text>
+
+  <!-- Row 4 -->
+  <text x="974" y="962" class="body" font-size="12.5" font-weight="700">Bound Reached</text>
+  <text x="1124" y="962" class="body" font-size="12.4" fill="#4A5568">Stalls at q<tspan dy="-4" font-size="9.5">7/8</tspan><tspan dy="4"> (k = 4); global monodromy open</tspan></text>
+  <text x="1496" y="962" class="body" font-size="12.4" font-weight="700" fill="#14213D">Full Weil bound q<tspan dy="-4" font-size="9.5">1/2</tspan><tspan dy="4"> (all even k → ∞)</tspan></text>
+
+  <!-- ====================================================================== -->
+  <!-- FOOTER VERIFICATION BAR                                                -->
+  <!-- ====================================================================== -->
+  <rect x="42" y="1008" width="1836" height="38" rx="6" fill="#EDE9DF" stroke="#D6D0C4" stroke-width="1"/>
+  <text x="960" y="1032" text-anchor="middle" font-family="Consolas, monospace" font-size="12.8" fill="#2E3A4D">
+    ZERO WEIGHTS / PURITY / WEIL II  ·  23 LEAN 4.34.1 THEOREMS ([propext, Classical.choice, Quot.sound], 0 warnings)  ·  EXACT ℤ[ζ_p] CHECKS (T1–T4, 0 failures)  ·  github.com/DevinWatson/rh-weil-bound-toy
+  </text>
+</svg>

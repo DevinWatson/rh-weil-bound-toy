@@ -27,6 +27,10 @@ Replacing the tame Kummer sheaf $\mathcal{L} _ \chi(f)$ with the wildly ramified
 
 Start with [artin-schreier-toy-case/ARTIN_SCHREIER_TOY_CASE.md](artin-schreier-toy-case/ARTIN_SCHREIER_TOY_CASE.md).
 
+![A Weight-Free Sign-Only Proof of the Weil Bound](artin-schreier-toy-case/artin_schreier_proof_infographic.png)
+
+*Proof overview poster ([4K PNG](artin-schreier-toy-case/artin_schreier_proof_infographic.png) · [scalable vector SVG](artin-schreier-toy-case/artin_schreier_proof_infographic.svg)).*
+
 ---
 
 ## Contents
@@ -39,6 +43,7 @@ Start with [artin-schreier-toy-case/ARTIN_SCHREIER_TOY_CASE.md](artin-schreier-t
 | [lean/ToyWeil/](lean/ToyWeil/) | `Parseval.lean`, `PowerSum.lean`: 13 theorems, Lean 4.34.1 with Mathlib, axioms `propext`, `Classical.choice`, `Quot.sound` |
 | [tools/](tools/) | Helper scripts for the Kummer study; some refer to a local copy of the Lean archive of the note, which is not included |
 | [artin-schreier-toy-case/ARTIN_SCHREIER_TOY_CASE.md](artin-schreier-toy-case/ARTIN_SCHREIER_TOY_CASE.md) | Artin–Schreier companion write-up proving the Weil bound weight-free for all even $k \ge 4$ |
+| [artin-schreier-toy-case/artin_schreier_proof_infographic.png](artin-schreier-toy-case/artin_schreier_proof_infographic.png) | Proof overview infographic poster (4K PNG; vector source in [artin_schreier_proof_infographic.svg](artin-schreier-toy-case/artin_schreier_proof_infographic.svg)) |
 | [artin-schreier-toy-case/REVIEW_OF_TOY_CASE.md](artin-schreier-toy-case/REVIEW_OF_TOY_CASE.md) | Forensic review of the Kummer study, closing exception `(X2)` and resolving coincidence `(iv)` |
 | [artin-schreier-toy-case/compute/](artin-schreier-toy-case/compute/) | Exact cyclotomic-ring $\mathbb{Z}[\zeta _ p]$ DP/Segre scripts and verified outputs (`t1`–`t4`, 0 failures) |
 | [artin-schreier-toy-case/lean/ArtinSchreierToy/](artin-schreier-toy-case/lean/ArtinSchreierToy/) | `WeightedParseval.lean`, `ExtensionEndgame.lean`, `Transversality.lean`: 23 theorems, Lean 4.34.1 with Mathlib, axioms `propext`, `Classical.choice`, `Quot.sound` |
