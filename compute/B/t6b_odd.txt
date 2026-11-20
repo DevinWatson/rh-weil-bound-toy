@@ -1,0 +1,16 @@
+x^3+2x+5   random c: window max N^2/p^4: [3,50) 13.444  [50,150) 0.343  [150,300) 0.092  [300,700) 0.088
+x^3+x+1    random c: window max N^2/p^4: [3,50) 1.170  [50,150) 0.251  [150,300) 0.133  [300,700) 0.086
+x^3-x      random c: window max N^2/p^4: [3,50) 1.089  [50,150) 1.694  [150,300) 0.945  [300,700) 0.768
+x^5+x+1    random c: window max N^2/p^4: [3,50) 0.505  [50,150) 0.153  [150,300) 0.078  [300,700) 0.112
+x^5-5x+3   random c: window max N^2/p^4: [3,50) 0.798  [50,150) 0.184  [150,300) 0.094  [300,700) 0.098
+x^3-x, ten largest N^2/p^4 (random c): p, p mod 4, c, N, N^2/p^4, and whether c1*c3 = c2^2 or c1 = +-c2 or c2 = +-c3 or c1 = +-c3
+   p=139 (3) c=(16,102,21) N=25144 ratio=1.694 relations: []
+   p=61 (1) c=(32,18,47) N=4564 ratio=1.504 relations: []
+   p=23 (3) c=(11,9,21) N=552 ratio=1.089 relations: []
+   p=163 (3) c=(140,150,36) N=25824 ratio=0.945 relations: []
+   p=41 (1) c=(28,4,12) N=1616 ratio=0.924 relations: []
+   p=31 (3) c=(27,1,1) N=848 ratio=0.779 relations: ['c2=+-c3']
+   p=457 (1) c=(385,53,125) N=183044 ratio=0.768 relations: []
+   p=43 (3) c=(25,7,25) N=1400 ratio=0.573 relations: ['c1=+-c3']
+   p=23 (3) c=(14,11,14) N=372 ratio=0.495 relations: ['c1=+-c3']
+   p=71 (3) c=(42,7,47) N=-3332 ratio=0.437 relations: []

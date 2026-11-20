@@ -1,0 +1,10 @@
+== x^3+x+1: N4 vs the c=1 / c=-2 terms of the D-convolution (special = D(1)(D(-2)-t0^2)+D(-2)(D(1)-t0^2); half = D(-1/2)(D(-1/2)-t0^2))
+p in [5,100] (22 primes): mean N^2/p^3 3.513 ; mean special^2/p^3 3.503 ; mean half^2/p^3 0.051 ; mean (N-special-half)^2/p^3 0.664
+p in [101,200] (21 primes): mean N^2/p^3 4.181 ; mean special^2/p^3 3.258 ; mean half^2/p^3 0.008 ; mean (N-special-half)^2/p^3 1.763
+p in [201,350] (24 primes): mean N^2/p^3 9.147 ; mean special^2/p^3 5.813 ; mean half^2/p^3 0.016 ; mean (N-special-half)^2/p^3 1.629
+p in [351,500] (25 primes): mean N^2/p^3 5.172 ; mean special^2/p^3 4.810 ; mean half^2/p^3 0.009 ; mean (N-special-half)^2/p^3 1.688
+== x^3-x: N4 vs the c=1 / c=-2 terms of the D-convolution (special = D(1)(D(-2)-t0^2)+D(-2)(D(1)-t0^2); half = D(-1/2)(D(-1/2)-t0^2))
+p in [5,100] (23 primes): mean N^2/p^3 4.434 ; mean special^2/p^3 2.617 ; mean half^2/p^3 0.065 ; mean (N-special-half)^2/p^3 1.344
+p in [101,200] (21 primes): mean N^2/p^3 4.393 ; mean special^2/p^3 4.265 ; mean half^2/p^3 0.018 ; mean (N-special-half)^2/p^3 1.923
+p in [201,350] (24 primes): mean N^2/p^3 7.072 ; mean special^2/p^3 4.690 ; mean half^2/p^3 0.008 ; mean (N-special-half)^2/p^3 2.555
+p in [351,500] (25 primes): mean N^2/p^3 5.560 ; mean special^2/p^3 2.949 ; mean half^2/p^3 0.002 ; mean (N-special-half)^2/p^3 2.186

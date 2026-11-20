@@ -1,0 +1,21 @@
+T6: k=4, 1506 random-c values (3 per (f,p)), good primes 3..563, seed 20261120; compared with c=1 on the same primes (502 values)
+  x^3+2x+5   random c: max N^2/p^3 = 567009/12167 (~46.602) at p=23, c=(14,13,4), N=753;  max N^2/p^4 = 13.4444  |  c=1: max N^2/p^3 = 2096704/29791 (~70.380) at p=31; max N^2/p^4 = 13.4444
+      random c windows N^2/p^3: [3,50) max 46.60 mean 9.69; [50,150) max 25.04 mean 3.75; [150,300) max 14.46 mean 2.74; [300,700) max 30.80 mean 2.67
+      c=1      windows N^2/p^3: [3,50) max 70.38 mean 15.54; [50,150) max 26.83 mean 4.91; [150,300) max 16.45 mean 3.95; [300,700) max 27.40 mean 4.20
+      sign of N_4 (random c): +168 -132 0:0;  (c=1): +48 -52
+  x^3+x+1    random c: max N^2/p^3 = 805594689/30080231 (~26.782) at p=311, c=(304,269,192), N=-28383;  max N^2/p^4 = 1.1699  |  c=1: max N^2/p^3 = 1765344256/41781923 (~42.251) at p=347; max N^2/p^4 = 1.1699
+      random c windows N^2/p^3: [3,50) max 15.36 mean 2.65; [50,150) max 20.46 mean 3.28; [150,300) max 20.10 mean 3.16; [300,700) max 26.78 mean 3.77
+      c=1      windows N^2/p^3: [3,50) max 18.61 mean 3.32; [50,150) max 13.73 mean 3.04; [150,300) max 35.30 mean 7.76; [300,700) max 42.25 mean 5.45
+      sign of N_4 (random c): +176 -127 0:0;  (c=1): +64 -37
+  x^3-x      random c: max N^2/p^3 = 33505105936/95443993 (~351.045) at p=457, c=(385,53,125), N=183044;  max N^2/p^4 = 1.6936  |  c=1: max N^2/p^3 = 404496/12167 (~33.245) at p=23; max N^2/p^4 = 1.4454
+      random c windows N^2/p^3: [3,50) max 37.89 mean 4.75; [50,150) max 235.41 mean 10.91; [150,300) max 153.99 mean 7.90; [300,700) max 351.04 mean 6.84
+      c=1      windows N^2/p^3: [3,50) max 33.25 mean 5.09; [50,150) max 19.35 mean 4.25; [150,300) max 29.01 mean 6.70; [300,700) max 26.75 mean 5.01
+      sign of N_4 (random c): +163 -139 0:4;  (c=1): +48 -51
+  x^5+x+1    random c: max N^2/p^3 = 1343735649/36264691 (~37.054) at p=331, c=(38,65,26), N=-36657;  max N^2/p^4 = 0.5052  |  c=1: max N^2/p^3 = 2930056900/81182737 (~36.092) at p=433; max N^2/p^4 = 0.6295
+      random c windows N^2/p^3: [3,50) max 8.21 mean 1.77; [50,150) max 16.73 mean 2.24; [150,300) max 21.78 mean 2.46; [300,700) max 37.05 mean 3.44
+      c=1      windows N^2/p^3: [3,50) max 8.19 mean 1.73; [50,150) max 22.07 mean 6.67; [150,300) max 18.97 mean 5.01; [300,700) max 36.09 mean 5.02
+      sign of N_4 (random c): +169 -128 0:0;  (c=1): +48 -51
+  x^5-5x+3   random c: max N^2/p^3 = 7243371664/141420761 (~51.219) at p=521, c=(283,442,340), N=85108;  max N^2/p^4 = 0.7983  |  c=1: max N^2/p^3 = 2876927769/74618461 (~38.555) at p=421; max N^2/p^4 = 0.5656
+      random c windows N^2/p^3: [3,50) max 16.97 mean 2.36; [50,150) max 11.73 mean 2.58; [150,300) max 18.69 mean 2.79; [300,700) max 51.22 mean 3.69
+      c=1      windows N^2/p^3: [3,50) max 8.47 mean 3.14; [50,150) max 7.72 mean 2.38; [150,300) max 25.01 mean 6.07; [300,700) max 38.56 mean 7.82
+      sign of N_4 (random c): +175 -124 0:1;  (c=1): +47 -53

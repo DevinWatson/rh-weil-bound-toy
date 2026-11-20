@@ -1,0 +1,33 @@
+=== p=3 f=x^3+x+1  eps=chi_p(f(0))=1 lambda=chi_p(-1)=-1  G squarefree:True uG squarefree:True  s1(E1)=-2 s1(E2)=2
+n=1 q=3  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=0 C=1 N2=-1 N3=-1]
+n=2 q=9  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=6 C=3 N2=11 N3=51]
+n=3 q=27  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=0 C=1 N2=-1 N3=-1]
+n=4 q=81  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=-18 C=27 N2=-37 N3=-189]
+n=5 q=243  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=0 C=1 N2=-1 N3=-1]
+n=6 q=729  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=54 C=-93 N2=107 N3=-2013]
+=== p=3 f=x^3-x  eps=chi_p(f(0))=0 lambda=chi_p(-1)=-1  G squarefree:False uG squarefree:False  s1(E1)=-1 s1(E2)=2
+n=1 q=3  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=0 C=0 N2=0 N3=0]
+n=2 q=9  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=6 C=6 N2=0 N3=36]
+n=3 q=27  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=0 C=-24 N2=0 N3=0]
+n=4 q=81  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=-18 C=78 N2=0 N3=-1404]
+n=5 q=243  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=0 C=-240 N2=0 N3=0]
+n=6 q=729  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=54 C=726 N2=0 N3=39204]
+=== p=5 f=x^3+x+1  eps=chi_p(f(0))=1 lambda=chi_p(-1)=1  G squarefree:True uG squarefree:True  s1(E1)=1 s1(E2)=-3
+n=1 q=5  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=3 C=1 N2=5 N3=11]
+n=2 q=25  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=1 C=9 N2=1 N3=1]
+n=3 q=125  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=-18 C=-5 N2=-37 N3=419]
+n=4 q=625  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=49 C=17 N2=97 N3=3217]
+=== p=5 f=x^3-x  eps=chi_p(f(0))=0 lambda=chi_p(-1)=1  G squarefree:False uG squarefree:False  s1(E1)=1 s1(E2)=-4
+n=1 q=5  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=2 C=2 N2=0 N3=4]
+n=2 q=25  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=6 C=22 N2=0 N3=132]
+n=3 q=125  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=-22 C=122 N2=0 N3=-2684]
+n=4 q=625  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=14 C=622 N2=0 N3=8708]
+=== p=7 f=x^3+x+1  eps=chi_p(f(0))=1 lambda=chi_p(-1)=-1  G squarefree:True uG squarefree:True  s1(E1)=-3 s1(E2)=1
+n=1 q=7  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=-3 C=3 N2=-7 N3=-3]
+n=2 q=49  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=5 C=17 N2=9 N3=93]
+n=3 q=343  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:True  C=lam^n(q-3):None  N3 spectral:True  -N2=2eps^n s+eps^2n:True   [M=36 C=-15 N2=71 N3=771]
+=== p=7 f=x^3-x  eps=chi_p(f(0))=0 lambda=chi_p(-1)=-1  G squarefree:False uG squarefree:False  s1(E1)=-1 s1(E2)=6
+n=1 q=7  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=0 C=-4 N2=0 N3=0]
+n=2 q=49  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=14 C=46 N2=0 N3=644]
+n=3 q=343  t0=eps^n:True  N2=2t0M-t0^2:True  N3=t0M^2+(M-t0)C:True  C=-s(E1)-s(E2)-lam^n:None  C=lam^n(q-3):True  N3 spectral:None  -N2=2eps^n s+eps^2n:True   [M=0 C=-340 N2=0 N3=0]
+TOTAL failures: 0

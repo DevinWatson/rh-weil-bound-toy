@@ -1,0 +1,34 @@
+k=2 d=3 coeffs=ones : 15 (S,sigma) tested, 0 generically consistent (tangent) cases
+k=2 d=3 coeffs=randc : 15 (S,sigma) tested, 0 generically consistent (tangent) cases
+k=3 d=3 coeffs=ones : 63 (S,sigma) tested, 6 generically consistent (tangent) cases
+   S(1-based)=[1]  roots index=[0]
+   S(1-based)=[1]  roots index=[1]
+   S(1-based)=[1]  roots index=[2]
+   S(1-based)=[3]  roots index=[0]
+   S(1-based)=[3]  roots index=[1]
+   S(1-based)=[3]  roots index=[2]
+k=3 d=3 coeffs=randc : 63 (S,sigma) tested, 6 generically consistent (tangent) cases
+   S(1-based)=[1]  roots index=[0]
+   S(1-based)=[1]  roots index=[1]
+   S(1-based)=[1]  roots index=[2]
+   S(1-based)=[3]  roots index=[0]
+   S(1-based)=[3]  roots index=[1]
+   S(1-based)=[3]  roots index=[2]
+k=4 d=3 coeffs=ones : 255 (S,sigma) tested, 0 generically consistent (tangent) cases
+k=4 d=3 coeffs=randc : 255 (S,sigma) tested, 0 generically consistent (tangent) cases
+k=5 d=3 coeffs=ones : 1023 (S,sigma) tested, 30 generically consistent (tangent) cases
+   S(1-based)=[1]  roots index=[0]
+   S(1-based)=[1]  roots index=[1]
+   S(1-based)=[1]  roots index=[2]
+   S(1-based)=[3]  roots index=[0]
+   S(1-based)=[3]  roots index=[1]
+   S(1-based)=[3]  roots index=[2]
+k=5 d=3 coeffs=randc : 1023 (S,sigma) tested, 9 generically consistent (tangent) cases
+   S(1-based)=[1]  roots index=[0]
+   S(1-based)=[1]  roots index=[1]
+   S(1-based)=[1]  roots index=[2]
+   S(1-based)=[3]  roots index=[0]
+   S(1-based)=[3]  roots index=[1]
+   S(1-based)=[3]  roots index=[2]
+k=6 d=3 coeffs=ones : 4095 (S,sigma) tested, 0 generically consistent (tangent) cases
+k=6 d=3 coeffs=randc : 4095 (S,sigma) tested, 0 generically consistent (tangent) cases

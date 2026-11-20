@@ -1,0 +1,1 @@
+seed=20261120 P=563 elapsed=494.2s budget=520.0

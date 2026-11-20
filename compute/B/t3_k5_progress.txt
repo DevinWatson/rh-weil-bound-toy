@@ -1,0 +1,1 @@
+k=5 P_k=613 elapsed=471.0s budget=500.0

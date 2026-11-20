@@ -1,0 +1,1 @@
+T5: 307 (f,p) cases, p<=199 (7 polys); stratum sums by direct enumeration; closed forms and N4=DP failures: 0

@@ -1,0 +1,16 @@
+sum zero: r1+r2+r3=0       k=4 c=ones  tested=255 tangent=6 e.g. S=[1, 2, 3, 4] sigma=[0, 1, 1, 2]
+sum zero: r1+r2+r3=0       k=4 c=randc tested=255 tangent=0 
+sum zero: r1+r2+r3=0       k=6 c=ones  tested=4095 tangent=12 e.g. S=[1, 2, 3, 4] sigma=[0, 1, 1, 2]
+sum zero: r1+r2+r3=0       k=6 c=randc tested=4095 tangent=0 
+pair r,-r plus s           k=4 c=ones  tested=255 tangent=0 
+pair r,-r plus s           k=4 c=randc tested=255 tangent=0 
+pair r,-r plus s           k=6 c=ones  tested=4095 tangent=0 
+pair r,-r plus s           k=6 c=randc tested=4095 tangent=0 
+pair r,-r, and 2r          k=4 c=ones  tested=255 tangent=7 e.g. S=[1, 2, 3, 4] sigma=[0, 1, 0, 2]
+pair r,-r, and 2r          k=4 c=randc tested=255 tangent=0 
+pair r,-r, and 2r          k=6 c=ones  tested=4095 tangent=85 e.g. S=[1, 2, 3, 4] sigma=[0, 1, 0, 2]
+pair r,-r, and 2r          k=6 c=randc tested=4095 tangent=0 
+generic                    k=4 c=ones  tested=255 tangent=0 
+generic                    k=4 c=randc tested=255 tangent=0 
+generic                    k=6 c=ones  tested=4095 tangent=0 
+generic                    k=6 c=randc tested=4095 tangent=0 

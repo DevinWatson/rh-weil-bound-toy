@@ -1,0 +1,18 @@
+k=4 (582 rows):
+   x^3+2x+5   N>0: 56, N<0: 60, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 56, opposite 57
+   x^3+x+1    N>0: 74, N<0: 43, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 71, opposite 41
+   x^3-x      N>0: 57, N<0: 58, N=0: 3;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 25, opposite 29
+   x^5+x+1    N>0: 55, N<0: 60, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 50, opposite 58
+   x^5-5x+3   N>0: 53, N<0: 63, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 52, opposite 59
+k=5 (547 rows):
+   x^3+2x+5   N>0: 55, N<0: 54, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 59, opposite 47
+   x^3+x+1    N>0: 52, N<0: 58, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 56, opposite 49
+   x^3-x      N>0: 24, N<0: 29, N=0: 58;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 52, opposite 1
+   x^5+x+1    N>0: 42, N<0: 66, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 52, opposite 50
+   x^5-5x+3   N>0: 56, N<0: 52, N=0: 1;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 64, opposite 40
+k=6 (537 rows):
+   x^3+2x+5   N>0: 59, N<0: 48, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 58, opposite 46
+   x^3+x+1    N>0: 59, N<0: 48, N=0: 1;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 59, opposite 44
+   x^3-x      N>0: 25, N<0: 27, N=0: 57;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 25, opposite 27
+   x^5+x+1    N>0: 50, N<0: 56, N=0: 0;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 48, opposite 52
+   x^5-5x+3   N>0: 59, N<0: 47, N=0: 1;  among rows with N!=0 and M!=0: sign(N)=sign(M^k) 56, opposite 46

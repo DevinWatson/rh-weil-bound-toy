@@ -1,0 +1,9 @@
+p=11 d=3 k=4  top counts (value,freq): [(372, 10), (457, 6), (462, 6)]  trials=35
+p=13 d=3 k=4  top counts (value,freq): [(901, 10), (896, 7), (898, 4)]  trials=39
+p=17 d=3 k=4  top counts (value,freq): [(2502, 10), (2507, 7), (2256, 6)]  trials=38
+p=19 d=3 k=4  top counts (value,freq): [(3762, 14), (3444, 6), (3774, 4)]  trials=40
+p=23 d=3 k=4  top counts (value,freq): [(7432, 14), (7434, 7), (7439, 5)]  trials=40
+p=29 d=3 k=4  top counts (value,freq): [(16540, 17), (16542, 9), (16547, 5)]  trials=40
+fitted P(q) = 47*x**3/24 - 173*x**2/3 + 19213*x/24 - 24377/6  consistent with all points: False
+P(1) = -3318
+claimed chi_c: -92

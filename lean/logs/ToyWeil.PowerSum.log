@@ -1,0 +1,12 @@
+./lean/ToyWeil/PowerSum.lean:13:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+'ToyWeil.le_of_pow_succ_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.no_hidden_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.no_hidden_growth'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.no_cancellation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.endgame' depends on axioms: [propext, Classical.choice, Quot.sound]

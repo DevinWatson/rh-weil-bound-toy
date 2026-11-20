@@ -1,0 +1,81 @@
+E0 formula check vs brute force: k=3 36 cases, 0 mismatches; k=4 36 cases, 0 mismatches
+   p=11 f=[4, 10, 1, 1] c=[10, 8, 3] brute==formula: True
+   p=11 f=[7, 3, 2, 1] c=[10, 7, 4] brute==formula: True
+   p=13 f=[3, 2, 8, 1] c=[11, 12, 3] brute==formula: True
+   p=13 f=[5, 6, 0, 1] c=[10, 11, 3] brute==formula: True
+
+E1 N_4 - p^2 for c with c1+c2+c3 = 0 versus c1+c2+c3 != 0 (exact integers; t0=chi(f(0)))
+p, class, mean of N4/p^2 over f, mean of (N4-p^2)/p^1.5 , min/max N4/p^2, number of f
+5, sum=0 c=(1, 1, 3), mean N4/p^2=0.750, mean (N4-p^2)/p^1.5=-0.559, range N4/p^2 [0.360,1.480], nf=8
+5, sum!=0 c=(1, 1, 1), mean N4/p^2=0.295, mean (N4-p^2)/p^1.5=-1.576, range N4/p^2 [-0.480,0.840], nf=8
+5, sum!=0b c=(1, 2, 3), mean N4/p^2=0.200, mean (N4-p^2)/p^1.5=-1.789, range N4/p^2 [-0.600,1.160], nf=8
+7, sum=0 c=(1, 1, 5), mean N4/p^2=1.071, mean (N4-p^2)/p^1.5=0.189, range N4/p^2 [0.633,2.143], nf=8
+7, sum!=0 c=(1, 1, 1), mean N4/p^2=0.429, mean (N4-p^2)/p^1.5=-1.512, range N4/p^2 [-0.224,2.122], nf=8
+7, sum!=0b c=(1, 2, 3), mean N4/p^2=0.495, mean (N4-p^2)/p^1.5=-1.336, range N4/p^2 [-0.286,2.122], nf=8
+11, sum=0 c=(1, 1, 9), mean N4/p^2=0.888, mean (N4-p^2)/p^1.5=-0.370, range N4/p^2 [0.570,1.826], nf=8
+11, sum!=0 c=(1, 1, 1), mean N4/p^2=0.100, mean (N4-p^2)/p^1.5=-2.984, range N4/p^2 [-0.529,1.256], nf=8
+11, sum!=0b c=(1, 2, 3), mean N4/p^2=0.235, mean (N4-p^2)/p^1.5=-2.539, range N4/p^2 [-0.355,1.421], nf=8
+13, sum=0 c=(1, 1, 11), mean N4/p^2=1.075, mean (N4-p^2)/p^1.5=0.269, range N4/p^2 [0.669,1.544], nf=8
+13, sum!=0 c=(1, 1, 1), mean N4/p^2=0.192, mean (N4-p^2)/p^1.5=-2.912, range N4/p^2 [-0.633,1.207], nf=8
+13, sum!=0b c=(1, 2, 3), mean N4/p^2=0.352, mean (N4-p^2)/p^1.5=-2.336, range N4/p^2 [-0.308,1.041], nf=8
+17, sum=0 c=(1, 1, 15), mean N4/p^2=0.986, mean (N4-p^2)/p^1.5=-0.059, range N4/p^2 [0.709,1.907], nf=8
+17, sum!=0 c=(1, 1, 1), mean N4/p^2=0.058, mean (N4-p^2)/p^1.5=-3.886, range N4/p^2 [-0.536,1.066], nf=8
+17, sum!=0b c=(1, 2, 3), mean N4/p^2=0.320, mean (N4-p^2)/p^1.5=-2.805, range N4/p^2 [-0.367,2.076], nf=8
+19, sum=0 c=(1, 1, 17), mean N4/p^2=0.865, mean (N4-p^2)/p^1.5=-0.590, range N4/p^2 [0.540,1.199], nf=8
+19, sum!=0 c=(1, 1, 1), mean N4/p^2=0.202, mean (N4-p^2)/p^1.5=-3.480, range N4/p^2 [-0.385,0.776], nf=8
+19, sum!=0b c=(1, 2, 3), mean N4/p^2=0.133, mean (N4-p^2)/p^1.5=-3.778, range N4/p^2 [-0.216,0.438], nf=8
+23, sum=0 c=(1, 1, 21), mean N4/p^2=1.032, mean (N4-p^2)/p^1.5=0.154, range N4/p^2 [0.671,1.272], nf=8
+23, sum!=0 c=(1, 1, 1), mean N4/p^2=0.145, mean (N4-p^2)/p^1.5=-4.102, range N4/p^2 [-0.817,1.301], nf=8
+23, sum!=0b c=(1, 2, 3), mean N4/p^2=0.138, mean (N4-p^2)/p^1.5=-4.136, range N4/p^2 [-0.590,0.526], nf=8
+29, sum=0 c=(1, 1, 27), mean N4/p^2=0.893, mean (N4-p^2)/p^1.5=-0.578, range N4/p^2 [0.579,1.661], nf=8
+29, sum!=0 c=(1, 1, 1), mean N4/p^2=0.287, mean (N4-p^2)/p^1.5=-3.839, range N4/p^2 [-0.090,1.052], nf=8
+29, sum!=0b c=(1, 2, 3), mean N4/p^2=-0.004, mean (N4-p^2)/p^1.5=-5.405, range N4/p^2 [-0.551,1.024], nf=8
+31, sum=0 c=(1, 1, 29), mean N4/p^2=1.070, mean (N4-p^2)/p^1.5=0.388, range N4/p^2 [0.750,1.574], nf=8
+31, sum!=0 c=(1, 1, 1), mean N4/p^2=0.213, mean (N4-p^2)/p^1.5=-4.381, range N4/p^2 [-0.466,1.507], nf=8
+31, sum!=0b c=(1, 2, 3), mean N4/p^2=0.297, mean (N4-p^2)/p^1.5=-3.916, range N4/p^2 [-0.175,1.049], nf=8
+37, sum=0 c=(1, 1, 35), mean N4/p^2=0.966, mean (N4-p^2)/p^1.5=-0.209, range N4/p^2 [0.486,1.231], nf=8
+37, sum!=0 c=(1, 1, 1), mean N4/p^2=-0.013, mean (N4-p^2)/p^1.5=-6.163, range N4/p^2 [-0.429,0.535], nf=8
+37, sum!=0b c=(1, 2, 3), mean N4/p^2=0.098, mean (N4-p^2)/p^1.5=-5.484, range N4/p^2 [-0.421,0.411], nf=8
+41, sum=0 c=(1, 1, 39), mean N4/p^2=1.046, mean (N4-p^2)/p^1.5=0.294, range N4/p^2 [0.733,1.514], nf=8
+41, sum!=0 c=(1, 1, 1), mean N4/p^2=0.226, mean (N4-p^2)/p^1.5=-4.958, range N4/p^2 [-0.592,0.724], nf=8
+41, sum!=0b c=(1, 2, 3), mean N4/p^2=0.255, mean (N4-p^2)/p^1.5=-4.772, range N4/p^2 [-0.315,0.962], nf=8
+43, sum=0 c=(1, 1, 41), mean N4/p^2=1.062, mean (N4-p^2)/p^1.5=0.405, range N4/p^2 [0.751,1.506], nf=8
+43, sum!=0 c=(1, 1, 1), mean N4/p^2=0.148, mean (N4-p^2)/p^1.5=-5.586, range N4/p^2 [-0.224,0.425], nf=8
+43, sum!=0b c=(1, 2, 3), mean N4/p^2=0.459, mean (N4-p^2)/p^1.5=-3.550, range N4/p^2 [-0.220,0.909], nf=8
+47, sum=0 c=(1, 1, 45), mean N4/p^2=0.876, mean (N4-p^2)/p^1.5=-0.850, range N4/p^2 [0.761,1.111], nf=8
+47, sum!=0 c=(1, 1, 1), mean N4/p^2=0.019, mean (N4-p^2)/p^1.5=-6.723, range N4/p^2 [-0.282,0.476], nf=8
+47, sum!=0b c=(1, 2, 3), mean N4/p^2=0.056, mean (N4-p^2)/p^1.5=-6.471, range N4/p^2 [-0.264,0.273], nf=8
+53, sum=0 c=(1, 1, 51), mean N4/p^2=0.946, mean (N4-p^2)/p^1.5=-0.397, range N4/p^2 [0.775,1.128], nf=8
+53, sum!=0 c=(1, 1, 1), mean N4/p^2=0.181, mean (N4-p^2)/p^1.5=-5.964, range N4/p^2 [-0.096,0.452], nf=8
+53, sum!=0b c=(1, 2, 3), mean N4/p^2=-0.037, mean (N4-p^2)/p^1.5=-7.552, range N4/p^2 [-0.349,0.153], nf=8
+59, sum=0 c=(1, 1, 57), mean N4/p^2=1.046, mean (N4-p^2)/p^1.5=0.353, range N4/p^2 [0.779,1.182], nf=8
+59, sum!=0 c=(1, 1, 1), mean N4/p^2=0.194, mean (N4-p^2)/p^1.5=-6.192, range N4/p^2 [-0.225,0.833], nf=8
+59, sum!=0b c=(1, 2, 3), mean N4/p^2=0.069, mean (N4-p^2)/p^1.5=-7.149, range N4/p^2 [-0.350,0.542], nf=8
+61, sum=0 c=(1, 1, 59), mean N4/p^2=0.961, mean (N4-p^2)/p^1.5=-0.302, range N4/p^2 [0.830,1.196], nf=8
+61, sum!=0 c=(1, 1, 1), mean N4/p^2=0.242, mean (N4-p^2)/p^1.5=-5.923, range N4/p^2 [-0.083,0.809], nf=8
+61, sum!=0b c=(1, 2, 3), mean N4/p^2=-0.072, mean (N4-p^2)/p^1.5=-8.374, range N4/p^2 [-0.481,0.469], nf=8
+67, sum=0 c=(1, 1, 65), mean N4/p^2=0.956, mean (N4-p^2)/p^1.5=-0.357, range N4/p^2 [0.831,1.104], nf=8
+67, sum!=0 c=(1, 1, 1), mean N4/p^2=-0.042, mean (N4-p^2)/p^1.5=-8.531, range N4/p^2 [-0.569,0.469], nf=8
+67, sum!=0b c=(1, 2, 3), mean N4/p^2=0.037, mean (N4-p^2)/p^1.5=-7.881, range N4/p^2 [-0.211,0.315], nf=8
+71, sum=0 c=(1, 1, 69), mean N4/p^2=0.974, mean (N4-p^2)/p^1.5=-0.219, range N4/p^2 [0.614,1.365], nf=8
+71, sum!=0 c=(1, 1, 1), mean N4/p^2=0.143, mean (N4-p^2)/p^1.5=-7.217, range N4/p^2 [-0.168,0.919], nf=8
+71, sum!=0b c=(1, 2, 3), mean N4/p^2=0.051, mean (N4-p^2)/p^1.5=-7.996, range N4/p^2 [-0.251,0.272], nf=8
+73, sum=0 c=(1, 1, 71), mean N4/p^2=0.991, mean (N4-p^2)/p^1.5=-0.073, range N4/p^2 [0.833,1.142], nf=8
+73, sum!=0 c=(1, 1, 1), mean N4/p^2=0.034, mean (N4-p^2)/p^1.5=-8.251, range N4/p^2 [-0.216,0.361], nf=8
+73, sum!=0b c=(1, 2, 3), mean N4/p^2=0.080, mean (N4-p^2)/p^1.5=-7.857, range N4/p^2 [-0.260,0.445], nf=8
+79, sum=0 c=(1, 1, 77), mean N4/p^2=0.974, mean (N4-p^2)/p^1.5=-0.228, range N4/p^2 [0.809,1.156], nf=8
+79, sum!=0 c=(1, 1, 1), mean N4/p^2=-0.044, mean (N4-p^2)/p^1.5=-9.278, range N4/p^2 [-0.461,0.413], nf=8
+79, sum!=0b c=(1, 2, 3), mean N4/p^2=0.119, mean (N4-p^2)/p^1.5=-7.830, range N4/p^2 [-0.159,0.395], nf=8
+
+E2 p=3: N_4 over F_3 for c=(1,1,1) (sum=0) and c=(1,1,2) (sum=1), all squarefree f of degree 3 and 5 with f(0)!=0 (random, up to 12)
+ c=(1, 1, 1) (sum=0): N=5; N=1; N=5; N=1; N=1; N=5; N=1; N=9; N=1; N=9; N=1; N=1
+ c=(1, 1, 2) (sum=1): N=9; N=-1; N=-3; N=9; N=33; N=-3; N=9; N=-3; N=9; N=-1; N=-3; N=-3
+ c=(1, 2, 2) (sum=2): N=-3; N=1; N=1; N=-3; N=33; N=33; N=-3; N=-3; N=1; N=9; N=-3; N=1
+
+E3 k=3, c=(1,-1): g(x)=f(x)f(x)=f^2 is a square; compare N_3 with c=(1,1) and C_lambda
+ p=7 M=-1 t0=1 N3(c=(1,1))=3 N3(c=(1,-1))=-13 C_{lambda=-1}=7 (= q - #roots = 7)
+ p=11 M=2 t0=1 N3(c=(1,1))=9 N3(c=(1,-1))=14 C_{lambda=-1}=10 (= q - #roots = 10)
+ p=13 M=-2 t0=-1 N3(c=(1,1))=-1 N3(c=(1,-1))=-14 C_{lambda=-1}=10 (= q - #roots = 10)
+ p=17 M=-3 t0=-1 N3(c=(1,1))=13 N3(c=(1,-1))=-43 C_{lambda=-1}=17 (= q - #roots = 17)
+
+E4 Euler characteristic from the fibration: chi_c(Y,K) = -4*d**3 + 3*d**2 - 4*d + 1 ; A's hand count 1-4d+3d^2-4d^3 ; difference = 0

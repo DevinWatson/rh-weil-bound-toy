@@ -1,0 +1,35 @@
+1. my DP against brute force
+  ok   q=5 k=3 
+  ok   q=7 k=4 
+  ok   q=9 k=3 
+  ok   q=9 k=4 
+  ok   q=11 k=3 
+2. closed forms N_2 = 2 t0 M - t0^2 and N_3 = t0 M^2 + (M - t0) C
+  ok   x^3+x+1 mismatches 0 of 20
+  ok   x^3+2x+5 mismatches 0 of 20
+  ok   x^3-x mismatches 0 of 20
+3. the write-up's largest k=4 ratio: f = x^3+2x+5, p = 31, N_4 = 1448
+  ok   N_4 got 1448; N^2 = 2096704, p^3 = 29791
+4. agent B's n4_table.tsv, rows with p <= 61
+  ok   rows recomputed 78 rows, mismatches 0
+5. characteristic 3, f = x^3+x+1, all c = 1: write-up says N_4 = 195, 553, 6147, 43681, 520851 for n = 2..6
+  ok   n=2 q=9 got 195; N/q^2 = 2.407 (float, for reading only)
+  ok   n=3 q=27 got 553; N/q^2 = 0.759 (float, for reading only)
+  ok   n=4 q=81 got 6147; N/q^2 = 0.937 (float, for reading only)
+  ok   n=5 q=243 got 43681; N/q^2 = 0.740 (float, for reading only)
+  ok   n=6 q=729 got 520851; N/q^2 = 0.980 (float, for reading only)
+6. k = 4 with c1 + c2 + c3 = 0 against c = (1,1,1) and (1,2,3): N_4 / p^2 (floats for reading only)
+     p=53 x^3+x+1: roots in F_p = 1, (p-r)^2 = 2704; c=(1, 1, 51): N_4=2719 (+0.968); c=(1, 1, 1): N_4=-452 (-0.161); c=(1, 2, 3): N_4=58 (+0.021)
+     p=53 x^3+2x+5: roots in F_p = 1, (p-r)^2 = 2704; c=(1, 1, 51): N_4=3171 (+1.129); c=(1, 1, 1): N_4=420 (+0.150); c=(1, 2, 3): N_4=282 (+0.100)
+     p=59 x^3+x+1: roots in F_p = 0, (p-r)^2 = 3481; c=(1, 1, 57): N_4=2449 (+0.704); c=(1, 1, 1): N_4=-1679 (-0.482); c=(1, 2, 3): N_4=1489 (+0.428)
+     p=59 x^3+2x+5: roots in F_p = 0, (p-r)^2 = 3481; c=(1, 1, 57): N_4=3201 (+0.920); c=(1, 1, 1): N_4=-815 (-0.234); c=(1, 2, 3): N_4=-1743 (-0.501)
+     p=61 x^3+x+1: roots in F_p = 1, (p-r)^2 = 3600; c=(1, 1, 59): N_4=4335 (+1.165); c=(1, 1, 1): N_4=68 (+0.018); c=(1, 2, 3): N_4=1108 (+0.298)
+     p=61 x^3+2x+5: roots in F_p = 0, (p-r)^2 = 3721; c=(1, 1, 59): N_4=4433 (+1.191); c=(1, 1, 1): N_4=913 (+0.245); c=(1, 2, 3): N_4=-687 (-0.185)
+7. the plane x1 = x3, x2 = x4 lies in the quadric exactly when c1+c2+c3 = 0, and t(x1)^2 t(x2)^2 sums to (p-r)^2 on it
+  ok   plane sum 2704
+8. trivial weight t = 1, k = 4: number of points of x1x2+x2x3+x3x4 = 0 is q^3 + q^2 - q
+  ok   p=5 145
+  ok   p=7 385
+  ok   p=11 1441
+
+FAILURES: 0

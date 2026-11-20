@@ -1,0 +1,1 @@
+k=6 P_k=601 elapsed=471.9s budget=500.0

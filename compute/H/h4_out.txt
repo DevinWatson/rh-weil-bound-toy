@@ -1,0 +1,8 @@
+k=4 p=31 trials=40: root/coefficient draws with at least one tangent stratum: 36 ; total tangent strata: 103 (of 255 strata per draw)
+k=6 p=31 trials=20: root/coefficient draws with at least one tangent stratum: 20 ; total tangent strata: 742 (of 4095 strata per draw)
+k=4 p=101 trials=40: root/coefficient draws with at least one tangent stratum: 13 ; total tangent strata: 20 (of 255 strata per draw)
+k=6 p=101 trials=20: root/coefficient draws with at least one tangent stratum: 20 ; total tangent strata: 255 (of 4095 strata per draw)
+k=4 p=1009 trials=40: root/coefficient draws with at least one tangent stratum: 0 ; total tangent strata: 0 (of 255 strata per draw)
+k=6 p=1009 trials=20: root/coefficient draws with at least one tangent stratum: 15 ; total tangent strata: 24 (of 4095 strata per draw)
+k=8 p=31 trials=4: root/coefficient draws with at least one tangent stratum: 4 ; total tangent strata: 1779 (of 65535 strata per draw)
+k=8 p=1009 trials=4: root/coefficient draws with at least one tangent stratum: 4 ; total tangent strata: 50 (of 65535 strata per draw)

@@ -1,0 +1,26 @@
+x^2+x+3    45 primes<=199, t0!=0 in 44.  sign counts (+/-/0): A 44/0/1; B 20/0/25; C1 20/0/25; C2 12/6/27; E 24/21/0; N4 24/21/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 44/0/1; mean E/p^1.5 = +0.505 sd 3.530; mean E/p = +2.713; mean N4/p^1.5 = +0.741
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.000, mean E/p^1.5 = -0.108, max |E|/p^1.5 = 4.568
+x^3+2x+5   43 primes<=199, t0!=0 in 42.  sign counts (+/-/0): A 39/0/4; B 39/0/4; C1 39/0/4; C2 19/22/2; E 17/26/0; N4 18/25/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 39/0/4; mean E/p^1.5 = +0.001 sd 2.224; mean E/p = -1.412; mean N4/p^1.5 = +0.473
+     p>100 (20 primes): mean (A+B+C1+C2)/p^1.5 = +0.302, mean E/p^1.5 = -0.027, max |E|/p^1.5 = 2.718
+x^3+x+1    44 primes<=199, t0!=0 in 44.  sign counts (+/-/0): A 41/0/3; B 40/0/4; C1 40/0/4; C2 15/24/5; E 20/23/1; N4 29/15/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 41/0/3; mean E/p^1.5 = -0.147 sd 1.796; mean E/p = +0.548; mean N4/p^1.5 = +0.278
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.294, mean E/p^1.5 = +0.496, max |E|/p^1.5 = 3.808
+x^3+x+3    45 primes<=199, t0!=0 in 44.  sign counts (+/-/0): A 44/0/1; B 40/0/5; C1 40/0/5; C2 19/18/8; E 22/22/1; N4 27/18/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 44/0/1; mean E/p^1.5 = -0.121 sd 2.081; mean E/p = -1.661; mean N4/p^1.5 = +0.241
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.362, mean E/p^1.5 = -0.175, max |E|/p^1.5 = 3.276
+x^3-x      45 primes<=199, t0!=0 in 0.  sign counts (+/-/0): A 0/0/45; B 0/0/45; C1 0/0/45; C2 0/0/45; E 20/22/3; N4 20/22/3
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 0/0/45; mean E/p^1.5 = -0.068 sd 2.077; mean E/p = -1.777; mean N4/p^1.5 = -0.068
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.000, mean E/p^1.5 = -0.410, max |E|/p^1.5 = 4.399
+x^5+x+1    42 primes<=199, t0!=0 in 42.  sign counts (+/-/0): A 37/0/5; B 34/0/8; C1 34/0/8; C2 17/18/7; E 19/23/0; N4 24/18/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 37/0/5; mean E/p^1.5 = +0.160 sd 2.238; mean E/p = +2.029; mean N4/p^1.5 = +0.369
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.145, mean E/p^1.5 = +0.487, max |E|/p^1.5 = 4.432
+x^5-5x+3   43 primes<=199, t0!=0 in 42.  sign counts (+/-/0): A 39/0/4; B 35/0/8; C1 35/0/8; C2 19/17/7; E 18/25/0; N4 21/22/0
+     A+B+C1 = t0^2(3M^2-2 t0 M): +/-/0 = 39/0/4; mean E/p^1.5 = -0.512 sd 1.834; mean E/p = -6.530; mean N4/p^1.5 = -0.283
+     p>100 (21 primes): mean (A+B+C1+C2)/p^1.5 = +0.141, mean E/p^1.5 = -0.663, max |E|/p^1.5 = 5.114
+
+Least-squares HINT (float64) of E on [p, M^2, t0*M, t0*p, 1] pooled over f with t0 != 0 (E = stratum with all x2,x3,u nonzero):
+  coefficients [p, M^2, t0 M, t0 p, 1] = -8.367, +5.999, -1.261, +3.377, +137.948; residual rms 2848.6 vs rms E 2957.7
+Same for the pooled full N4 on [M^2, t0 M, p, t0 p, 1]:
+  coefficients = +8.901, -0.312, -8.329, +3.407, +135.461; residual rms 2845.6 vs rms N4 3058.1

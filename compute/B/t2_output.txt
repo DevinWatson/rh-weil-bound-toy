@@ -1,0 +1,3 @@
+T2: checked 315 (p,f) pairs, all odd primes p<=199, 7 polys (x^3-x has f(0)=0; x^2+1 and x^4+x^2-1 included; bad primes not skipped since t is just a function); failures: 0
+N_2(0) = 2 t(0) M - t(0)^2   [c any nonzero];  N_2(s) = sum_{x!=0} t(x) t(s/(c x)) for s != 0
+N_3 = t(0) M^2 + (M - t(0)) C, C = sum_x t(x)t(-x)   [c=1];  general c: C replaced by C_lam = sum t(x)t(-lam x), lam=c1/c2

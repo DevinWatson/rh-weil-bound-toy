@@ -1,0 +1,14 @@
+== x^3+x+1: exact means over primes in band of N4^2/p^3 and N4^2/p^4 and max of each (decimals of exact fractions)
+p in [3,30] (9 primes): mean N^2/p^3 = 2.594  max = 8.189 ; mean N^2/p^4 = 0.281  max = 1.169
+p in [31,100] (14 primes): mean N^2/p^3 = 3.856  max = 18.609 ; mean N^2/p^4 = 0.064  max = 0.395
+p in [101,200] (21 primes): mean N^2/p^3 = 4.181  max = 19.353 ; mean N^2/p^4 = 0.026  max = 0.098
+p in [201,350] (24 primes): mean N^2/p^3 = 9.147  max = 42.251 ; mean N^2/p^4 = 0.034  max = 0.158
+p in [351,500] (25 primes): mean N^2/p^3 = 5.172  max = 17.403 ; mean N^2/p^4 = 0.012  max = 0.043
+== x^3-x: exact means over primes in band of N4^2/p^3 and N4^2/p^4 and max of each (decimals of exact fractions)
+p in [3,30] (9 primes): mean N^2/p^3 = 6.331  max = 33.245 ; mean N^2/p^4 = 0.299  max = 1.445
+p in [31,100] (15 primes): mean N^2/p^3 = 3.000  max = 9.288 ; mean N^2/p^4 = 0.053  max = 0.144
+p in [101,200] (21 primes): mean N^2/p^3 = 4.393  max = 19.347 ; mean N^2/p^4 = 0.030  max = 0.129
+p in [201,350] (24 primes): mean N^2/p^3 = 7.072  max = 29.008 ; mean N^2/p^4 = 0.027  max = 0.115
+p in [351,500] (25 primes): mean N^2/p^3 = 5.560  max = 26.750 ; mean N^2/p^4 = 0.012  max = 0.059
+x^3+x+1: sign of N4 over 93 primes: positive 59, negative 34, zero 0
+x^3-x: sign of N4 over 94 primes: positive 46, negative 45, zero 3
