@@ -1,0 +1,16 @@
+﻿overall: flagged outside line 2969 of 282208 = 2969/282208  (~0.0105)
+a=1                          outside pairs    4064 flagged     58 rate 0.0143 lift 1.36
+a=-1                         outside pairs    4000 flagged    247 rate 0.0617 lift 5.87
+tau(1)=-1 (a+b=-1)           outside pairs    4000 flagged     90 rate 0.0225 lift 2.14
+tau(-1)=1 (b-a=1)            outside pairs    4000 flagged     90 rate 0.0225 lift 2.14
+tau(-1)=-1 (b-a=-1)          outside pairs    4000 flagged     63 rate 0.0158 lift 1.50
+tau(1)=0 (a+b=0)             outside pairs    4064 flagged     36 rate 0.0089 lift 0.84
+tau(0)=1 (b=1)               outside pairs    4064 flagged     36 rate 0.0089 lift 0.84
+a in root-ratios             outside pairs   11368 flagged     72 rate 0.0063 lift 0.60
+b in root-ratios             outside pairs   11368 flagged     86 rate 0.0076 lift 0.72
+tau(1) in root-ratios        outside pairs   11368 flagged     70 rate 0.0062 lift 0.59
+tau(R) meets R (>=1)         outside pairs   45820 flagged    344 rate 0.0075 lift 0.71
+mean of (E_c/p^2)^2 outside line, and times p:
+p,f,sum_sq(p E_c)^2,npairs,mean (E_c/p^2)^2 as fraction
+31 3roots(1,2,4) 11765749606 871 905057662/59462746627  p*mean=0.472
+31 3roots(1,3,9) 62557802574 871 62557802574/773015706151  p*mean=2.509

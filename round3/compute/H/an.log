@@ -1,0 +1,63 @@
+======================================================================
+x2m1_k2  k=2 q=3 f=[2, 0, 1] cexp=[0] hexp=0  n=1..13
+  L coefficients (Z[omega] pairs a + b w), j=0..13:
+    L_0 = (1 0 w)
+    L_1 = (-1 0 w)
+    L_2 = (-3 0 w)
+    L_3 = (9 0 w)
+    L_4 = (27 0 w)
+    L_5 = (-243 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+    L_8 = (0 0 w)
+    L_9 = (0 0 w)
+    L_10 = (0 0 w)
+    L_11 = (0 0 w)
+    L_12 = (0 0 w)
+    L_13 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 5, trailing exact zeros = 8
+  Hankel rank of S_1..S_13 (7x7 matrix): 5 (rank deficient: recurrence of order 5)
+  HINT (floating): 5 reciprocal roots, largest |beta| = q^(2.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(3/2)); smallest = q^(2.0000/2)
+======================================================================
+x2p1_k2  k=2 q=3 f=[1, 0, 1] cexp=[0] hexp=0  n=1..13
+  L coefficients (Z[omega] pairs a + b w), j=0..13:
+    L_0 = (1 0 w)
+    L_1 = (5 0 w)
+    L_2 = (9 0 w)
+    L_3 = (-27 0 w)
+    L_4 = (-135 0 w)
+    L_5 = (-243 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+    L_8 = (0 0 w)
+    L_9 = (0 0 w)
+    L_10 = (0 0 w)
+    L_11 = (0 0 w)
+    L_12 = (0 0 w)
+    L_13 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 5, trailing exact zeros = 8
+  Hankel rank of S_1..S_13 (7x7 matrix): 5 (rank deficient: recurrence of order 5)
+  HINT (floating): 5 reciprocal roots, largest |beta| = q^(2.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(3/2)); smallest = q^(2.0000/2)
+======================================================================
+x4p..x_k2  k=2 q=3 f=[2, 1, 0, 0, 1] cexp=[0] hexp=0  n=1..13
+  L coefficients (Z[omega] pairs a + b w), j=0..13:
+    L_0 = (1 0 w)
+    L_1 = (-3 -4 w)
+    L_2 = (-12 0 w)
+    L_3 = (36 72 w)
+    L_4 = (171 9 w)
+    L_5 = (-441 -675 w)
+    L_6 = (-1296 432 w)
+    L_7 = (1944 3888 w)
+    L_8 = (6561 -7776 w)
+    L_9 = (-43011 -23328 w)
+    L_10 = (52488 104976 w)
+    L_11 = (419904 104976 w)
+    L_12 = (-511758 -1476225 w)
+    L_13 = (-3188646 177147 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 13, trailing exact zeros = 0
+  Hankel rank of S_1..S_13 (7x7 matrix): 7 (full rank: no recurrence of order < 7 detected)
+  HINT (floating): 13 reciprocal roots, largest |beta| = q^(2.2835/2)  (Claim A needs <= q^((k+1)/2) = q^(3/2)); smallest = q^(1.7842/2)

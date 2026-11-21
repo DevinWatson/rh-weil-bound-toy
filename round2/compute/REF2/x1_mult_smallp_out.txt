@@ -1,0 +1,20 @@
+== x^3-1 p=13: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=54  mean=-0.296  std=0.271  min=-0.598  max=0.201
+  m=1  n=81  mean=0.243  std=0.309  min=-0.225  max=0.574
+  m=2  n=9  mean=1.266  std=0.000  min=1.266  max=1.266
+== x^3-1 p=19: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=180  mean=1.105  std=0.304  min=0.526  max=1.673
+  m=1  n=135  mean=1.499  std=0.237  min=1.125  max=1.898
+  m=2  n=9  mean=2.421  std=0.000  min=2.421  max=2.421
+== x^3-1 p=31: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=648  mean=-0.193  std=0.625  min=-1.981  max=0.941
+  m=1  n=243  mean=0.641  std=0.636  min=-0.211  max=1.933
+  m=2  n=9  mean=1.184  std=0.000  min=1.184  max=1.184
+== x^3-1 p=61: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=3078  mean=0.238  std=0.447  min=-0.899  max=1.375
+  m=1  n=513  mean=1.052  std=0.364  min=0.103  max=1.706
+  m=2  n=9  mean=1.960  std=0.000  min=1.960  max=1.960
+== x^3-1 p=127: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=14760  mean=0.098  std=0.388  min=-0.999  max=1.543
+  m=1  n=1107  mean=1.014  std=0.299  min=0.274  max=1.573
+  m=2  n=9  mean=1.627  std=0.000  min=1.627  max=1.627

@@ -1,0 +1,79 @@
+A: N4 formula vs brute force: cases 48 mismatches 0
+B: sum_r C(r) = M^2 - t0 M + q : cases 150 failures 0
+C: chi_c(Y,K) = -4*d**3 + 3*d**2 - 4*d + 1  at d=3: -92  at d=5: -444
+D: chi_c(T) from fibration (Swan 0) = d**2 - d + 1  ; chi_c(T) from product + line = d**2 - d + 1  ; difference (= total Swan): 0
+E: f = x^3 - a, mu(Z) = mu_3 (p = 1 mod 3). mean N4/p^2 over a (non-cubes and cubes alike), several c
+ p=7 w=2
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.691  min 0.592  max 3.939
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.691  min 0.592  max 3.939
+   generic c=(1,2,3)                                                                               mean 1.140  min -0.878  max 3.939
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.140  min -0.878  max 3.939
+ p=13 w=3
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.961  min 1.266  max 2.491
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.961  min 1.266  max 2.491
+   generic c=(1,2,3)                                                                               mean 0.297  min -0.331  max 0.787
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.169  min 0.574  max 1.639
+ p=19 w=7
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.732  min 1.066  max 2.421
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.732  min 1.066  max 2.421
+   generic c=(1,2,3)                                                                               mean 0.642  min -0.496  max 1.066
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.237  min -0.097  max 1.898
+ p=31 w=5
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.499  min 1.184  max 1.899
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.499  min 1.184  max 1.899
+   generic c=(1,2,3)                                                                               mean 0.132  min -0.857  max 1.712
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.998  min 0.738  max 1.450
+ p=37 w=10
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.738  min 1.368  max 3.121
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.738  min 1.368  max 3.121
+   generic c=(1,2,3)                                                                               mean -0.129  min -0.525  max 0.297
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.915  min 0.527  max 2.175
+ p=43 w=6
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.858  min 1.604  max 1.973
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.858  min 1.604  max 1.973
+   generic c=(1,2,3)                                                                               mean 0.023  min -0.335  max 0.494
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.985  min 0.572  max 1.604
+ p=61 w=13
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.579  min 1.123  max 2.258
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.579  min 1.123  max 2.258
+   generic c=(1,2,3)                                                                               mean -0.249  min -0.503  max 0.207
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.790  min 0.465  max 1.252
+ p=67 w=29
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.995  min 1.601  max 2.205
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.995  min 1.601  max 2.205
+   generic c=(1,2,3)                                                                               mean 0.096  min -0.502  max 0.413
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.082  min 0.652  max 1.249
+ p=73 w=8
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.762  min 1.725  max 1.871
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.762  min 1.725  max 1.871
+   generic c=(1,2,3)                                                                               mean 0.274  min 0.169  max 0.349
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.047  min 0.780  max 1.322
+ p=97 w=35
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.927  min 1.586  max 2.136
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.927  min 1.586  max 2.136
+   generic c=(1,2,3)                                                                               mean 0.255  min -0.130  max 0.631
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.032  min 0.774  max 1.182
+ p=103 w=46
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 2.276  min 1.420  max 3.077
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 2.276  min 1.420  max 3.077
+   generic c=(1,2,3)                                                                               mean -0.095  min -0.616  max 0.326
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 1.239  min 0.768  max 1.801
+ p=109 w=45
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.677  min 1.615  max 1.739
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.677  min 1.615  max 1.739
+   generic c=(1,2,3)                                                                               mean 0.028  min -0.317  max 0.373
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.714  min 0.567  max 0.861
+ p=127 w=19
+   X1: c2=-(1+w) [rho=w, rho'=1]                                                                   mean 1.821  min 1.627  max 2.145
+   X1: c=(1,-(w+w^2)... trivial pair is rho=rho'=1 only if c1+c2+c3=0; here rho=w,rho'=w^2         mean 1.821  min 1.627  max 2.145
+   generic c=(1,2,3)                                                                               mean 0.585  min 0.488  max 0.748
+   c1+c2+c3=0: (1,1,-2)                                                                            mean 0.962  min 0.957  max 0.971
+F: generic f = (x-a)(x-b)(x-e) with roots in F_p, c on lines c2 + c3 s + c1 s' = 0, s,s' in S (s,s' ratios of roots), not (1,1)
+ p=31: 24 cases on exceptional lines: N4/p^2 mean 0.160, min -0.282, max 0.490
+        random c, random f: N4/p^2 mean 0.163, min -0.228, max 0.467 (n=19)
+ p=61: 24 cases on exceptional lines: N4/p^2 mean 0.061, min -0.274, max 0.540
+        random c, random f: N4/p^2 mean 0.049, min -0.352, max 0.380 (n=20)
+ p=101: 24 cases on exceptional lines: N4/p^2 mean -0.024, min -0.301, max 0.180
+        random c, random f: N4/p^2 mean -0.025, min -0.468, max 0.313 (n=20)
+ p=131: 24 cases on exceptional lines: N4/p^2 mean 0.103, min -0.067, max 0.271
+        random c, random f: N4/p^2 mean 0.008, min -0.276, max 0.307 (n=20)

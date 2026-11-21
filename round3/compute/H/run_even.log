@@ -1,0 +1,49 @@
+field 1 built in 0.0s
+x2m1_k2 n 1 S = 1 + 0 w  (0.0s, maxcoord 1.00e+00)
+x2p1_k2 n 1 S = -5 + 0 w  (0.0s, maxcoord 2.00e+00)
+x4p..x_k2 n 1 S = 3 + 4 w  (0.0s, maxcoord 2.00e+00)
+field 2 built in 0.0s
+x2m1_k2 n 2 S = 7 + 0 w  (0.0s, maxcoord 5.00e+00)
+x2p1_k2 n 2 S = 7 + 0 w  (0.0s, maxcoord 5.00e+00)
+x4p..x_k2 n 2 S = 17 + 8 w  (0.0s, maxcoord 5.00e+00)
+field 3 built in 0.0s
+x2m1_k2 n 3 S = -17 + 0 w  (0.0s, maxcoord 8.00e+00)
+x2p1_k2 n 3 S = 91 + 0 w  (0.0s, maxcoord 1.00e+01)
+x4p..x_k2 n 3 S = -53 + -108 w  (0.0s, maxcoord 1.80e+01)
+field 4 built in 0.0s
+x2m1_k2 n 4 S = -113 + 0 w  (0.0s, maxcoord 1.70e+01)
+x2p1_k2 n 4 S = -113 + 0 w  (0.0s, maxcoord 1.70e+01)
+x4p..x_k2 n 4 S = -27 + -116 w  (0.0s, maxcoord 1.90e+01)
+field 5 built in 0.0s
+x2m1_k2 n 5 S = 961 + 0 w  (0.0s, maxcoord 3.10e+01)
+x2p1_k2 n 5 S = 475 + 0 w  (0.0s, maxcoord 2.80e+01)
+x4p..x_k2 n 5 S = 1439 + 476 w  (0.0s, maxcoord 3.20e+01)
+field 6 built in 0.0s
+x2m1_k2 n 6 S = 829 + 0 w  (0.0s, maxcoord 5.30e+01)
+x2p1_k2 n 6 S = 829 + 0 w  (0.0s, maxcoord 5.30e+01)
+x4p..x_k2 n 6 S = -215 + 864 w  (0.0s, maxcoord 7.20e+01)
+field 7 built in 0.0s
+x2m1_k2 n 7 S = 6889 + 0 w  (0.0s, maxcoord 9.20e+01)
+x2p1_k2 n 7 S = 2515 + 0 w  (0.0s, maxcoord 9.20e+01)
+x4p..x_k2 n 7 S = 7983 + 7732 w  (0.0s, maxcoord 1.16e+02)
+field 8 built in 0.0s
+x2m1_k2 n 8 S = -353 + 0 w  (0.0s, maxcoord 1.61e+02)
+x2p1_k2 n 8 S = -353 + 0 w  (0.0s, maxcoord 1.61e+02)
+x4p..x_k2 n 8 S = 8729 + 21428 w  (0.0s, maxcoord 2.06e+02)
+field 9 built in 0.2s
+x2m1_k2 n 9 S = -40553 + 0 w  (0.0s, maxcoord 2.80e+02)
+x2p1_k2 n 9 S = 38179 + 0 w  (0.0s, maxcoord 2.80e+02)
+x4p..x_k2 n 9 S = 149851 + 33372 w  (0.0s, maxcoord 4.16e+02)
+field 10 built in 0.3s
+x2m1_k2 n 10 S = 107527 + 0 w  (0.0s, maxcoord 4.85e+02)
+x2p1_k2 n 10 S = 107527 + 0 w  (0.0s, maxcoord 4.85e+02)
+x4p..x_k2 n 10 S = -16911 + 172432 w  (0.0s, maxcoord 8.64e+02)
+field 11 built in 0.8s
+x2m1_k2 n 11 S = 4489 + 0 w  (0.2s, maxcoord 8.41e+02)
+x2p1_k2 n 11 S = -349805 + 0 w  (0.1s, maxcoord 8.38e+02)
+x4p..x_k2 n 11 S = -639541 + -857476 w  (0.2s, maxcoord 1.44e+03)
+finished, total 2s
+
+real	0m2.569s
+user	0m0.015s
+sys	0m0.046s

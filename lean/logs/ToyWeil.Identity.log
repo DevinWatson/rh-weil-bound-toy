@@ -1,0 +1,6 @@
+'ToyWeil.Ssum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity_bound_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity_bound_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity_bound_weak' depends on axioms: [propext, Classical.choice, Quot.sound]

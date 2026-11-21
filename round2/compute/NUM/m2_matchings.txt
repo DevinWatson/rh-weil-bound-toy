@@ -1,0 +1,20 @@
+All 15 perfect matchings of {1..6}; conditions on c1..c5 for x_i = x_sigma(i) to lie in {Q_c = 0}
+Brief set = matchings with no adjacent pair (equivalently every c_i joins two different pairs).
+
+matching 1-2 3-4 5-6 (has adjacent pair): [y1^2] c1 = 0; [y1y2] c2 = 0; [y2^2] c3 = 0; [y2y3] c4 = 0; [y3^2] c5 = 0
+matching 1-2 3-5 4-6 (has adjacent pair): [y1^2] c1 = 0; [y1y2] c2 = 0; [y2y3] c3+c4+c5 = 0
+matching 1-2 3-6 4-5 (has adjacent pair): [y1^2] c1 = 0; [y1y2] c2 = 0; [y2y3] c3+c5 = 0; [y3^2] c4 = 0
+matching 1-3 2-4 5-6 (has adjacent pair): [y1y2] c1+c2+c3 = 0; [y2y3] c4 = 0; [y3^2] c5 = 0
+matching 1-3 2-5 4-6: [y1y2] c1+c2 = 0; [y1y3] c3 = 0; [y2y3] c4+c5 = 0
+matching 1-3 2-6 4-5 (has adjacent pair): [y1y2] c1+c2 = 0; [y1y3] c3 = 0; [y2y3] c5 = 0; [y3^2] c4 = 0
+matching 1-4 2-3 5-6 (has adjacent pair): [y1y2] c1+c3 = 0; [y1y3] c4 = 0; [y2^2] c2 = 0; [y3^2] c5 = 0
+matching 1-4 2-5 3-6: [y1y2] c1+c4 = 0; [y1y3] c3 = 0; [y2y3] c2+c5 = 0
+matching 1-4 2-6 3-5: [y1y2] c1 = 0; [y1y3] c3+c4 = 0; [y2y3] c2+c5 = 0
+matching 1-5 2-3 4-6 (has adjacent pair): [y1y2] c1 = 0; [y1y3] c4+c5 = 0; [y2^2] c2 = 0; [y2y3] c3 = 0
+matching 1-5 2-4 3-6: [y1y2] c1+c4 = 0; [y1y3] c5 = 0; [y2y3] c2+c3 = 0
+matching 1-5 2-6 3-4 (has adjacent pair): [y1y2] c1+c5 = 0; [y1y3] c4 = 0; [y2y3] c2 = 0; [y3^2] c3 = 0
+matching 1-6 2-3 4-5 (has adjacent pair): [y1y2] c1 = 0; [y1y3] c5 = 0; [y2^2] c2 = 0; [y2y3] c3 = 0; [y3^2] c4 = 0
+matching 1-6 2-4 3-5: [y1y2] c1 = 0; [y1y3] c5 = 0; [y2y3] c2+c3+c4 = 0
+matching 1-6 2-5 3-4 (has adjacent pair): [y1y2] c1+c5 = 0; [y2y3] c2+c4 = 0; [y3^2] c3 = 0
+
+brief set size 5

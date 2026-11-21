@@ -1,0 +1,20 @@
+﻿x-1 k 2 e 1 c-exps [1]
+x-1 k 3 e 1 c-exps [1, 1]
+x-1 k 4 e 1 c-exps [1, 1, 1]
+x-1 k 5 e 1 c-exps None
+x-1 k 5 e 2 c-exps [7, 6, 4, 7]
+x-1 k 6 e 1 c-exps None
+x-1 k 6 e 2 c-exps [6, 4, 7, 5, 3]
+x^3-x+1 k 2 e 1 c-exps [1]
+x^3-x+1 k 3 e 1 c-exps [1, 1]
+x^3-x+1 k 4 e 1 c-exps [1, 1, 1]
+x^3-x+1 k 5 e 1 c-exps None
+x^3-x+1 k 5 e 2 c-exps [7, 6, 4, 7]
+x^3-x+1 k 6 e 1 c-exps None
+x^3-x+1 k 6 e 2 c-exps [6, 4, 7, 5, 3]
+x-1 k3 e1 c=(1,1): (True, [], 1)
+x-1 k3 e1 c=(1,-1): (False, [2], 1)
+x-1 k5 e1 all ones: (False, [4], 1)
+x-1 k6 e1 all ones: (False, [4, 5], 1)
+x^3-x+1 k3 e1 (1,1): (True, [], 3)
+x^3-x+1 k5 e1 all ones: (False, [4], 3)

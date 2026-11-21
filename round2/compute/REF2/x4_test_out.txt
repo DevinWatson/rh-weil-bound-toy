@@ -1,0 +1,90 @@
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== split cubic p=509 roots=[232, 444, 287] |S|=8 |mu|=1 fftverify_bad=0
+  generic (not X4):      n=227514 mean=-0.002 std=0.071 min=-0.320 max=0.317
+  X0 (c1+c2+c3=0):       n=507 mean=0.985 std=0.039 min=0.874 max=1.101
+  X1 minus X0:           n=0
+  X4 minus X1:           n=30043 mean=-0.001 std=0.069 min=-0.273 max=0.288
+  |N|>0.8 p^2: total 507 ; in X1 507 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 0 of 507 (mean N/p^2 of those 0.000)
+== split cubic p=509 roots=[439, 474, 400] |S|=8 |mu|=1 fftverify_bad=0
+  generic (not X4):      n=227539 mean=0.041 std=0.074 min=-0.246 max=0.391
+  X0 (c1+c2+c3=0):       n=507 mean=1.014 std=0.036 min=0.918 max=1.118
+  X1 minus X0:           n=0
+  X4 minus X1:           n=30018 mean=0.040 std=0.073 min=-0.213 max=0.312
+  |N|>0.8 p^2: total 507 ; in X1 507 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 0 of 507 (mean N/p^2 of those 0.000)
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== split cubic p=1009 roots=[638, 262, 760] |S|=8 |mu|=1 fftverify_bad=0
+  generic (not X4):      n=954047 mean=0.013 std=0.054 min=-0.255 max=0.249
+  X0 (c1+c2+c3=0):       n=1007 mean=1.001 std=0.030 min=0.915 max=1.085
+  X1 minus X0:           n=0
+  X4 minus X1:           n=61010 mean=0.011 std=0.054 min=-0.195 max=0.233
+  |N|>0.8 p^2: total 1007 ; in X1 1007 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 0 of 1007 (mean N/p^2 of those 0.000)
+== split cubic p=1009 roots=[368, 815, 708] |S|=8 |mu|=1 fftverify_bad=0
+  generic (not X4):      n=953980 mean=0.004 std=0.051 min=-0.225 max=0.227
+  X0 (c1+c2+c3=0):       n=1007 mean=0.995 std=0.029 min=0.889 max=1.086
+  X1 minus X0:           n=0
+  X4 minus X1:           n=61077 mean=0.001 std=0.051 min=-0.208 max=0.207
+  |N|>0.8 p^2: total 1007 ; in X1 1007 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 0 of 1007 (mean N/p^2 of those 0.000)
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== x^3-2 (S from mu_d) p=1009 roots=[] |S|=4 |mu|=3 fftverify_bad=0
+  generic (not X4):      n=1001007 mean=-0.001 std=0.122 min=-0.608 max=0.503
+  X0 (c1+c2+c3=0):       n=1007 mean=1.000 std=0.109 min=0.728 max=1.940
+  X1 minus X0:           n=8047 mean=0.999 std=0.105 min=0.728 max=1.940
+  X4 minus X1:           n=6003 mean=0.043 std=0.111 min=-0.249 max=0.367
+  |N|>0.8 p^2: total 8766 ; in X1 8766 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 288 of 9054 (mean N/p^2 of those 0.769)
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== x^3-8 (S from mu_d) p=1009 roots=[] |S|=4 |mu|=3 fftverify_bad=0
+  generic (not X4):      n=1001007 mean=0.018 std=0.124 min=-0.510 max=0.541
+  X0 (c1+c2+c3=0):       n=1007 mean=1.008 std=0.117 min=0.596 max=1.961
+  X1 minus X0:           n=8047 mean=1.007 std=0.113 min=0.596 max=1.961
+  X4 minus X1:           n=6003 mean=-0.044 std=0.100 min=-0.346 max=0.263
+  |N|>0.8 p^2: total 8802 ; in X1 8802 ; in X4\X1 0 ; outside X4 0
+  X1 members with |N|<=0.8 p^2: 252 of 9054 (mean N/p^2 of those 0.732)
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== x^5-2 (S from mu_d) p=1021 roots=[] |S|=6 |mu|=5 fftverify_bad=0
+  generic (not X4):      n=1005100 mean=-0.002 std=0.226 min=-0.915 max=0.938
+  X0 (c1+c2+c3=0):       n=1019 mean=1.006 std=0.231 min=0.451 max=2.118
+  X1 minus X0:           n=24306 mean=1.000 std=0.217 min=0.451 max=2.118
+  X4 minus X1:           n=9975 mean=-0.055 std=0.177 min=-0.579 max=0.341
+  |N|>0.8 p^2: total 21275 ; in X1 20875 ; in X4\X1 0 ; outside X4 400
+  X1 members with |N|<=0.8 p^2: 4450 of 25325 (mean N/p^2 of those 0.702)
+    outside-X4 flagged example c=(1,1,53) N/p^2=0.868
+    outside-X4 flagged example c=(1,1,93) N/p^2=0.868
+    outside-X4 flagged example c=(1,1,587) N/p^2=0.868
+    outside-X4 flagged example c=(1,1,645) N/p^2=0.868
+    outside-X4 flagged example c=(1,1,664) N/p^2=0.868
+brute-force check of the N_4 formula (independent routine here)
+  p=7 roots=[1, 2, 4] cases=36 mismatches=0
+  p=11 roots=[1, 2, 5] cases=100 mismatches=0
+  p=11 roots=[3, 4, 7] cases=100 mismatches=0
+== x^5-32 (S from mu_d) p=1021 roots=[] |S|=6 |mu|=5 fftverify_bad=0
+  generic (not X4):      n=1005100 mean=-0.014 std=0.224 min=-0.973 max=1.040
+  X0 (c1+c2+c3=0):       n=1019 mean=0.987 std=0.258 min=0.284 max=2.809
+  X1 minus X0:           n=24306 mean=0.978 std=0.232 min=0.284 max=2.809
+  X4 minus X1:           n=9975 mean=-0.059 std=0.220 min=-0.643 max=0.635
+  |N|>0.8 p^2: total 20950 ; in X1 20525 ; in X4\X1 0 ; outside X4 425
+  X1 members with |N|<=0.8 p^2: 4800 of 25325 (mean N/p^2 of those 0.689)
+    outside-X4 flagged example c=(1,7,57) N/p^2=-0.973
+    outside-X4 flagged example c=(1,7,560) N/p^2=-0.973
+    outside-X4 flagged example c=(1,7,755) N/p^2=-0.973
+    outside-X4 flagged example c=(1,7,790) N/p^2=-0.973
+    outside-X4 flagged example c=(1,7,901) N/p^2=-0.973

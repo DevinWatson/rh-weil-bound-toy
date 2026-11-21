@@ -1,0 +1,16 @@
+﻿p=3 f=[1, 2, 0, 1] k=2 c=[1] h=1 nmax=13
+ S_1 group-ring=[5, 2, 2] in Z[zeta]=['3', '0']
+ S_2 group-ring=[-7, 8, 8] in Z[zeta]=['-15', '0']
+ S_3 group-ring=[-9, 0, 9] in Z[zeta]=['-18', '-9']
+ S_4 group-ring=[81, 144, -144] in Z[zeta]=['225', '288']
+ S_5 group-ring=[225, 342, 162] in Z[zeta]=['63', '180']
+ S_6 group-ring=[1503, 423, 990] in Z[zeta]=['513', '-567']
+ S_7 group-ring=[-1647, 6750, 1458] in Z[zeta]=['-3105', '5292']
+ S_8 group-ring=[10017, 6048, -9504] in Z[zeta]=['19521', '15552']
+ S_9 group-ring=[23328, -44712, 21384] in Z[zeta]=['1944', '-66096']
+ S_10 group-ring=[135513, -38232, -38232] in Z[zeta]=['173745', '0']
+ S_11 group-ring=[391473, -74358, 214326] in Z[zeta]=['177147', '-288684']
+ S_12 group-ring=[553311, 1806462, -234009] in Z[zeta]=['787320', '2040471']
+ S_13 group-ring=[-1019871, 5384394, 418446] in Z[zeta]=['-1438317', '4965948']
+ e_k nonzero for k in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ largest nonzero e_k (= number of eigenvalues if < nmax): 10

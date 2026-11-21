@@ -1,0 +1,12 @@
+Enrichment of simple predicates among 'unexplained excess-bad' c (2(N-M^6/p)>=p^3, not on any of the 15 matching subspaces) vs all c, p=11,13,17 exhaustive
+('f1', 11): unexplained n=226 of 14641 (0.0154); some c_i=0 (i>=2): 0.310 vs baseline 0.317; some c_i=0 or zero consecutive-block sum (length>=2): 0.898 vs baseline 0.793
+('f1', 13): unexplained n=348 of 28561 (0.0122); some c_i=0 (i>=2): 0.385 vs baseline 0.274; some c_i=0 or zero consecutive-block sum (length>=2): 0.871 vs baseline 0.723
+('f1', 17): unexplained n=726 of 83521 (0.0087); some c_i=0 (i>=2): 0.333 vs baseline 0.215; some c_i=0 or zero consecutive-block sum (length>=2): 0.639 vs baseline 0.608
+('f2', 11): unexplained n=1169 of 14641 (0.0798); some c_i=0 (i>=2): 0.301 vs baseline 0.317; some c_i=0 or zero consecutive-block sum (length>=2): 0.872 vs baseline 0.793
+('f2', 13): unexplained n=606 of 28561 (0.0212); some c_i=0 (i>=2): 0.601 vs baseline 0.274; some c_i=0 or zero consecutive-block sum (length>=2): 0.955 vs baseline 0.723
+('f3', 11): unexplained n=280 of 14641 (0.0191); some c_i=0 (i>=2): 0.932 vs baseline 0.317; some c_i=0 or zero consecutive-block sum (length>=2): 1.000 vs baseline 0.793
+('f3', 13): unexplained n=7 of 28561 (0.0002); some c_i=0 (i>=2): 0.714 vs baseline 0.274; some c_i=0 or zero consecutive-block sum (length>=2): 1.000 vs baseline 0.723
+('f3', 17): unexplained n=2097 of 83521 (0.0251); some c_i=0 (i>=2): 0.878 vs baseline 0.215; some c_i=0 or zero consecutive-block sum (length>=2): 0.996 vs baseline 0.608
+('f4', 11): unexplained n=720 of 14641 (0.0492); some c_i=0 (i>=2): 0.581 vs baseline 0.317; some c_i=0 or zero consecutive-block sum (length>=2): 0.964 vs baseline 0.793
+('f4', 13): unexplained n=26 of 28561 (0.0009); some c_i=0 (i>=2): 0.846 vs baseline 0.274; some c_i=0 or zero consecutive-block sum (length>=2): 1.000 vs baseline 0.723
+('f4', 17): unexplained n=1147 of 83521 (0.0137); some c_i=0 (i>=2): 0.395 vs baseline 0.215; some c_i=0 or zero consecutive-block sum (length>=2): 0.878 vs baseline 0.608

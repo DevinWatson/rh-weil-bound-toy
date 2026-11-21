@@ -1,0 +1,13 @@
+﻿p=3 f=[2, 0, 1] k=2 c=[1] h=1 nmax=10
+ S_1 group-ring=[1, 0, 0] in Z[zeta]=['1', '0']
+ S_2 group-ring=[5, -2, -2] in Z[zeta]=['7', '0']
+ S_3 group-ring=[-11, 6, 6] in Z[zeta]=['-17', '0']
+ S_4 group-ring=[-75, 38, 38] in Z[zeta]=['-113', '0']
+ S_5 group-ring=[641, -320, -320] in Z[zeta]=['961', '0']
+ S_6 group-ring=[553, -276, -276] in Z[zeta]=['829', '0']
+ S_7 group-ring=[4593, -2296, -2296] in Z[zeta]=['6889', '0']
+ S_8 group-ring=[-235, 118, 118] in Z[zeta]=['-353', '0']
+ S_9 group-ring=[-27035, 13518, 13518] in Z[zeta]=['-40553', '0']
+ S_10 group-ring=[71685, -35842, -35842] in Z[zeta]=['107527', '0']
+ e_k nonzero for k in [1, 2, 3, 4, 5]
+ largest nonzero e_k (= number of eigenvalues if < nmax): 5

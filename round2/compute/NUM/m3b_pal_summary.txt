@@ -1,0 +1,15 @@
+palindromic random c, f1, k=4, p in [5,50]: n=11 mean A2=1.777 min 0.653 max 3.011
+palindromic random c, f1, k=4, p in [51,150]: n=19 mean A2=1.788 min 1.377 max 2.262
+palindromic random c, f1, k=4, p in [151,311]: n=29 mean A2=1.905 min 1.404 max 2.260
+palindromic random c, f1, k=5, p in [5,50]: n=11 mean A2=1.621 min 0.913 max 3.511
+palindromic random c, f1, k=5, p in [51,150]: n=19 mean A2=1.932 min 1.518 max 2.586
+palindromic random c, f1, k=5, p in [151,311]: n=29 mean A2=1.902 min 1.283 max 2.330
+palindromic random c, f1, k=6, p in [5,50]: n=11 mean A2=1.927 min 0.705 max 4.168
+palindromic random c, f1, k=6, p in [51,150]: n=19 mean A2=1.889 min 1.534 max 2.475
+palindromic random c, f1, k=6, p in [151,311]: n=29 mean A2=1.893 min 1.575 max 2.248
+palindromic random c, f1, k=7, p in [5,50]: n=11 mean A2=1.614 min 1.044 max 2.698
+palindromic random c, f1, k=7, p in [51,150]: n=19 mean A2=1.995 min 1.452 max 2.761
+palindromic random c, f1, k=7, p in [151,311]: n=29 mean A2=1.969 min 1.587 max 2.500
+palindromic random c, f1, k=8, p in [5,50]: n=11 mean A2=1.400 min 0.990 max 2.116
+palindromic random c, f1, k=8, p in [51,150]: n=19 mean A2=1.889 min 1.281 max 2.535
+palindromic random c, f1, k=8, p in [151,311]: n=29 mean A2=1.957 min 1.567 max 2.396

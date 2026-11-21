@@ -1,0 +1,134 @@
+{
+ "f1_k3_bad": {
+  "k": 3,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 1,
+  "trailing_zeros": 13,
+  "hankel_rank": 1,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 2.0
+ },
+ "f3_k3_bad": {
+  "k": 3,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 14,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 3.398242734488374
+ },
+ "f1_k4_bad_a": {
+  "k": 4,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 4,
+  "trailing_zeros": 10,
+  "hankel_rank": 4,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 4.000000000000002
+ },
+ "f1_k4_bad_b": {
+  "k": 4,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 3,
+  "trailing_zeros": 11,
+  "hankel_rank": 3,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 4.000000000000002
+ },
+ "f3_k4_bad_a": {
+  "k": 4,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 14,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 4.066180553219504
+ },
+ "f3_k4_bad_b": {
+  "k": 4,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 14,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 4.147534911771467
+ },
+ "f1_k5_ones": {
+  "k": 5,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 6,
+  "trailing_zeros": 8,
+  "hankel_rank": 6,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 5.0
+ },
+ "f1_k6_ones": {
+  "k": 6,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 11,
+  "trailing_zeros": 3,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 6.000000000000002
+ },
+ "f3_k5_ones": {
+  "k": 5,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 14,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 5.422699383282609
+ },
+ "f3_k6_ones": {
+  "k": 6,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 14,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 6.167661685252018
+ },
+ "f1_k7_ones": {
+  "k": 7,
+  "e": 1,
+  "N": 12,
+  "last_nonzero": 12,
+  "trailing_zeros": 0,
+  "hankel_rank": 6,
+  "hankel_p": 6,
+  "integral": true,
+  "wmax": 7.1477111789332355
+ },
+ "f1_k5_ones_h": {
+  "k": 5,
+  "e": 1,
+  "N": 14,
+  "last_nonzero": 6,
+  "trailing_zeros": 8,
+  "hankel_rank": 6,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 5.0
+ }
+}

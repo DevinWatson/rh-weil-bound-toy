@@ -1,0 +1,16 @@
+Robust statistics of Z = E/p^((k-1)/2), E = N_k(0) - M^k/p, random c, primes 61..311, polys f1,f2,f4 (hint floats from exact values)
+k | n | median|Z| | q90 |Z| | q99 |Z| | RMS Z without the top 1% of |Z| | RMS Z for p>=150 (n)
+3 | 1400 | 0.478 | 2.814 | 5.479 | 1.454 | 1.732 (870)
+4 | 1400 | 1.172 | 2.764 | 4.987 | 1.621 | 1.925 (870)
+5 | 1400 | 0.905 | 2.350 | 3.507 | 1.365 | 1.447 (870)
+6 | 1400 | 0.689 | 1.772 | 2.660 | 1.004 | 1.028 (870)
+7 | 1400 | 0.661 | 1.651 | 2.536 | 0.959 | 0.993 (870)
+8 | 1400 | 0.658 | 1.609 | 2.520 | 0.941 | 0.987 (870)
+
+Main term M^k/p relative to p^((k-1)/2): sqrt-mean of (M^k/p^((k+1)/2))^2 over the same (poly,p) pairs (M exact)
+k=3: RMS of M^k/p^((k+1)/2) = 0.155
+k=4: RMS of M^k/p^((k+1)/2) = 0.251
+k=5: RMS of M^k/p^((k+1)/2) = 0.421
+k=6: RMS of M^k/p^((k+1)/2) = 0.722
+k=7: RMS of M^k/p^((k+1)/2) = 1.256
+k=8: RMS of M^k/p^((k+1)/2) = 2.205

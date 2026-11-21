@@ -1,0 +1,30 @@
+Task set p in {5,7,11,13,17,19,23}: per poly: p, #good c, #bad(2N>=p^2), bad on c1+c2+c3=0 (any c3), bad on plane with c3!=0, bad off plane
+f1 p=5 excluded
+f1 p=7 excluded
+f1 p=11: c=121 bad=13 bad_on_plane=10 (c3!=0: 10) off=3
+f1 p=13: c=169 bad=15 bad_on_plane=12 (c3!=0: 12) off=3
+f1 p=17: c=289 bad=17 bad_on_plane=16 (c3!=0: 16) off=1
+f1 p=19: c=361 bad=118 bad_on_plane=19 (c3!=0: 18) off=99
+f1 p=23: c=529 bad=476 bad_on_plane=23 (c3!=0: 22) off=453
+f2 p=5 excluded
+f2 p=7: c=49 bad=21 bad_on_plane=7 (c3!=0: 6) off=14
+f2 p=11: c=121 bad=42 bad_on_plane=11 (c3!=0: 10) off=31
+f2 p=13: c=169 bad=79 bad_on_plane=13 (c3!=0: 12) off=66
+f2 p=17 excluded
+f2 p=19: c=361 bad=68 bad_on_plane=18 (c3!=0: 18) off=50
+f2 p=23: c=529 bad=32 bad_on_plane=23 (c3!=0: 22) off=9
+f3 p=5: c=25 bad=0 bad_on_plane=0 (c3!=0: 0) off=0
+f3 p=7: c=49 bad=49 bad_on_plane=7 (c3!=0: 6) off=42
+f3 p=11: c=121 bad=50 bad_on_plane=11 (c3!=0: 10) off=39
+f3 p=13: c=169 bad=6 bad_on_plane=6 (c3!=0: 6) off=0
+f3 p=17: c=289 bad=133 bad_on_plane=17 (c3!=0: 16) off=116
+f3 p=19: c=361 bad=31 bad_on_plane=19 (c3!=0: 18) off=12
+f3 p=23: c=529 bad=25 bad_on_plane=22 (c3!=0: 22) off=3
+f4 p=5: c=25 bad=1 bad_on_plane=1 (c3!=0: 1) off=0
+f4 p=7 excluded
+f4 p=11: c=121 bad=80 bad_on_plane=11 (c3!=0: 10) off=69
+f4 p=13: c=169 bad=12 bad_on_plane=12 (c3!=0: 12) off=0
+f4 p=17: c=289 bad=18 bad_on_plane=17 (c3!=0: 16) off=1
+f4 p=19: c=361 bad=28 bad_on_plane=19 (c3!=0: 18) off=9
+f4 p=23 excluded
+TOTAL bad=1314 on plane=294 (c3!=0 281) off plane=1020

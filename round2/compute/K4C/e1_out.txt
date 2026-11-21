@@ -1,0 +1,9 @@
+p=5 x^3+x+1: M=3 t0=1  cases=16  mismatches=0
+p=5 x^3-x+3: M=-3 t0=-1  cases=16  mismatches=0
+p=7 x^3+x+1: M=-3 t0=1  cases=36  mismatches=0
+p=7 x^3-x+3: M=-2 t0=-1  cases=36  mismatches=0
+p=11 x^3+x+1: M=2 t0=1  cases=100  mismatches=0
+p=11 x^3-x+3: M=5 t0=1  cases=100  mismatches=0
+p=13 x^3+x+1: M=4 t0=1  cases=144  mismatches=0
+p=13 x^3-x+3: M=2 t0=1  cases=144  mismatches=0
+TOTAL cases 592, mismatches 0

@@ -1,0 +1,35 @@
+{
+ "x2m1_k2": {
+  "k": 2,
+  "e": 1,
+  "N": 13,
+  "last_nonzero": 5,
+  "trailing_zeros": 8,
+  "hankel_rank": 5,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 2.0
+ },
+ "x2p1_k2": {
+  "k": 2,
+  "e": 1,
+  "N": 13,
+  "last_nonzero": 5,
+  "trailing_zeros": 8,
+  "hankel_rank": 5,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 2.0000000000000013
+ },
+ "x4p..x_k2": {
+  "k": 2,
+  "e": 1,
+  "N": 13,
+  "last_nonzero": 13,
+  "trailing_zeros": 0,
+  "hankel_rank": 7,
+  "hankel_p": 7,
+  "integral": true,
+  "wmax": 2.2834821333484423
+ }
+}

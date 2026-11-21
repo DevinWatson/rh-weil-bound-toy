@@ -1,0 +1,6 @@
+skip f1 p=5 (not good)
+skip f1 p=7 (not good)
+skip f2 p=5 (not good)
+skip f4 p=7 (not good)
+validation brute-force vs Nall/Nzero and sum_s N(s)=M^k: cases=132 failures=0
+closed form N_4 = -p + t0^2 M^2 + sum_r C(r)C(tau r): cases=1148 mismatches=0

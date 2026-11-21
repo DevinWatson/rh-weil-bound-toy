@@ -1,0 +1,14 @@
+k=6, exhaustive p=11,13,17.  E = N - M^6/p (exact).  Compare, per (poly,p):
+  planes (brief-set predicted c): median of (E-(p-r0)^3)/p^(5/2)  [if the plane mechanism holds this stays O(1)]  and median of E/p^3 (should be near (p-r0)^3/p^3)
+  rest (not predicted by any of the 15 matchings): median, 99th percentile and max of E/p^(5/2)
+('f1', 11): n_planes=31 median (E-(p-r0)^3)/p^2.5=-1.22 (min -2.17, max 1.00); median E/p^3=0.385 vs (p-r0)^3/p^3=0.751 | rest n=14591 median E/p^2.5=-0.10 q99=1.83 max=3.35
+('f1', 13): n_planes=37 median (E-(p-r0)^3)/p^2.5=-1.84 (min -5.57, max 8.02); median E/p^3=0.277 vs (p-r0)^3/p^3=0.787 | rest n=28501 median E/p^2.5=0.02 q99=1.88 max=4.18
+('f1', 17): n_planes=49 median (E-(p-r0)^3)/p^2.5=-3.44 (min -4.82, max 3.30); median E/p^3=0.000 vs (p-r0)^3/p^3=0.834 | rest n=83441 median E/p^2.5=0.00 q99=2.01 max=4.24
+('f2', 11): n_planes=31 median (E-(p-r0)^3)/p^2.5=-1.15 (min -6.09, max 8.90); median E/p^3=0.654 vs (p-r0)^3/p^3=1.000 | rest n=14591 median E/p^2.5=-0.29 q99=2.96 max=10.02
+('f2', 13): n_planes=37 median (E-(p-r0)^3)/p^2.5=-0.32 (min -3.62, max 4.16); median E/p^3=0.697 vs (p-r0)^3/p^3=0.787 | rest n=28501 median E/p^2.5=-0.45 q99=2.24 max=4.74
+('f3', 11): n_planes=31 median (E-(p-r0)^3)/p^2.5=1.44 (min -0.28, max 4.18); median E/p^3=0.820 vs (p-r0)^3/p^3=0.385 | rest n=14591 median E/p^2.5=0.43 q99=1.94 max=3.54
+('f3', 13): n_planes=37 median (E-(p-r0)^3)/p^2.5=-0.67 (min -1.73, max 0.43); median E/p^3=0.269 vs (p-r0)^3/p^3=0.455 | rest n=28501 median E/p^2.5=-0.05 q99=1.01 max=2.02
+('f3', 17): n_planes=49 median (E-(p-r0)^3)/p^2.5=3.50 (min -1.06, max 14.61); median E/p^3=1.408 vs (p-r0)^3/p^3=0.559 | rest n=83441 median E/p^2.5=0.51 q99=2.73 max=9.66
+('f4', 11): n_planes=31 median (E-(p-r0)^3)/p^2.5=0.06 (min -4.46, max 6.23); median E/p^3=0.771 vs (p-r0)^3/p^3=0.751 | rest n=14591 median E/p^2.5=-0.66 q99=3.23 max=7.72
+('f4', 13): n_planes=37 median (E-(p-r0)^3)/p^2.5=-1.83 (min -2.89, max 1.81); median E/p^3=0.099 vs (p-r0)^3/p^3=0.606 | rest n=28501 median E/p^2.5=0.00 q99=1.29 max=2.27
+('f4', 17): n_planes=49 median (E-(p-r0)^3)/p^2.5=-0.42 (min -1.73, max 2.30); median E/p^3=0.733 vs (p-r0)^3/p^3=0.834 | rest n=83441 median E/p^2.5=0.15 q99=2.17 max=4.81

@@ -1,0 +1,14 @@
+f1 p=23 M=9 roots=0: planes n=67 N/p^3>=1/2: 67, E/p^3>=1/2: 66, median N/p^3=3.142, (p-r0)^3/p^3=1.000 | random n=60 N/p^3>=1/2: 59, E>=: 6, max N/p^3=2.812 | elapsed 0s
+f3 p=23 M=0 roots=3: planes n=67 N/p^3>=1/2: 15, E/p^3>=1/2: 15, median N/p^3=0.017, (p-r0)^3/p^3=0.658 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.274 | elapsed 0s
+f1 p=29 M=0 roots=1: planes n=85 N/p^3>=1/2: 27, E/p^3>=1/2: 27, median N/p^3=0.000, (p-r0)^3/p^3=0.900 | random n=60 N/p^3>=1/2: 2, E>=: 2, max N/p^3=0.580 | elapsed 1s
+f3 p=29 M=-2 roots=3: planes n=85 N/p^3>=1/2: 25, E/p^3>=1/2: 25, median N/p^3=0.128, (p-r0)^3/p^3=0.721 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.313 | elapsed 1s
+f1 p=41 M=2 roots=3: planes n=121 N/p^3>=1/2: 39, E/p^3>=1/2: 39, median N/p^3=0.125, (p-r0)^3/p^3=0.796 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.247 | elapsed 1s
+f3 p=41 M=-2 roots=3: planes n=121 N/p^3>=1/2: 39, E/p^3>=1/2: 39, median N/p^3=0.193, (p-r0)^3/p^3=0.796 | random n=60 N/p^3>=1/2: 1, E>=: 1, max N/p^3=0.590 | elapsed 2s
+f1 p=53 M=-12 roots=1: planes n=157 N/p^3>=1/2: 157, E/p^3>=1/2: 157, median N/p^3=3.072, (p-r0)^3/p^3=0.944 | random n=60 N/p^3>=1/2: 17, E>=: 1, max N/p^3=0.932 | elapsed 2s
+f3 p=53 M=-10 roots=3: planes n=157 N/p^3>=1/2: 157, E/p^3>=1/2: 157, median N/p^3=1.796, (p-r0)^3/p^3=0.840 | random n=60 N/p^3>=1/2: 1, E>=: 1, max N/p^3=0.673 | elapsed 3s
+f1 p=67 M=-2 roots=1: planes n=199 N/p^3>=1/2: 73, E/p^3>=1/2: 73, median N/p^3=0.149, (p-r0)^3/p^3=0.956 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.307 | elapsed 4s
+f3 p=67 M=4 roots=3: planes n=199 N/p^3>=1/2: 67, E/p^3>=1/2: 67, median N/p^3=0.270, (p-r0)^3/p^3=0.872 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.255 | elapsed 6s
+f1 p=83 M=1 roots=0: planes n=247 N/p^3>=1/2: 83, E/p^3>=1/2: 83, median N/p^3=0.030, (p-r0)^3/p^3=1.000 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.282 | elapsed 8s
+f3 p=83 M=12 roots=3: planes n=247 N/p^3>=1/2: 247, E/p^3>=1/2: 247, median N/p^3=1.673, (p-r0)^3/p^3=0.895 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.428 | elapsed 10s
+f1 p=101 excluded
+f3 p=101 M=6 roots=3: planes n=301 N/p^3>=1/2: 124, E/p^3>=1/2: 124, median N/p^3=0.384, (p-r0)^3/p^3=0.914 | random n=60 N/p^3>=1/2: 0, E>=: 0, max N/p^3=0.196 | elapsed 14s

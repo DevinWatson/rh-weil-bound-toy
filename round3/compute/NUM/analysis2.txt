@@ -1,0 +1,120 @@
+======================================================================
+f1_k3_e2gen  k=3 q=9 f=[2, 1] cexp=[3, 2] hexp=0  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (9 -27 w)
+    L_2 = (0 -243 w)
+    L_3 = (0 0 w)
+    L_4 = (0 0 w)
+    L_5 = (0 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 2, trailing exact zeros = 5
+  Hankel rank of S_1..S_7 (4x4 matrix): 2 (rank deficient: recurrence of order 2)
+  HINT (floating): 2 reciprocal roots, largest |beta| = q^(3.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(4/2)); smallest = q^(2.0000/2)
+======================================================================
+f1_k3_e2gen_h  k=3 q=9 f=[2, 1] cexp=[3, 2] hexp=3  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (-18 -27 w)
+    L_2 = (-243 -243 w)
+    L_3 = (0 0 w)
+    L_4 = (0 0 w)
+    L_5 = (0 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 2, trailing exact zeros = 5
+  Hankel rank of S_1..S_7 (4x4 matrix): 2 (rank deficient: recurrence of order 2)
+  HINT (floating): 2 reciprocal roots, largest |beta| = q^(3.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(4/2)); smallest = q^(2.0000/2)
+======================================================================
+f1_k4_e2gen  k=4 q=9 f=[2, 1] cexp=[3, 4, 1] hexp=0  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (-18 117 w)
+    L_2 = (-18954 -9477 w)
+    L_3 = (767637 -767637 w)
+    L_4 = (71744535 62178597 w)
+    L_5 = (-3486784401 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 5, trailing exact zeros = 2
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 5 reciprocal roots, largest |beta| = q^(4.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(5/2)); smallest = q^(4.0000/2)
+======================================================================
+f1_k4_e2gen_h  k=4 q=9 f=[2, 1] cexp=[3, 4, 1] hexp=3  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (-54 -36 w)
+    L_2 = (-5103 2916 w)
+    L_3 = (649539 236196 w)
+    L_4 = (9565938 -19131876 w)
+    L_5 = (-3486784401 0 w)
+    L_6 = (0 0 w)
+    L_7 = (0 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 5, trailing exact zeros = 2
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 5 reciprocal roots, largest |beta| = q^(4.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(5/2)); smallest = q^(4.0000/2)
+======================================================================
+f1_k5_e2gen  k=5 q=9 f=[2, 1] cexp=[3, 0, 2, 1] hexp=0  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (243 216 w)
+    L_2 = (-17496 17496 w)
+    L_3 = (-9211644 -11337408 w)
+    L_4 = (-516560652 -2754990144 w)
+    L_5 = (502096953744 251048476872 w)
+    L_6 = (-22876792454961 183014339639688 w)
+    L_7 = (-50031545098999707 0 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 7, trailing exact zeros = 0
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 7 reciprocal roots, largest |beta| = q^(5.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(6/2)); smallest = q^(5.0000/2)
+======================================================================
+f1_k5_e2gen_h  k=5 q=9 f=[2, 1] cexp=[3, 0, 2, 1] hexp=3  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (27 -81 w)
+    L_2 = (-32805 -45927 w)
+    L_3 = (3897234 1240029 w)
+    L_4 = (301327047 947027862 w)
+    L_5 = (-659002251789 -470715894135 w)
+    L_6 = (-68630377364883 22876792454961 w)
+    L_7 = (0 50031545098999707 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 7, trailing exact zeros = 0
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 7 reciprocal roots, largest |beta| = q^(5.0000/2)  (Claim A needs <= q^((k+1)/2) = q^(6/2)); smallest = q^(5.0000/2)
+======================================================================
+f1_k6_e2gen  k=6 q=9 f=[2, 1] cexp=[2, 7, 5, 5, 0] hexp=0  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (-945 -378 w)
+    L_2 = (538002 367416 w)
+    L_3 = (-124357194 -79716150 w)
+    L_4 = (-10847773692 -134047489194 w)
+    L_5 = (-107134937505126 134813032080264 w)
+    L_6 = (125730851332465656 -27955440379962342 w)
+    L_7 = (-112037306658360010542 -20379516036992547318 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 7, trailing exact zeros = 0
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 7 reciprocal roots, largest |beta| = q^(6.0538/2)  (Claim A needs <= q^((k+1)/2) = q^(7/2)); smallest = q^(5.9499/2)
+======================================================================
+f1_k6_e2gen_h  k=6 q=9 f=[2, 1] cexp=[2, 7, 5, 5, 0] hexp=3  n=1..7
+  L coefficients (Z[omega] pairs a + b w), j=0..7:
+    L_0 = (1 0 w)
+    L_1 = (513 324 w)
+    L_2 = (-19683 177147 w)
+    L_3 = (-176969853 -68555889 w)
+    L_4 = (207269961615 168527912715 w)
+    L_5 = (41517141862707 125681143734045 w)
+    L_6 = (23677480190884635 37174787739311625 w)
+    L_7 = (-27100420261958174625 -17260883059154898915 w)
+  all L_j in Z[omega]: True
+  last nonzero index = 7, trailing exact zeros = 0
+  Hankel rank of S_1..S_7 (4x4 matrix): 4 (full rank: no recurrence of order < 4 detected)
+  HINT (floating): 7 reciprocal roots, largest |beta| = q^(6.0820/2)  (Claim A needs <= q^((k+1)/2) = q^(7/2)); smallest = q^(5.2410/2)

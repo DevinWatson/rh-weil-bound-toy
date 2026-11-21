@@ -1,0 +1,11 @@
+﻿p=3 f=[2, 1] k=3 c=[1, 1] h=1 nmax=6
+ brute check n=1: OK
+ S_1 group-ring=[1, -2, 1] in Z[zeta]=['0', '-3']
+ brute check n=2: OK
+ S_2 group-ring=[-15, 21, -6] in Z[zeta]=['-9', '27']
+ S_3 group-ring=[-18, -72, 90] in Z[zeta]=['-108', '-162']
+ S_4 group-ring=[189, 270, -459] in Z[zeta]=['648', '729']
+ S_5 group-ring=[-2349, 81, 2268] in Z[zeta]=['-4617', '-2187']
+ S_6 group-ring=[12636, -6318, -6318] in Z[zeta]=['18954', '0']
+ e_k nonzero for k in [1, 2]
+ largest nonzero e_k (= number of eigenvalues if < nmax): 2

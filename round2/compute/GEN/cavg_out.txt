@@ -1,0 +1,7 @@
+k=4 p=7 f=[5, 2, 0, 1]: M=-1 sum_c qN_c=1512 formula (q-1)^(k-1) M^k + Theta = 1512 Theta=1296 match=True
+k=4 p=5 f=[1, 1, 0, 1]: M=3 sum_c qN_c=8960 formula (q-1)^(k-1) M^k + Theta = 8960 Theta=3776 match=True
+k=5 p=5 f=[1, 1, 0, 1]: M=3 sum_c qN_c=94080 formula (q-1)^(k-1) M^k + Theta = 94080 Theta=31872 match=True
+k=5 p=7 f=[5, 2, 0, 1]: M=-1 sum_c qN_c=-9072 formula (q-1)^(k-1) M^k + Theta = -9072 Theta=-7776 match=True
+k=6 p=5 f=[1, 1, 0, 1]: M=3 sum_c qN_c=961280 formula (q-1)^(k-1) M^k + Theta = 961280 Theta=214784 match=True
+k=6 p=5 f=[2, 3, 0, 1]: M=-1 sum_c qN_c=5120 formula (q-1)^(k-1) M^k + Theta = 5120 Theta=4096 match=True
+mismatches: 0

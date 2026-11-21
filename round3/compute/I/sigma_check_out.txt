@@ -1,0 +1,35 @@
+PART 1  singular-set recursion (symbolic, exact)
+k=2  (recursion rederived == brief Sigma_i for i<=k-1): True
+   Sigma_1 = {0}
+k=3  (recursion rederived == brief Sigma_i for i<=k-1): True
+   Sigma_1 = {0}
+   Sigma_2 = {-c1^1*c2^-1*z0}
+k=4  (recursion rederived == brief Sigma_i for i<=k-1): True
+   Sigma_1 = {0}
+   Sigma_2 = {-c1^1*c2^-1*z0}
+   Sigma_3 = {-c2^1*c3^-1*z0, 0}
+k=5  (recursion rederived == brief Sigma_i for i<=k-1): True
+   Sigma_1 = {0}
+   Sigma_2 = {-c1^1*c2^-1*z0}
+   Sigma_3 = {-c2^1*c3^-1*z0, 0}
+   Sigma_4 = {+c1^1*c2^-1*c3^1*c4^-1*z0, -c3^1*c4^-1*z0}
+k=6  (recursion rederived == brief Sigma_i for i<=k-1): True
+   Sigma_1 = {0}
+   Sigma_2 = {-c1^1*c2^-1*z0}
+   Sigma_3 = {-c2^1*c3^-1*z0, 0}
+   Sigma_4 = {+c1^1*c2^-1*c3^1*c4^-1*z0, -c3^1*c4^-1*z0}
+   Sigma_5 = {+c2^1*c3^-1*c4^1*c5^-1*z0, -c4^1*c5^-1*z0, 0}
+
+PART 2  dimension bookkeeping with exact Fractions
+d=1  bookkeeping D_1..D_8 = [0, 2, 2, 5, 7, 13, 20, 34] ; formula = [0, 2, 2, 5, 7, 13, 20, 34] ; equal: True
+d=2  bookkeeping D_1..D_8 = [1, 5, 11, 29, 69, 169, 407, 985] ; formula = [1, 5, 11, 29, 69, 169, 407, 985] ; equal: True
+d=3  bookkeeping D_1..D_8 = [2, 10, 32, 109, 359, 1189, 3926, 12970] ; formula = [2, 10, 32, 109, 359, 1189, 3926, 12970] ; equal: True
+d=5  bookkeeping D_1..D_8 = [4, 26, 134, 701, 3639, 18901, 98144, 509626] ; formula = [4, 26, 134, 701, 3639, 18901, 98144, 509626] ; equal: True
+d=7  bookkeeping D_1..D_8 = [6, 50, 356, 2549, 18199, 129949, 927842, 6624850] ; formula = [6, 50, 356, 2549, 18199, 129949, 927842, 6624850] ; equal: True
+
+PART 3  explicit c_j = g^(2^j)
+q=3 m=1 k=5  l=37 (prime > 2^k, l not | q^m-1)  Q=q^37  conditions checked=4  violations=0  |R|=2
+q=3 m=3 k=5  l=37 (prime > 2^k, l not | q^m-1)  Q=q^111  conditions checked=4  violations=0  |R|=17
+q=5 m=2 k=6  l=67 (prime > 2^k, l not | q^m-1)  Q=q^134  conditions checked=6  violations=0  |R|=13
+q=7 m=3 k=7  l=131 (prime > 2^k, l not | q^m-1)  Q=q^393  conditions checked=9  violations=0  |R|=21
+q=3 m=4 k=8  l=257 (prime > 2^k, l not | q^m-1)  Q=q^1028  conditions checked=12  violations=0  |R|=21

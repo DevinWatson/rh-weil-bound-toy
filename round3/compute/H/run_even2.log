@@ -1,0 +1,9 @@
+field 12 built in 7.8s
+x2m1_k2 n 12 S = 2375605 + 0 w  (0.3s, maxcoord 1.46e+03)
+x2p1_k2 n 12 S = 2375605 + 0 w  (0.4s, maxcoord 1.46e+03)
+x4p..x_k2 n 12 S = 1033777 + 592704 w  (0.4s, maxcoord 2.88e+03)
+field 13 built in 4.7s
+x2m1_k2 n 13 S = 2430481 + 0 w  (1.4s, maxcoord 2.52e+03)
+x2p1_k2 n 13 S = -758165 + 0 w  (1.3s, maxcoord 2.52e+03)
+x4p..x_k2 n 13 S = -1764513 + 2539684 w  (1.2s, maxcoord 4.59e+03)
+finished, total 19s

@@ -1,0 +1,6 @@
+f = x-1, k=2, c=(1): predicted D=2; S(1..6) = [(-1+1w), (0+15w), (-24+-48w), (-63+-63w), (558+279w), (-270+0w)]
+    Hankel det of size 2 nonzero: True;  of size 3 zero: True
+f = x-1, k=3, c=(1,1): predicted D=2; S(1..6) = [(0+-3w), (-9+27w), (-108+-162w), (648+729w), (-4617+-2187w), (18954+0w)]
+    Hankel det of size 2 nonzero: True;  of size 3 zero: True
+f = x-1, k=3, c=(1,-1) (hypothesis fails): predicted D=1; S(1..6) = [(3+0w), (-9+0w), (27+0w), (-81+0w), (243+0w), (-729+0w)]
+    Hankel det of size 1 nonzero: True;  of size 2 zero: True

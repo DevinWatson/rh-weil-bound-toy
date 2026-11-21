@@ -1,0 +1,29 @@
+f1_k2_e1           k=2 e=1 predicted D_k=2    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 2 of N=13, trailing zeros 11 -> POLYNOMIAL deg 2
+f1_k3_e1           k=3 e=1 predicted D_k=2    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 2 of N=13, trailing zeros 11 -> POLYNOMIAL deg 2
+f1_k3_e1_h-        k=3 e=1 predicted D_k=2    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 2 of N=13, trailing zeros 11 -> POLYNOMIAL deg 2
+f1_k4_e1_sum0      k=4 e=1 predicted D_k=5    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 5 of N=13, trailing zeros 8 -> POLYNOMIAL deg 5
+f1_k4_e1_c11m1     k=4 e=1 predicted D_k=4    (Euler-char bookkeeping; coincidence flags 1) | observed: last nonzero L index 4 of N=13, trailing zeros 9 -> POLYNOMIAL deg 4
+f3_k2_e1           k=2 e=1 predicted D_k=10   (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 10 of N=13, trailing zeros 3 -> POLYNOMIAL deg 10
+f3_k2_e1_h-        k=2 e=1 predicted D_k=10   (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 10 of N=13, trailing zeros 3 -> POLYNOMIAL deg 10
+f3_k3_e1           k=3 e=1 predicted D_k=32   (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 13 of N=13, trailing zeros 0 -> series not terminated within N
+f3_k4_e1_sum0      k=4 e=1 predicted D_k=109  (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 13 of N=13, trailing zeros 0 -> series not terminated within N
+f1_k3_e2gen        k=3 e=2 predicted D_k=2    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 2 of N=7, trailing zeros 5 -> POLYNOMIAL deg 2
+f1_k3_e2gen_h      k=3 e=2 predicted D_k=2    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 2 of N=7, trailing zeros 5 -> POLYNOMIAL deg 2
+f1_k4_e2gen        k=4 e=2 predicted D_k=5    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 5 of N=7, trailing zeros 2 -> POLYNOMIAL deg 5
+f1_k4_e2gen_h      k=4 e=2 predicted D_k=5    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 5 of N=7, trailing zeros 2 -> POLYNOMIAL deg 5
+f1_k5_e2gen        k=5 e=2 predicted D_k=7    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 7 of N=7, trailing zeros 0 -> series not terminated within N
+f1_k5_e2gen_h      k=5 e=2 predicted D_k=7    (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 7 of N=7, trailing zeros 0 -> series not terminated within N
+f1_k6_e2gen        k=6 e=2 predicted D_k=13   (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 7 of N=7, trailing zeros 0 -> series not terminated within N
+f1_k6_e2gen_h      k=6 e=2 predicted D_k=13   (Euler-char bookkeeping; coincidence flags 0) | observed: last nonzero L index 7 of N=7, trailing zeros 0 -> series not terminated within N
+f1_k3_bad          k=3 e=1 predicted D_k=1    (Euler-char bookkeeping; coincidence flags 1) | observed: last nonzero L index 1 of N=14, trailing zeros 13 -> POLYNOMIAL deg 1
+f3_k3_bad          k=3 e=1 predicted D_k=29   (Euler-char bookkeeping; coincidence flags 3) | observed: last nonzero L index 14 of N=14, trailing zeros 0 -> series not terminated within N
+f1_k4_bad_a        k=4 e=1 predicted D_k=4    (Euler-char bookkeeping; coincidence flags 1) | observed: last nonzero L index 4 of N=14, trailing zeros 10 -> POLYNOMIAL deg 4
+f1_k4_bad_b        k=4 e=1 predicted D_k=3    (Euler-char bookkeeping; coincidence flags 2) | observed: last nonzero L index 3 of N=14, trailing zeros 11 -> POLYNOMIAL deg 3
+f3_k4_bad_a        k=4 e=1 predicted D_k=100  (Euler-char bookkeeping; coincidence flags 3) | observed: last nonzero L index 14 of N=14, trailing zeros 0 -> series not terminated within N
+f3_k4_bad_b        k=4 e=1 predicted D_k=91   (Euler-char bookkeeping; coincidence flags 6) | observed: last nonzero L index 14 of N=14, trailing zeros 0 -> series not terminated within N
+f1_k5_ones         k=5 e=1 predicted D_k=6    (Euler-char bookkeeping; coincidence flags 1) | observed: last nonzero L index 6 of N=14, trailing zeros 8 -> POLYNOMIAL deg 6
+f1_k6_ones         k=6 e=1 predicted D_k=11   (Euler-char bookkeeping; coincidence flags 2) | observed: last nonzero L index 11 of N=14, trailing zeros 3 -> POLYNOMIAL deg 11
+f3_k5_ones         k=5 e=1 predicted D_k=356  (Euler-char bookkeeping; coincidence flags 3) | observed: last nonzero L index 14 of N=14, trailing zeros 0 -> series not terminated within N
+f3_k6_ones         k=6 e=1 predicted D_k=1171 (Euler-char bookkeeping; coincidence flags 6) | observed: last nonzero L index 14 of N=14, trailing zeros 0 -> series not terminated within N
+f1_k7_ones         k=7 e=1 predicted D_k=15   (Euler-char bookkeeping; coincidence flags 3) | observed: last nonzero L index 12 of N=12, trailing zeros 0 -> series not terminated within N
+f1_k5_ones_h       k=5 e=1 predicted D_k=6    (Euler-char bookkeeping; coincidence flags 1) | observed: last nonzero L index 6 of N=14, trailing zeros 8 -> POLYNOMIAL deg 6

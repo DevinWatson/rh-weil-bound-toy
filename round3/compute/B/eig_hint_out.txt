@@ -1,0 +1,5 @@
+k2_a1 D= 2 moduli/3^(1/2): [np.float64(1.7321), np.float64(1.7321)]
+k3_good_11 D= 2 moduli/3^(1/2): [np.float64(1.7321), np.float64(3.0)]
+k4_good_111 D= 5 moduli/3^(1/2): [np.float64(5.1962), np.float64(5.1962), np.float64(5.1962), np.float64(5.1962), np.float64(5.1962)]
+k3_bad_12 D= 1 moduli/3^(1/2): [np.float64(1.7321)]
+k5_111_1 D= 6 moduli/3^(1/2): [np.float64(5.1962), np.float64(9.0), np.float64(9.0), np.float64(9.0), np.float64(9.0), np.float64(9.0)]

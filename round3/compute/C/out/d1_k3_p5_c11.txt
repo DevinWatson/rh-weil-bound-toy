@@ -1,0 +1,8 @@
+﻿p=5 f=[4, 1] k=3 c=[1, 1] h=1 nmax=5
+ S_1 group-ring=[1, -4, 1, -4, 6] in Z[zeta]=['-5', '-10', '-5', '-10']
+ S_2 group-ring=[5, 30, 30, 30, -95] in Z[zeta]=['100', '125', '125', '125']
+ S_3 group-ring=[-725, 25, -600, 650, 650] in Z[zeta]=['-1375', '-625', '-1250', '0']
+ S_4 group-ring=[2625, 3250, 3250, -12375, 3250] in Z[zeta]=['-625', '0', '0', '-15625']
+ S_5 group-ring=[-2500, -77500, 78750, 78750, -77500] in Z[zeta]=['75000', '0', '156250', '156250']
+ e_k nonzero for k in [1, 2]
+ largest nonzero e_k (= number of eigenvalues if < nmax): 2

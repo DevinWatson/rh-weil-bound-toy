@@ -1,0 +1,10 @@
+﻿p=5 f=[4, 1] k=2 c=[1] h=1 nmax=5
+ brute check n=1: OK
+ S_1 group-ring=[-1, -1, 2, -2, 2] in Z[zeta]=['-3', '-3', '0', '-4']
+ brute check n=2: OK
+ S_2 group-ring=[-1, -26, -1, 14, 14] in Z[zeta]=['-15', '-40', '-15', '0']
+ S_3 group-ring=[-85, 50, 50, -85, 70] in Z[zeta]=['-155', '-20', '-20', '-155']
+ S_4 group-ring=[-505, 470, 70, 470, -505] in Z[zeta]=['0', '975', '575', '975']
+ S_5 group-ring=[1000, 350, -850, -850, 350] in Z[zeta]=['650', '0', '-1200', '-1200']
+ e_k nonzero for k in [1, 2]
+ largest nonzero e_k (= number of eigenvalues if < nmax): 2

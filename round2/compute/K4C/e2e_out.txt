@@ -1,0 +1,13 @@
+﻿pairs 282208
+(flagged, spike>p^2/4, a=-1) : count
+(False, False, False) 247818
+(False, False, True) 3006
+(False, True, False) 27668
+(False, True, True) 747
+(True, False, False) 436
+(True, False, True) 27
+(True, True, False) 2286
+(True, True, True) 220
+flagged 2969; with spike 2506; with a=-1 247; explained by spike or a=-1: 2533 = 2533/2969
+spike predicted 30921; of which flagged 2506 = 2506/30921
+sum E^2 = 443031150028, sum (E-Sp)^2 = 150430069404, ratio 2212206903/6515163971 ~ 0.340 (float for reading only)

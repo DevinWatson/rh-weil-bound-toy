@@ -1,0 +1,11 @@
+k=4, A1 = (pN-M^4)/((p-1)p^2) exactly from the M1 tables, p in 37..73: c on the plane (c1+c2+c3=0, c3!=0) versus all other c with c3 != 0 (floats are hints from exact Fractions)
+p=37: plane n=144 median A1=0.903 min 0.626 max 1.807 | other n=5184 median -0.011 RMS 0.221
+p=41: plane n=160 median A1=0.937 min 0.613 max 2.097 | other n=6400 median +0.011 RMS 0.214
+p=43: plane n=168 median A1=0.934 min 0.500 max 2.093 | other n=7056 median -0.008 RMS 0.247
+p=47: plane n=184 median A1=0.994 min 0.692 max 1.802 | other n=8464 median +0.062 RMS 0.201
+p=53: plane n=208 median A1=0.957 min 0.740 max 1.986 | other n=10816 median +0.085 RMS 0.218
+p=59: plane n=232 median A1=0.942 min 0.435 max 2.413 | other n=13456 median +0.002 RMS 0.248
+p=61: plane n=240 median A1=0.931 min 0.656 max 1.963 | other n=14400 median +0.013 RMS 0.173
+p=67: plane n=264 median A1=0.917 min 0.701 max 1.983 | other n=17424 median -0.010 RMS 0.170
+p=71: plane n=280 median A1=0.947 min 0.602 max 2.639 | other n=19600 median +0.036 RMS 0.239
+p=73: plane n=288 median A1=0.957 min 0.584 max 2.061 | other n=20736 median +0.011 RMS 0.182

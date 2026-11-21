@@ -1,0 +1,19 @@
+field 1 ok
+field 2 ok
+field 3 ok
+field 4 ok
+field 6 ok
+transform vs direct double sum, Q = 3 ok
+transform vs direct double sum, Q = 9 ok
+transform vs direct double sum, Q = 27 ok
+transform vs direct double sum, Q = 81 ok
+F3 f=x-1,k=2 fast (-1, 1) brute (-1, 1) OK
+F3 f=x-1,k=3 fast (3, 0) brute (3, 0) OK
+F3 f=x^3-x+1,k=2 fast (3, 0) brute (3, 0) OK
+F9 f=x-1,k=3 fast (18, 0) brute (18, 0) OK
+F9 f=x^3-x+1,k=2 fast (9, 0) brute (9, 0) OK
+F9 f=x-1,k=4 fast (45, 27) brute (45, 27) OK
+F27 f=x-1,k=2 fast (-24, -48) brute (-24, -48) OK
+F27 f=x^3-x+1,k=2 fast (-9, 9) brute (-9, 9) OK
+F27 f=x-1,k=3 (27^3 terms) fast (27, 0) brute (27, 0) OK
+all validation passed

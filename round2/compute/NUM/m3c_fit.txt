@@ -1,0 +1,16 @@
+log-log least-squares fit of binned mean|A1| against p (bins of 8 consecutive primes, p>=11), all three c types pooled, per (poly,k): slope (hint; -0.5 means A1 ~ p^(-1/2))
+f1 k=4: slope -0.48 over 14 bins (p from 11 to 677); first bin mean|A1| 0.323, last 0.068
+f1 k=5: slope -0.46 over 9 bins (p from 11 to 401); first bin mean|A1| 0.297, last 0.058
+f1 k=6: slope -0.60 over 13 bins (p from 11 to 601); first bin mean|A1| 0.300, last 0.036
+f1 k=7: slope -0.63 over 10 bins (p from 11 to 461); first bin mean|A1| 0.362, last 0.040
+f1 k=8: slope -0.57 over 10 bins (p from 11 to 461); first bin mean|A1| 0.279, last 0.051
+f2 k=4: slope -0.46 over 7 bins (p from 11 to 311); first bin mean|A1| 0.262, last 0.092
+f2 k=5: slope -0.49 over 7 bins (p from 11 to 311); first bin mean|A1| 0.249, last 0.077
+f2 k=6: slope -0.69 over 7 bins (p from 11 to 311); first bin mean|A1| 0.293, last 0.065
+f2 k=7: slope -0.43 over 7 bins (p from 11 to 311); first bin mean|A1| 0.231, last 0.100
+f2 k=8: slope -0.56 over 7 bins (p from 11 to 311); first bin mean|A1| 0.245, last 0.060
+f4 k=4: slope -0.43 over 7 bins (p from 11 to 311); first bin mean|A1| 0.295, last 0.104
+f4 k=5: slope -0.40 over 7 bins (p from 11 to 311); first bin mean|A1| 0.250, last 0.064
+f4 k=6: slope -0.56 over 7 bins (p from 11 to 311); first bin mean|A1| 0.234, last 0.069
+f4 k=7: slope -0.30 over 7 bins (p from 11 to 311); first bin mean|A1| 0.133, last 0.063
+f4 k=8: slope -0.58 over 7 bins (p from 11 to 311); first bin mean|A1| 0.224, last 0.055

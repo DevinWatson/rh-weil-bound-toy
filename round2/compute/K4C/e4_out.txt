@@ -1,0 +1,8 @@
+x^3+x+1: primes checked 45, failures 0
+x^3-x+3: primes checked 45, failures 0
+x^5+x+1: primes checked 45, failures 0
+x^3-x: primes checked 45, failures 0
+x^3+2x+5: primes checked 45, failures 0
+(x-1)(x-2)(x-4): primes checked 45, failures 0
+x^7+3x+2: primes checked 45, failures 0
+TOTAL checks 315, failures 0

@@ -1,0 +1,5 @@
+path	bytes	sha256	reason
+round2/compute/NUM/m1_all_extA.tsv	1473038	55af2eaf007989905d8d1ecb611051c5c70485acdeaeafaede28ebb53df86954	over 1 MB; regenerate with the script in the same folder
+round2/compute/NUM/m1_all_extB.tsv	3323392	39a6b7bfbc5bb031e69b894a5ab43e6ce7b238ce61d3cfb6e10964dc3efe88e8	over 1 MB; regenerate with the script in the same folder
+round2/compute/NUM/m2_exhaustive_11_13.tsv	8324508	347f02027c4798258aa11de7ad0e169466182a2f83411e053f967cf0bdd4677b	over 1 MB; regenerate with the script in the same folder
+round2/compute/NUM/m2_exhaustive_17.tsv	12092455	7abc0a7cff8b18ca190f989a61c6a195c75afe151fa74fafed0f551c889196c8	over 1 MB; regenerate with the script in the same folder

@@ -1,0 +1,12 @@
+== x^3-2 p=1009: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=1007010  mean=-0.000  std=0.122  min=-0.608  max=0.503
+  m=1  n=9045  mean=0.998  std=0.101  min=0.728  max=1.322
+  m=2  n=9  mean=1.940  std=0.000  min=1.940  max=1.940
+== x^3-8 p=1009: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=1007010  mean=0.017  std=0.124  min=-0.510  max=0.541
+  m=1  n=9045  mean=1.006  std=0.110  min=0.596  max=1.356
+  m=2  n=9  mean=1.961  std=0.000  min=1.961  max=1.961
+== x^5-2 p=1021: multiplicity m(c) vs N_4/p^2 over c=(1,c2,c3)
+  m=0  n=1015075  mean=-0.003  std=0.225  min=-0.915  max=0.938
+  m=1  n=25175  mean=0.994  std=0.203  min=0.451  max=1.548
+  m=2  n=150  mean=2.036  std=0.163  min=1.672  max=2.118

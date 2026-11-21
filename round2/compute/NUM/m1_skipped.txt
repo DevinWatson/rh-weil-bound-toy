@@ -1,0 +1,6 @@
+f1 p=5 excluded (p | disc or f(0)=0 mod p); disc=-707
+f1 p=7 excluded (p | disc or f(0)=0 mod p); disc=-707
+f2 p=5 excluded (p | disc or f(0)=0 mod p); disc=-255
+f2 p=17 excluded (p | disc or f(0)=0 mod p); disc=-255
+f4 p=7 excluded (p | disc or f(0)=0 mod p); disc=3381
+f4 p=23 excluded (p | disc or f(0)=0 mod p); disc=3381

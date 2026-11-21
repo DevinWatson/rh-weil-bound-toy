@@ -1,0 +1,29 @@
+k=3: det of the Gram matrix (twice the form) of the path form = 0; nullspace dimension 1; radical vector [-c2/c1, 0, 1]
+k=4: det of the Gram matrix (twice the form) of the path form = c1**2*c3**2; nullspace dimension 0
+k=5: det of the Gram matrix (twice the form) of the path form = 0; nullspace dimension 1; radical vector [c2*c4/(c1*c3), 0, -c4/c3, 0, 1]
+k=6: det of the Gram matrix (twice the form) of the path form = -c1**2*c3**2*c5**2; nullspace dimension 0
+k=7: det of the Gram matrix (twice the form) of the path form = 0; nullspace dimension 1; radical vector [-c2*c4*c6/(c1*c3*c5), 0, c4*c6/(c3*c5), 0, -c6/c5, 0, 1]
+k=9: det of the Gram matrix (twice the form) of the path form = 0; nullspace dimension 1; radical vector [c2*c4*c6*c8/(c1*c3*c5*c7), 0, -c4*c6*c8/(c3*c5*c7), 0, c6*c8/(c5*c7), 0, -c8/c7, 0, 1]
+
+(a) random c (entries uniform in F_p^*), 10 per (poly,p), primes 61..311, f1,f2,f4. Statistics of Z = E/p^((k-1)/2), E = N_k(0) - M^k/p (exact, converted to float for the ratio):
+k | n | mean Z | RMS Z | max|Z| | fraction Z>0 | RMS of N/p^((k-1)/2) | max |N|/p^((k-1)/2)
+3 | 1400 | +0.143 | 1.738 | 21.57 | 0.543 | 1.759 | 21.79
+4 | 1400 | +0.279 | 1.910 | 18.66 | 0.551 | 1.971 | 18.66
+5 | 1400 | +0.018 | 1.422 | 5.49 | 0.514 | 1.532 | 7.04
+6 | 1400 | -0.037 | 1.038 | 3.15 | 0.483 | 1.265 | 5.38
+7 | 1400 | -0.019 | 0.995 | 3.63 | 0.502 | 1.619 | 7.65
+8 | 1400 | +0.003 | 0.976 | 3.16 | 0.498 | 2.427 | 12.04
+
+(b) k=5 exhaustive over c=(1,c2,c3,c4): 15 subspaces (one coordinate zero + perfect matching of the other four, dim 2, weight t0 (p-r0)^2)
+poly p | #c | #(2N>=p^2) | #(2E>=p^2) | #c on some subspace | excess-bad on subspace | excess-bad off subspace
+f1 p=11 | 1331 | 403 | 421 | 503 | 288 | 133
+f1 p=13 | 2197 | 552 | 556 | 723 | 113 | 443
+f1 p=17 | 4913 | 1443 | 1443 | 1283 | 214 | 1229
+f2 p=11 | 1331 | 447 | 503 | 503 | 289 | 214
+f2 p=13 | 2197 | 539 | 870 | 723 | 512 | 358
+f3 p=11 | 1331 | 1256 | 790 | 503 | 446 | 344
+f3 p=13 | 2197 | 356 | 337 | 723 | 40 | 297
+f3 p=17 | 4913 | 4905 | 3319 | 1283 | 1121 | 2198
+f4 p=11 | 1331 | 360 | 586 | 503 | 334 | 252
+f4 p=13 | 2197 | 488 | 488 | 723 | 276 | 212
+f4 p=17 | 4913 | 2422 | 1936 | 1283 | 827 | 1109
