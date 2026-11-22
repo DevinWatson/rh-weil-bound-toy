@@ -1,0 +1,18 @@
+./lean/ToyWeil/Unbounded.lean:22:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+./lean/ToyWeil/Unbounded.lean:19:42: warning: Variable name `hx` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hx
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'ToyWeil.pow_root_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.le_of_pow_le_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.endgame_unbounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.dichotomy_field_dep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.endgame_fibres_var' depends on axioms: [propext, Classical.choice, Quot.sound]

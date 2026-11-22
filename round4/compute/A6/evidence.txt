@@ -1,0 +1,29 @@
+A6 evidence log, Sat Nov 21 23:01:13 UTC 2026
+
+## weight grep over SGA 4 1/2 dump (local text layer, clean): Rapport lines 2454-3548, Dualite 5318-5700, Sommes trig ch.3 6835-7200
+lines 2454-3548 hits for poids|pureté|conjecture de Weil|Weil II|hypothèse de Riemann:
+0
+lines 5318-5700 hits for poids|pureté|conjecture de Weil|Weil II|hypothèse de Riemann:
+0
+lines 6835-7200 hits for poids|pureté|conjecture de Weil|Weil II|hypothèse de Riemann:
+0
+
+## where SGA4h first mentions weights/purity (line numbers)
+4981: [text of the source not copied here]
+5079: [text of the source not copied here]
+5942: [text of the source not copied here]
+6350: [text of the source not copied here]
+6356: [text of the source not copied here]
+
+## BBD dump: chapter 5 (poids) starts at
+220:5.1. Rappels de [1]
+377:5.1. Rappels de [1].
+432:5.1. Rappels de 
+14296:5.1.1) 
+14666:5.1. 
+
+## KL dump: 2.1.3 (line 437) and 2.1.5 (445) text lines
+[statement text of the source not copied here; see the line numbers in the heading]
+
+## SGA1 V 8.2 (line 5559)
+[statement text of the source not copied here; see the line numbers in the heading]

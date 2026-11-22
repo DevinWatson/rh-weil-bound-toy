@@ -1,0 +1,10 @@
+P=31 k=5 Z=[1, 2, 5] d=3 total=810000 violating=545040 fraction=0.6729 nconds(F_P ratios)=28 bound_count=756000 draft_Q-1>153? False
+bound ok: True  good c exist: True
+P=13 k=6 Z=[1, 2, 5] d=3 total=248832 violating=248400 fraction=0.9983 nconds(F_P ratios)=42 bound_count=870912 draft_Q-1>216? False
+bound ok: True  good c exist: True
+P=17 k=5 Z=[1, 4, 9] d=3 total=65536 violating=62080 fraction=0.9473 nconds(F_P ratios)=28 bound_count=114688 draft_Q-1>153? False
+bound ok: True  good c exist: True
+P=11 k=5 Z=[1, 2, 3] d=3 total=10000 violating=10000 fraction=1.0000 nconds(F_P ratios)=28 bound_count=28000 draft_Q-1>153? False
+bound ok: True  good c exist: False
+P=7 k=6 Z=[1, 2, 3] d=3 total=7776 violating=7776 fraction=1.0000 nconds(F_P ratios)=30 bound_count=38880 draft_Q-1>216? False
+bound ok: True  good c exist: False

@@ -1,0 +1,1 @@
+closed form of S3 equals recursion for i=1..14: True []

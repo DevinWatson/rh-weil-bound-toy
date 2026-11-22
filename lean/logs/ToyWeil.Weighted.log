@@ -1,0 +1,40 @@
+./lean/ToyWeil/Weighted.lean:26:4: warning: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+./lean/ToyWeil/Weighted.lean:20:0: warning: automatically included section variable(s) unused in theorem `ToyWeil.pathQuadricW_snoc`:
+  [Fintype F]
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype F] [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+./lean/ToyWeil/Weighted.lean:36:0: warning: automatically included section variable(s) unused in theorem `ToyWeil.gseqW_succ`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+./lean/ToyWeil/Weighted.lean:39:0: warning: automatically included section variable(s) unused in theorem `ToyWeil.gseqW_one`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+./lean/ToyWeil/Weighted.lean:96:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+./lean/ToyWeil/Weighted.lean:105:20: warning: Variable name `hψ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hψ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'ToyWeil.pathQuadricW_snoc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.gseqW_sq_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.iterated_boundW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.gseqW_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.SsumW_eq_path_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identityW' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ToyWeil.identity_bound_oneW' depends on axioms: [propext, Classical.choice, Quot.sound]

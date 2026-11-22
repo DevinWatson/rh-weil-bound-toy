@@ -1,0 +1,41 @@
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 1] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 1] stage 2: engine=(-1+1w) dp=(-1+1w) OK
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 1] stage 3: engine=(0+-3w) dp=(0+-3w) OK
+   fullbrute k=3: (0+-3w) vs engine (0+-3w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 1] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 1] stage 2: engine=(0+15w) dp=(0+15w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 1] stage 3: engine=(-9+27w) dp=(-9+27w) OK
+   fullbrute k=3: (-9+27w) vs engine (-9+27w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 1] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 1] stage 2: engine=(-24+-48w) dp=(-24+-48w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 1] stage 3: engine=(-108+-162w) dp=(-108+-162w) OK
+   fullbrute k=3: (-108+-162w) vs engine (-108+-162w) OK
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 0] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 0] stage 2: engine=(-1+1w) dp=(-1+1w) OK
+p=3 u=1 n=1 Z=[0] h=0 c=[0, 0, 0] stage 3: engine=(0+-3w) dp=(0+-3w) OK
+   fullbrute k=3: (0+-3w) vs engine (0+-3w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 0] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 0] stage 2: engine=(0+15w) dp=(0+15w) OK
+p=3 u=1 n=2 Z=[0] h=0 c=[0, 0, 0] stage 3: engine=(-9+27w) dp=(-9+27w) OK
+   fullbrute k=3: (-9+27w) vs engine (-9+27w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 0] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 0] stage 2: engine=(-24+-48w) dp=(-24+-48w) OK
+p=3 u=1 n=3 Z=[0] h=0 c=[0, 0, 0] stage 3: engine=(-108+-162w) dp=(-108+-162w) OK
+   fullbrute k=3: (-108+-162w) vs engine (-108+-162w) OK
+p=2 u=2 n=1 Z=[0, 1] h=0 c=[0, 1, 2] stage 1: engine=(0+2w) dp=(0+2w) OK
+p=2 u=2 n=1 Z=[0, 1] h=0 c=[0, 1, 2] stage 2: engine=(-2+-2w) dp=(-2+-2w) OK
+p=2 u=2 n=1 Z=[0, 1] h=0 c=[0, 1, 2] stage 3: engine=(4+0w) dp=(4+0w) OK
+   fullbrute k=3: (4+0w) vs engine (4+0w) OK
+p=2 u=2 n=2 Z=[0, 1] h=0 c=[0, 1, 2] stage 1: engine=(4+4w) dp=(4+4w) OK
+p=2 u=2 n=2 Z=[0, 1] h=0 c=[0, 1, 2] stage 2: engine=(16+4w) dp=(16+4w) OK
+p=2 u=2 n=2 Z=[0, 1] h=0 c=[0, 1, 2] stage 3: engine=(80+0w) dp=(80+0w) OK
+   fullbrute k=3: (80+0w) vs engine (80+0w) OK
+p=2 u=2 n=1 Z=[0] h=1 c=[2, 1, 0] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=2 u=2 n=1 Z=[0] h=1 c=[2, 1, 0] stage 2: engine=(2+0w) dp=(2+0w) OK
+p=2 u=2 n=1 Z=[0] h=1 c=[2, 1, 0] stage 3: engine=(0+0w) dp=(0+0w) OK
+   fullbrute k=3: (0+0w) vs engine (0+0w) OK
+p=2 u=2 n=2 Z=[0] h=1 c=[2, 1, 0] stage 1: engine=(0+0w) dp=(0+0w) OK
+p=2 u=2 n=2 Z=[0] h=1 c=[2, 1, 0] stage 2: engine=(-28+0w) dp=(-28+0w) OK
+p=2 u=2 n=2 Z=[0] h=1 c=[2, 1, 0] stage 3: engine=(-128+0w) dp=(-128+0w) OK
+   fullbrute k=3: (-128+0w) vs engine (-128+0w) OK
+MISMATCHES: 0

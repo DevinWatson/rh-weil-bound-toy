@@ -1,0 +1,35 @@
+f=x^3-x+1: M_n=[3, -3, 0, 9]  e1=-3 e2=3  Newton check on n=3,4 (degree-2 L-polynomial): True
+  n=1 Q^n=3 k=2 R=(6, 0) predicted=6 match=True
+  n=1 k=3 c=(1, 1) rho'=2 R=(18, 0) Q*N3-M^3=18 A-form=18 match=True
+  n=1 k=3 c=(1, 2) rho'=1 R=(18, 0) Q*N3-M^3=18 A-form=18 match=True
+  n=1 k=3 c=(2, 1) rho'=1 R=(18, 0) Q*N3-M^3=18 A-form=18 match=True
+  n=2 Q^n=9 k=2 R=(-72, 0) predicted=-72 match=True
+  n=2 k=3 c=(1, 1) rho'=2 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=2 k=3 c=(1, 2) rho'=1 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=2 k=3 c=(2, 1) rho'=1 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=3 Q^n=27 k=2 R=(-27, 0) predicted=-27 match=True
+  n=3 k=3 c=(1, 1) rho'=2 R=(405, 0) Q*N3-M^3=405 A-form=405 match=True
+  n=3 k=3 c=(1, 2) rho'=1 R=(-648, 0) Q*N3-M^3=-648 A-form=-648 match=True
+  n=3 k=3 c=(2, 1) rho'=1 R=(-648, 0) Q*N3-M^3=-648 A-form=-648 match=True
+  n=4 Q^n=81 k=2 R=(1296, 0) predicted=1296 match=True
+  n=4 k=3 c=(1, 1) rho'=2 R=(-3888, 0) Q*N3-M^3=-3888 A-form=-3888 match=True
+  n=4 k=3 c=(1, 2) rho'=1 R=(58320, 0) Q*N3-M^3=58320 A-form=58320 match=True
+  n=4 k=3 c=(2, 1) rho'=1 R=(58320, 0) Q*N3-M^3=58320 A-form=58320 match=True
+f=x^3-x-1: M_n=[-3, -3, 0, 9]  e1=3 e2=3  Newton check on n=3,4 (degree-2 L-polynomial): True
+  n=1 Q^n=3 k=2 R=(6, 0) predicted=6 match=True
+  n=1 k=3 c=(1, 1) rho'=2 R=(-18, 0) Q*N3-M^3=-18 A-form=-18 match=True
+  n=1 k=3 c=(1, 2) rho'=1 R=(-18, 0) Q*N3-M^3=-18 A-form=-18 match=True
+  n=1 k=3 c=(2, 1) rho'=1 R=(-18, 0) Q*N3-M^3=-18 A-form=-18 match=True
+  n=2 Q^n=9 k=2 R=(-72, 0) predicted=-72 match=True
+  n=2 k=3 c=(1, 1) rho'=2 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=2 k=3 c=(1, 2) rho'=1 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=2 k=3 c=(2, 1) rho'=1 R=(-216, 0) Q*N3-M^3=-216 A-form=-216 match=True
+  n=3 Q^n=27 k=2 R=(-27, 0) predicted=-27 match=True
+  n=3 k=3 c=(1, 1) rho'=2 R=(-405, 0) Q*N3-M^3=-405 A-form=-405 match=True
+  n=3 k=3 c=(1, 2) rho'=1 R=(648, 0) Q*N3-M^3=648 A-form=648 match=True
+  n=3 k=3 c=(2, 1) rho'=1 R=(648, 0) Q*N3-M^3=648 A-form=648 match=True
+  n=4 Q^n=81 k=2 R=(1296, 0) predicted=1296 match=True
+  n=4 k=3 c=(1, 1) rho'=2 R=(-3888, 0) Q*N3-M^3=-3888 A-form=-3888 match=True
+  n=4 k=3 c=(1, 2) rho'=1 R=(58320, 0) Q*N3-M^3=58320 A-form=58320 match=True
+  n=4 k=3 c=(2, 1) rho'=1 R=(58320, 0) Q*N3-M^3=58320 A-form=58320 match=True
+done

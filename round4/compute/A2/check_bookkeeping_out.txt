@@ -1,0 +1,20 @@
+part1: slope/rank maps consistent with quasi-inverses and vanishing ranges; cases checked: 9321
+part1: at slope exactly 1 the formula r-s gives 0, so zero on [1,inf[ (not only ]1,inf[) is forced by (ii)b
+d=1 seed=1 ranks rho_0..8 = [1, Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(5, 1), Fraction(8, 1), Fraction(13, 1), Fraction(21, 1), Fraction(34, 1)] recursion OK
+d=1 seed=2 ranks rho_0..8 = [1, Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(5, 1), Fraction(8, 1), Fraction(13, 1), Fraction(21, 1), Fraction(34, 1)] recursion OK
+d=1 seed=3 ranks rho_0..8 = [1, Fraction(1, 1), Fraction(2, 1), Fraction(3, 1), Fraction(5, 1), Fraction(8, 1), Fraction(13, 1), Fraction(21, 1), Fraction(34, 1)] recursion OK
+d=2 seed=1 ranks rho_0..8 = [1, Fraction(2, 1), Fraction(5, 1), Fraction(12, 1), Fraction(29, 1), Fraction(70, 1), Fraction(169, 1), Fraction(408, 1), Fraction(985, 1)] recursion OK
+d=2 seed=2 ranks rho_0..8 = [1, Fraction(2, 1), Fraction(5, 1), Fraction(12, 1), Fraction(29, 1), Fraction(70, 1), Fraction(169, 1), Fraction(408, 1), Fraction(985, 1)] recursion OK
+d=2 seed=3 ranks rho_0..8 = [1, Fraction(2, 1), Fraction(5, 1), Fraction(12, 1), Fraction(29, 1), Fraction(70, 1), Fraction(169, 1), Fraction(408, 1), Fraction(985, 1)] recursion OK
+d=3 seed=1 ranks rho_0..8 = [1, Fraction(3, 1), Fraction(10, 1), Fraction(33, 1), Fraction(109, 1), Fraction(360, 1), Fraction(1189, 1), Fraction(3927, 1), Fraction(12970, 1)] recursion OK
+d=3 seed=2 ranks rho_0..8 = [1, Fraction(3, 1), Fraction(10, 1), Fraction(33, 1), Fraction(109, 1), Fraction(360, 1), Fraction(1189, 1), Fraction(3927, 1), Fraction(12970, 1)] recursion OK
+d=3 seed=3 ranks rho_0..8 = [1, Fraction(3, 1), Fraction(10, 1), Fraction(33, 1), Fraction(109, 1), Fraction(360, 1), Fraction(1189, 1), Fraction(3927, 1), Fraction(12970, 1)] recursion OK
+d=4 seed=1 ranks rho_0..8 = [1, Fraction(4, 1), Fraction(17, 1), Fraction(72, 1), Fraction(305, 1), Fraction(1292, 1), Fraction(5473, 1), Fraction(23184, 1), Fraction(98209, 1)] recursion OK
+d=4 seed=2 ranks rho_0..8 = [1, Fraction(4, 1), Fraction(17, 1), Fraction(72, 1), Fraction(305, 1), Fraction(1292, 1), Fraction(5473, 1), Fraction(23184, 1), Fraction(98209, 1)] recursion OK
+d=4 seed=3 ranks rho_0..8 = [1, Fraction(4, 1), Fraction(17, 1), Fraction(72, 1), Fraction(305, 1), Fraction(1292, 1), Fraction(5473, 1), Fraction(23184, 1), Fraction(98209, 1)] recursion OK
+d=5 seed=1 ranks rho_0..8 = [1, Fraction(5, 1), Fraction(26, 1), Fraction(135, 1), Fraction(701, 1), Fraction(3640, 1), Fraction(18901, 1), Fraction(98145, 1), Fraction(509626, 1)] recursion OK
+d=5 seed=2 ranks rho_0..8 = [1, Fraction(5, 1), Fraction(26, 1), Fraction(135, 1), Fraction(701, 1), Fraction(3640, 1), Fraction(18901, 1), Fraction(98145, 1), Fraction(509626, 1)] recursion OK
+d=5 seed=3 ranks rho_0..8 = [1, Fraction(5, 1), Fraction(26, 1), Fraction(135, 1), Fraction(701, 1), Fraction(3640, 1), Fraction(18901, 1), Fraction(98145, 1), Fraction(509626, 1)] recursion OK
+d=7 seed=1 ranks rho_0..8 = [1, Fraction(7, 1), Fraction(50, 1), Fraction(357, 1), Fraction(2549, 1), Fraction(18200, 1), Fraction(129949, 1), Fraction(927843, 1), Fraction(6624850, 1)] recursion OK
+d=7 seed=2 ranks rho_0..8 = [1, Fraction(7, 1), Fraction(50, 1), Fraction(357, 1), Fraction(2549, 1), Fraction(18200, 1), Fraction(129949, 1), Fraction(927843, 1), Fraction(6624850, 1)] recursion OK
+d=7 seed=3 ranks rho_0..8 = [1, Fraction(7, 1), Fraction(50, 1), Fraction(357, 1), Fraction(2549, 1), Fraction(18200, 1), Fraction(129949, 1), Fraction(927843, 1), Fraction(6624850, 1)] recursion OK

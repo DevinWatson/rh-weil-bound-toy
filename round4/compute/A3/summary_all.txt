@@ -1,0 +1,12 @@
+family | valid AGREE | valid UNDET | valid DISAGREE | invalid AGREE | invalid UNDET | invalid DISAGREE
+p2d1K6_n12 | 264 | 24 | 0 | 0 | 0 | 0
+p2d1_n12 | 760 | 0 | 0 | 6 | 0 | 174
+p2d1h_n12 | 480 | 0 | 0 | 0 | 0 | 0
+p2d2irr_n12 | 312 | 120 | 0 | 0 | 96 | 12
+p2d2irrdeep_n13 | 36 | 0 | 0 | 0 | 0 | 0
+p2d3chi1_n12 | 96 | 0 | 0 | 0 | 36 | 0
+p2q16_n6 | 1950 | 610 | 0 | 0 | 0 | 0
+p3d1_n13 | 465 | 0 | 0 | 13 | 0 | 338
+p3d3irr_n14 | 72 | 12 | 0 | 0 | 12 | 0
+p3zero_n14 | 36 | 0 | 0 | 0 | 0 | 96
+TOTAL | 4471 | 766 | 0 | 19 | 144 | 620

@@ -1,0 +1,38 @@
+== point-count cross check: S_n from F_{p^n} counting vs -p_n from D(u) ==
+p=3 d=3 f=[1, 0, 1, 1] D=[1, 2, 3, 0, 0] S_n=[2, 2, -10, 14, 2, -46] -p_n=[2, 2, -10, 14, 2, -46] match=True
+p=3 d=5 f=[2, 0, 0, 0, 1, 2] D=[1, -1, 3, -3, 9, 0, 0] S_n=[-1, 5, -1, 17, 44, -55] -p_n=[-1, 5, -1, 17, 44, -55] match=True
+p=5 d=3 f=[4, 0, 4, 4] D=[1, -1, 5, 0, 0] S_n=[-1, 9, 14, -31] -p_n=[-1, 9, 14, -31] match=True
+p=7 d=3 f=[6, 1, 2, 4] D=[1, -1, 7, 0, 0] S_n=[-1, 13, 20, -71] -p_n=[-1, 13, 20, -71] match=True
+p=5 d=5 f=[1, 4, 0, 4, 2, 2] D=[1, -1, 1, -5, 25, 0, 0] S_n=[-1, 1, -13, 81] -p_n=[-1, 1, -13, 81] match=True
+== even d control (d=4,6): D degree d-1 but symmetry alpha<->q/alpha ==
+q=3 d=4 f=[1, 0, 2, 2, 1] D=[1, 0, 2, -3] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 1, 3], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=4 f=[2, 1, 1, 1, 1] D=[1, -2, 4, -3] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, -1, 3], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=4 f=[1, 1, 0, 4, 3] D=[1, 2, 6, 5] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 1, 5], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=4 f=[4, 0, 0, 4, 4] D=[1, 2, 2, -5] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 3, 5], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=7 d=4 f=[1, 6, 2, 1, 4] D=[1, 3, 3, -7] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 4, 7], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=7 d=4 f=[4, 6, 6, 2, 3] D=[1, -2, 4, 7] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, -3, 7], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=6 f=[2, 1, 2, 1, 2, 1, 1] D=[1, 1, 1, 3, 3, -9] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 2, 3, 6, 9], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=6 f=[2, 2, 1, 2, 2, 2, 2] D=[1, 1, 1, 1, 9, 9] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 0, 1, 0, 9], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=6 f=[2, 3, 2, 0, 3, 2, 2] D=[1, 3, 5, 13, 35, 25] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 2, 3, 10, 25], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=6 f=[4, 0, 3, 0, 1, 2, 2] D=[1, 1, 6, 6, 25, 25] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 0, 6, 0, 25], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+== S0: base change and translation, q=3 -> Q=9 ==
+f=[0, 2, 0, 1] D3=[1, 0, 3] D9=[1, 6, 9] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 6, 9] match=True; translations tested=6 all equal D9: True; roots of f in F3: [0, 1, 2]
+f=[1, 1, 0, 1] D3=[1, 0, 3] D9=[1, 6, 9] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 6, 9] match=True; translations tested=6 all equal D9: True; roots of f in F3: [1]
+f=[2, 0, 1, 1, 1, 1] D3=[1, -2, 4, -6, 9] D9=[1, 4, 10, 36, 81] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 4, 10, 36, 81] match=True; translations tested=8 all equal D9: True; roots of f in F3: [1]
+] -p_n=[-1, 13, 20, -71] match=True
+p=5 d=5 f=[1, 4, 0, 4, 2, 2] D=[1, -1, 1, -5, 25, 0, 0] S_n=[-1, 1, -13, 81] -p_n=[-1, 1, -13, 81] match=True
+== even d control (d=4,6): D degree d-1 but symmetry alpha<->q/alpha ==
+q=3 d=4 f=[1, 0, 2, 2, 1] D=[1, 0, 2, -3] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 1, 3], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=4 f=[2, 1, 1, 1, 1] D=[1, -2, 4, -3] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, -1, 3], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=4 f=[1, 1, 0, 4, 3] D=[1, 2, 6, 5] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 1, 5], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=4 f=[4, 0, 0, 4, 4] D=[1, 2, 2, -5] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 3, 5], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=7 d=4 f=[1, 6, 2, 1, 4] D=[1, 3, 3, -7] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 4, 7], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=7 d=4 f=[4, 6, 6, 2, 3] D=[1, -2, 4, 7] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, -3, 7], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=6 f=[2, 1, 2, 1, 2, 1, 1] D=[1, 1, 1, 3, 3, -9] tail=[0, 0] factor(1-eps u)*symmetric: (1, [1, 2, 3, 6, 9], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=3 d=6 f=[2, 2, 1, 2, 2, 2, 2] D=[1, 1, 1, 1, 9, 9] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 0, 1, 0, 9], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=6 f=[2, 3, 2, 0, 3, 2, 2] D=[1, 3, 5, 13, 35, 25] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 2, 3, 10, 25], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+q=5 d=6 f=[4, 0, 3, 0, 1, 2, 2] D=[1, 1, 6, 6, 25, 25] tail=[0, 0] factor(1-eps u)*symmetric: (-1, [1, 0, 6, 0, 25], True); D itself pairs alpha<->q/alpha? n/a (odd degree: cannot pair all)
+== S0: base change and translation, q=3 -> Q=9 ==
+f=[0, 2, 0, 1] D3=[1, 0, 3] D9=[1, 6, 9] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 6, 9] match=True; translations tested=6 all equal D9: True; roots of f in F3: [0, 1, 2]
+f=[1, 1, 0, 1] D3=[1, 0, 3] D9=[1, 6, 9] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 6, 9] match=True; translations tested=6 all equal D9: True; roots of f in F3: [1]
+f=[2, 0, 1, 1, 1, 1] D3=[1, -2, 4, -6, 9] D9=[1, 4, 10, 36, 81] tail9=[0, 0] D3(u)D3(-u) at u^2=[1, 4, 10, 36, 81] match=True; translations tested=8 all equal D9: True; roots of f in F3: [1]
